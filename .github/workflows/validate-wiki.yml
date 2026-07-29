@@ -1,0 +1,26 @@
+name: Validate wiki
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Validate structured data and links
+        run: python tools/wiki_tools.py check
+      - name: Regenerate item atlas
+        run: python tools/wiki_tools.py generate
+      - name: Ensure generated pages are current
+        run: |
+          git add --intent-to-add atlas/items
+          git diff --exit-code -- atlas/items

@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:minefarm:wiki:items:v1",
+  "title": "MineFarm 공개 아이템 도감",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "items"],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
+    }
+  },
+  "$defs": {
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "name",
+        "category",
+        "status",
+        "public",
+        "summary",
+        "aliases",
+        "obtain",
+        "uses",
+        "trade",
+        "related"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "category": {
+          "enum": [
+            "crop",
+            "mineral",
+            "gathering",
+            "material",
+            "processed-product",
+            "technical-product",
+            "tool",
+            "consumable",
+            "currency",
+            "quest"
+          ]
+        },
+        "status": {
+          "enum": ["live", "planned", "hidden"]
+        },
+        "public": {
+          "type": "boolean"
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          },
+          "uniqueItems": true
+        },
+        "obtain": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "uses": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fact"
+          }
+        },
+        "trade": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["state", "details"],
+          "properties": {
+            "state": {
+              "enum": ["tradable", "restricted", "bound", "unknown"]
+            },
+            "details": {
+              "type": "string",
+              "maxLength": 240
+            }
+          }
+        },
+        "image": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["path", "alt"],
+          "properties": {
+            "path": {
+              "type": "string",
+              "pattern": "^\\.\\./\\.\\./assets/items/[a-z0-9/_-]+\\.(png|webp)$"
+            },
+            "alt": {
+              "type": "string",
+              "minLength": 2,
+              "maxLength": 160
+            }
+          }
+        },
+        "related": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"
+          },
+          "uniqueItems": true
+        },
+        "verifiedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "approvedBy": {
+          "const": "Moon"
+        }
+      }
+    },
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "details"],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "details": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        }
+      }
+    }
+  }
+}
