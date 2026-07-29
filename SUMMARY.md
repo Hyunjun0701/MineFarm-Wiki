@@ -1,4 +1,4 @@
-# 목차
+# Table of contents
 
 * [홈](README.md)
 * [시작하기](getting-started/README.md)
@@ -19,9 +19,9 @@
   * [유저 거래](economy/player-market.md)
   * [공개 주문](economy/public-orders.md)
   * [수표](economy/checks.md)
-* [NPC와 퀘스트](npc-quests/README.md)
+* [NPC와 퀘스트](npc-quests.md)
 * [아이템 도감](atlas/README.md)
-  * [전체 아이템](atlas/items/README.md)
+  * [전체 아이템](atlas/items.md)
 * [도움말](help/README.md)
   * [콘텐츠 표시 기준](help/content-status.md)
 * [업데이트](updates/README.md)
