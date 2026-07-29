@@ -25,7 +25,7 @@ MineFarm의 NPC는 상점 입구만 담당하는 존재가 아니라, 플레이�
 
 ### 섬 퀘스트
 
-같은 섬의 구성원이 함께 납품하고 진행하는 공동 목표입니다. [섬 기여도와 섬 퀘스트](../island-village/contribution-and-quests.md)에서 확인할 수 있습니다.
+같은 섬의 구성원이 함께 납품하고 진행하는 공동 목표입니다. [섬 기여도와 섬 퀘스트](island-village/contribution-and-quests.md)에서 확인할 수 있습니다.
 
 ## 보고와 보상
 
