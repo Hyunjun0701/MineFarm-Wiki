@@ -59,14 +59,16 @@ python tools/wiki_tools.py generate
 ## GitBook 발행 기준
 
 - 사이트 이름: `MineFarm 플레이어 위키`
+- 공개 주소: `https://soobak.gitbook.io/minefarm/`
+- 소스 저장소: `https://github.com/Hyunjun0701/MineFarm-Wiki`
 - 기본 언어: 한국어
 - 기본 화면: GitBook의 밝은 기본 테마와 자동 다크 모드
 - 강조색: MineFarm 공식 시각 자산 확정 전에는 GitBook 기본색 사용
-- 검색: 전체 공개 문서 검색 활성화
+- 검색: 전체 공개 문서의 일반 키워드 검색 활성화, 유료 AI 답변 기능 비활성화
 - 사이드바: `SUMMARY.md` 순서를 그대로 사용
 - 헤더 외부 링크: Moon이 승인한 공식 링크만 표시
 - 로고·파비콘·커버: 웹용 원본과 사용 승인을 받은 뒤 적용
-- 공개 도메인: 임시 GitBook 주소로 먼저 검수하고, 최종 도메인은 Moon 승인 후 연결
+- 공개 도메인: GitBook 기본 주소를 사용하며, 별도 도메인은 Moon 승인 후 연결
 
 ## 공개 전 확인
 
