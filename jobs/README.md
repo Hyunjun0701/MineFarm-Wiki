@@ -8,17 +8,11 @@ MineValley에는 농부, 광부, 가공사, 기술자, 방랑가 다섯 직업�
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>농부</strong></td><td>밭과 수확 동선을 키우고 싶어요<br>작물, 수확, 농작물창고, 생산 편의</td><td><a href="farmer.md">농부</a></td></tr><tr><td><strong>광부</strong></td><td>직접 채광과 꾸준한 잠광을 함께 즐기고 싶어요<br>무한광산, 잠광, 광물창고, 광맥</td><td><a href="miner.md">광부</a></td></tr><tr><td><strong>가공사</strong></td><td>재료를 음식과 고급 제품으로 바꾸고 싶어요<br>레시피, 품질, 숙련, 세공</td><td><a href="processor.md">가공사</a></td></tr><tr><td><strong>기술자</strong></td><td>설비를 조립하고 생산 구조를 키우고 싶어요<br>조립대, 제품, 생산 라인, 마도공학</td><td><a href="technician.md">기술자</a></td></tr><tr><td><strong>방랑가</strong></td><td>주민과 거래처를 돌아다니며 기회를 찾고 싶어요<br>관계, 의뢰, 정보, 개인 주문</td><td><a href="wanderer.md">방랑가</a></td></tr></tbody></table>
 
-## 처음 할 일부터 골라 보세요
+## 직업 페이지는 이렇게 읽어요
 
-직업별로 작은 목표 하나를 끝내 보면 어떤 활동이 내게 맞는지 알기 쉽습니다. 아래 목표는 입문을 위한 추천 순서이며, 전직 조건은 직업 화면에서 확인하세요.
+각 직업은 **시작 방법 → 해금 조건 → 사용법과 주의사항 → 다음 목표** 순서로 안내합니다. 처음에는 준비물과 첫 목표만 보고 시작해도 됩니다.
 
-| 직업 | 첫 목표 | 따라 할 안내 |
-| --- | --- | --- |
-| 농부 | 씨앗을 심고 물을 준 뒤 첫 작물 수확하기 | [농사 시작하기](../world/farming.md) |
-| 광부 | 직접 채광을 해 보고 잠광과 보관 방식 비교하기 | [광산과 잠광](../world/mining.md) |
-| 가공사 | 이용 가능한 레시피 하나를 골라 완성품 수령하기 | [가공 시작하기](../world/processing.md) |
-| 기술자 | 이용 가능한 제품 하나의 부품을 준비해 조립하기 | [조립대와 기술 설비](../world/technology.md) |
-| 방랑가 | 주민의 요청을 확인하고 필요한 물품 조달하기 | [NPC와 퀘스트](../npc-quests.md) |
+이미 활동 중이라면 해당 직업 페이지의 **해금 조건**에서 다음 성장 구간을, **사용법과 주의사항**에서 기본 조작과 보관·수령 방법을 확인하세요.
 
 ## 선택하기 전에
 

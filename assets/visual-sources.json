@@ -3338,6 +3338,13 @@
   ],
   "generated": [
     {
+      "id": "minevalley-social-preview-v1",
+      "prompt": "Use case: ads-marketing. Create one polished Korean Minecraft life-server wiki social sharing / Open Graph banner, landscape approximately 2.03:1 (1280x630 preferred). Input image 1 is a STYLE AND WORLD reference, not an edit target: keep its inviting painterly fantasy farming valley, warm timber-roof village, rich green crops, small artisan workshop, soft golden daylight and lush mountain setting. Recompose specifically for a small Discord link preview. Beautiful atmospheric scenic illustration with a simple strong hierarchy, not a screenshot. Put exceptionally clear large Korean display title '마인밸리' as the dominant central focal point, dark forest-green or warm cream lettering with tasteful contrasting shadow / outline and breathing room. Directly beneath in much smaller but legible clean type: '플레이어 위키'. No other text. The main title should remain readable at 400px-wide preview, with all text in central 70% safe area. Integrate typography elegantly into bright airy sky / open space in upper-middle, lush farms and cozy village across bottom and sides. Refined storybook adventure mood, sophisticated polished illustration, restrained detail around text, no tiny UI elements, no GitBook branding, no '홈', no English MineFarm, no buttons, no border, no watermark. This is the actual finished full-bleed share image, not a device mockup.",
+      "reference": "assets/images/brand/minevalley-home-hero.png",
+      "source": "image_gen/minevalley-social-preview-v1.png",
+      "target": "assets/images/brand/minevalley-social-preview-v1.png"
+    },
+    {
       "id": "world-banner-v1",
       "prompt": "Use case: illustration-story. Asset type: MineValley wiki section header, wide 3:1. Use the reference only for style: crisp warm pixel-art contours, small friendly square-faced townsfolk, cream clouds, fresh green leaves, honey wood, terracotta roofs, simple cheerful life-simulation aesthetic. Readable at mobile size, gentle daylight, a continuous single scene. Original editorial illustration, not an in-game screenshot. No text, letters, numbers, logos, UI frames or watermarks. A cozy farm workshop neighborhood: small vegetable beds and herb planters on the left, a modest rocky mine entrance with an ore cart, a central outdoor kitchen with breads and steaming pot, a little copper assembly workbench to the right. Three townsfolk calmly tending these activities. Grounded small-scale pastoral scene showing gathering, processing and making. No floating magic crystal or epic castle.",
       "source": "image_gen/world-banner-v1.png",
