@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "urn:minefarm:wiki:items:v1",
-  "title": "MineFarm 공개 아이템 도감",
+  "title": "MineValley 공개 아이템 도감",
   "type": "object",
   "additionalProperties": false,
   "required": ["version", "items"],

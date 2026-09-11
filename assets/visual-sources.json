@@ -1,0 +1,3365 @@
+{
+  "basis": "Active MineValley server definitions + local resource-pack bindings; this is not an in-game interaction test. Source locations use symbolic roots; workstation paths are intentionally omitted.",
+  "server": "SERVER_ROOT",
+  "resourcePack": "RESOURCE_PACK_ROOT",
+  "items": [
+    {
+      "id": "accessory:astra",
+      "name": "十二月 천궁 — 아스트라",
+      "family": "TECH",
+      "model": "accessory_astra",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/astra.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/birthstone/astra.png",
+      "target": "assets/images/items/accessory-astra.png"
+    },
+    {
+      "id": "accessory:azura",
+      "name": "九月 창공 — 아주라",
+      "family": "TECH",
+      "model": "accessory_azura",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/azura.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/birthstone/azura.png",
+      "target": "assets/images/items/accessory-azura.png"
+    },
+    {
+      "id": "accessory:beginner_ring",
+      "name": "초심의 반지",
+      "family": "TECH",
+      "model": "accessory_beginner_ring",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/beginner_ring.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/basic/beginner_ring.png",
+      "target": "assets/images/items/accessory-beginner_ring.png"
+    },
+    {
+      "id": "accessory:black_gem_necklace",
+      "name": "흑옥 목걸이",
+      "family": "TECH",
+      "model": "accessory_black_gem_necklace",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/black_gem_necklace.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/gem/black_gem_necklace.png",
+      "target": "assets/images/items/accessory-black_gem_necklace.png"
+    },
+    {
+      "id": "accessory:blue_gem_necklace",
+      "name": "청옥 목걸이",
+      "family": "TECH",
+      "model": "accessory_blue_gem_necklace",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/blue_gem_necklace.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/gem/blue_gem_necklace.png",
+      "target": "assets/images/items/accessory-blue_gem_necklace.png"
+    },
+    {
+      "id": "accessory:elaborate_brooch",
+      "name": "결실의 브로치",
+      "family": "TECH",
+      "model": "accessory_elaborate_brooch",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/elaborate_brooch.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/basic/elaborate_brooch.png",
+      "target": "assets/images/items/accessory-elaborate_brooch.png"
+    },
+    {
+      "id": "accessory:flora",
+      "name": "八月 화관 — 플로라",
+      "family": "TECH",
+      "model": "accessory_flora",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/flora.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/birthstone/flora.png",
+      "target": "assets/images/items/accessory-flora.png"
+    },
+    {
+      "id": "accessory:green_gem_bracelet",
+      "name": "녹옥 팔찌",
+      "family": "TECH",
+      "model": "accessory_green_gem_bracelet",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/green_gem_bracelet.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/gem/green_gem_bracelet.png",
+      "target": "assets/images/items/accessory-green_gem_bracelet.png"
+    },
+    {
+      "id": "accessory:lumina",
+      "name": "四月 광휘 — 루미나",
+      "family": "TECH",
+      "model": "accessory_lumina",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/lumina.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/birthstone/lumina.png",
+      "target": "assets/images/items/accessory-lumina.png"
+    },
+    {
+      "id": "accessory:lunaris",
+      "name": "二月 월광 — 루나리스",
+      "family": "TECH",
+      "model": "accessory_lunaris",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/lunaris.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/birthstone/lunaris.png",
+      "target": "assets/images/items/accessory-lunaris.png"
+    },
+    {
+      "id": "accessory:neat_earring",
+      "name": "바람결 귀걸이",
+      "family": "TECH",
+      "model": "accessory_neat_earring",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/neat_earring.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/basic/neat_earring.png",
+      "target": "assets/images/items/accessory-neat_earring.png"
+    },
+    {
+      "id": "accessory:neat_necklace",
+      "name": "인연의 목걸이",
+      "family": "TECH",
+      "model": "accessory_neat_necklace",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/neat_necklace.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/basic/neat_necklace.png",
+      "target": "assets/images/items/accessory-neat_necklace.png"
+    },
+    {
+      "id": "accessory:nereia",
+      "name": "三月 해류 — 네레이아",
+      "family": "TECH",
+      "model": "accessory_nereia",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/nereia.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/birthstone/nereia.png",
+      "target": "assets/images/items/accessory-nereia.png"
+    },
+    {
+      "id": "accessory:noble_necklace",
+      "name": "신뢰의 목걸이",
+      "family": "TECH",
+      "model": "accessory_noble_necklace",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/noble_necklace.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/basic/noble_necklace.png",
+      "target": "assets/images/items/accessory-noble_necklace.png"
+    },
+    {
+      "id": "accessory:prisma",
+      "name": "十月 환채 — 프리즈마",
+      "family": "TECH",
+      "model": "accessory_prisma",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/prisma.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/birthstone/prisma.png",
+      "target": "assets/images/items/accessory-prisma.png"
+    },
+    {
+      "id": "accessory:purple_gem_earring",
+      "name": "자옥 귀걸이",
+      "family": "TECH",
+      "model": "accessory_purple_gem_earring",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/purple_gem_earring.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/gem/purple_gem_earring.png",
+      "target": "assets/images/items/accessory-purple_gem_earring.png"
+    },
+    {
+      "id": "accessory:red_gem_ring",
+      "name": "홍옥 반지",
+      "family": "TECH",
+      "model": "accessory_red_gem_ring",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/red_gem_ring.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/gem/red_gem_ring.png",
+      "target": "assets/images/items/accessory-red_gem_ring.png"
+    },
+    {
+      "id": "accessory:refined_bracelet",
+      "name": "장인의 팔찌",
+      "family": "TECH",
+      "model": "accessory_refined_bracelet",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/refined_bracelet.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/basic/refined_bracelet.png",
+      "target": "assets/images/items/accessory-refined_bracelet.png"
+    },
+    {
+      "id": "accessory:selene",
+      "name": "六月 월화 — 셀레네",
+      "family": "TECH",
+      "model": "accessory_selene",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/selene.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/birthstone/selene.png",
+      "target": "assets/images/items/accessory-selene.png"
+    },
+    {
+      "id": "accessory:shining_earring",
+      "name": "흐름의 귀걸이",
+      "family": "TECH",
+      "model": "accessory_shining_earring",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/shining_earring.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/basic/shining_earring.png",
+      "target": "assets/images/items/accessory-shining_earring.png"
+    },
+    {
+      "id": "accessory:silvaris",
+      "name": "五月 신록 — 실바리스",
+      "family": "TECH",
+      "model": "accessory_silvaris",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/silvaris.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/birthstone/silvaris.png",
+      "target": "assets/images/items/accessory-silvaris.png"
+    },
+    {
+      "id": "accessory:simple_bracelet",
+      "name": "검소한 팔찌",
+      "family": "TECH",
+      "model": "accessory_simple_bracelet",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/simple_bracelet.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/basic/simple_bracelet.png",
+      "target": "assets/images/items/accessory-simple_bracelet.png"
+    },
+    {
+      "id": "accessory:simple_brooch",
+      "name": "작은 행운의 브로치",
+      "family": "TECH",
+      "model": "accessory_simple_brooch",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/simple_brooch.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/basic/simple_brooch.png",
+      "target": "assets/images/items/accessory-simple_brooch.png"
+    },
+    {
+      "id": "accessory:skilled_ring",
+      "name": "숙련의 반지",
+      "family": "TECH",
+      "model": "accessory_skilled_ring",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/skilled_ring.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/basic/skilled_ring.png",
+      "target": "assets/images/items/accessory-skilled_ring.png"
+    },
+    {
+      "id": "accessory:solea",
+      "name": "七月 작열 — 솔레아",
+      "family": "TECH",
+      "model": "accessory_solea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/solea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/birthstone/solea.png",
+      "target": "assets/images/items/accessory-solea.png"
+    },
+    {
+      "id": "accessory:solis",
+      "name": "十一月 여명 — 솔리스",
+      "family": "TECH",
+      "model": "accessory_solis",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/solis.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/birthstone/solis.png",
+      "target": "assets/images/items/accessory-solis.png"
+    },
+    {
+      "id": "accessory:spirit_cycle_ring",
+      "name": "순환의 반지",
+      "family": "TECH",
+      "model": "accessory_spirit_cycle_ring",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/spirit_cycle_ring.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/spirit/spirit_cycle_ring.png",
+      "target": "assets/images/items/accessory-spirit_cycle_ring.png"
+    },
+    {
+      "id": "accessory:spirit_earth_necklace",
+      "name": "대지의 목걸이",
+      "family": "TECH",
+      "model": "accessory_spirit_earth_necklace",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/spirit_earth_necklace.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/spirit/spirit_earth_necklace.png",
+      "target": "assets/images/items/accessory-spirit_earth_necklace.png"
+    },
+    {
+      "id": "accessory:spirit_fire_brooch",
+      "name": "불꽃의 브로치",
+      "family": "TECH",
+      "model": "accessory_spirit_fire_brooch",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/spirit_fire_brooch.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/spirit/spirit_fire_brooch.png",
+      "target": "assets/images/items/accessory-spirit_fire_brooch.png"
+    },
+    {
+      "id": "accessory:spirit_resonance_seal",
+      "name": "공명의 인장",
+      "family": "TECH",
+      "model": "accessory_spirit_resonance_seal",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/spirit_resonance_seal.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/spirit/spirit_resonance_seal.png",
+      "target": "assets/images/items/accessory-spirit_resonance_seal.png"
+    },
+    {
+      "id": "accessory:spirit_water_bracelet",
+      "name": "물결의 팔찌",
+      "family": "TECH",
+      "model": "accessory_spirit_water_bracelet",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/spirit_water_bracelet.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/spirit/spirit_water_bracelet.png",
+      "target": "assets/images/items/accessory-spirit_water_bracelet.png"
+    },
+    {
+      "id": "accessory:spirit_wind_earring",
+      "name": "바람의 귀걸이",
+      "family": "TECH",
+      "model": "accessory_spirit_wind_earring",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/spirit_wind_earring.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/spirit/spirit_wind_earring.png",
+      "target": "assets/images/items/accessory-spirit_wind_earring.png"
+    },
+    {
+      "id": "accessory:turquoise_bracelet",
+      "name": "청록 팔찌",
+      "family": "TECH",
+      "model": "accessory_turquoise_bracelet",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/turquoise_bracelet.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/gem/turquoise_bracelet.png",
+      "target": "assets/images/items/accessory-turquoise_bracelet.png"
+    },
+    {
+      "id": "accessory:vesper",
+      "name": "一月 황혼 — 베스퍼",
+      "family": "TECH",
+      "model": "accessory_vesper",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/vesper.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/birthstone/vesper.png",
+      "target": "assets/images/items/accessory-vesper.png"
+    },
+    {
+      "id": "accessory:white_gem_ring",
+      "name": "백옥 반지",
+      "family": "TECH",
+      "model": "accessory_white_gem_ring",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/white_gem_ring.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/gem/white_gem_ring.png",
+      "target": "assets/images/items/accessory-white_gem_ring.png"
+    },
+    {
+      "id": "accessory:yellow_gem_brooch",
+      "name": "황옥 브로치",
+      "family": "TECH",
+      "model": "accessory_yellow_gem_brooch",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/accessory/yellow_gem_brooch.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/accessory/normal/gem/yellow_gem_brooch.png",
+      "target": "assets/images/items/accessory-yellow_gem_brooch.png"
+    },
+    {
+      "id": "cooking:barley_coffee",
+      "name": "보리 커피",
+      "family": "COOKING",
+      "model": "barista_barley_coffee",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/barley_coffee.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/barley_coffee.png",
+      "target": "assets/images/items/cooking-barley_coffee.png"
+    },
+    {
+      "id": "cooking:barley_porridge",
+      "name": "보리죽",
+      "family": "COOKING",
+      "model": "cooking_barley_porridge",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/barley_porridge.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/barley_porridge.png",
+      "target": "assets/images/items/cooking-barley_porridge.png"
+    },
+    {
+      "id": "cooking:bean_stew",
+      "name": "콩 스튜",
+      "family": "COOKING",
+      "model": "cooking_bean_stew",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/bean_stew.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/bean_stew.png",
+      "target": "assets/images/items/cooking-bean_stew.png"
+    },
+    {
+      "id": "cooking:beef_bourguignon",
+      "name": "비프 부르기뇽",
+      "family": "COOKING",
+      "model": "cooking_beef_bourguignon",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/beef_bourguignon.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/beef_bourguignon.png",
+      "target": "assets/images/items/cooking-beef_bourguignon.png"
+    },
+    {
+      "id": "cooking:beer",
+      "name": "맥주",
+      "family": "COOKING",
+      "model": "cooking_beer",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/beer.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/beer.png",
+      "target": "assets/images/items/cooking-beer.png"
+    },
+    {
+      "id": "cooking:blueberry_ade",
+      "name": "블루베리 에이드",
+      "family": "COOKING",
+      "model": "barista_blueberry_ade",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/blueberry_ade.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/blueberry_ade.png",
+      "target": "assets/images/items/cooking-blueberry_ade.png"
+    },
+    {
+      "id": "cooking:blueberry_jam",
+      "name": "블루베리잼",
+      "family": "COOKING",
+      "model": "cooking_blueberry_jam",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/blueberry_jam.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/blueberry_jam.png",
+      "target": "assets/images/items/cooking-blueberry_jam.png"
+    },
+    {
+      "id": "cooking:blueberry_muffin",
+      "name": "블루베리 머핀",
+      "family": "COOKING",
+      "model": "cooking_blueberry_muffin",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/blueberry_muffin.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/blueberry_muffin.png",
+      "target": "assets/images/items/cooking-blueberry_muffin.png"
+    },
+    {
+      "id": "cooking:cabbage_meat_roll",
+      "name": "양배추 고기말이",
+      "family": "COOKING",
+      "model": "cooking_cabbage_meat_roll",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/cabbage_meat_roll.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/cabbage_meat_roll.png",
+      "target": "assets/images/items/cooking-cabbage_meat_roll.png"
+    },
+    {
+      "id": "cooking:chamomile_tea",
+      "name": "캐모마일 티",
+      "family": "COOKING",
+      "model": "barista_chamomile_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/chamomile_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/chamomile_tea.png",
+      "target": "assets/images/items/cooking-chamomile_tea.png"
+    },
+    {
+      "id": "cooking:chicken_burger",
+      "name": "치킨버거",
+      "family": "COOKING",
+      "model": "cooking_chicken_burger",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/chicken_burger.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/chicken_burger.png",
+      "target": "assets/images/items/cooking-chicken_burger.png"
+    },
+    {
+      "id": "cooking:chicken_pie",
+      "name": "치킨파이",
+      "family": "COOKING",
+      "model": "cooking_chicken_pie",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/chicken_pie.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/chicken_pie.png",
+      "target": "assets/images/items/cooking-chicken_pie.png"
+    },
+    {
+      "id": "cooking:coffee",
+      "name": "커피",
+      "family": "COOKING",
+      "model": "barista_coffee",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/coffee.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/coffee.png",
+      "target": "assets/images/items/cooking-coffee.png"
+    },
+    {
+      "id": "cooking:coleslaw",
+      "name": "코울슬로",
+      "family": "COOKING",
+      "model": "cooking_coleslaw",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/coleslaw.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/coleslaw.png",
+      "target": "assets/images/items/cooking-coleslaw.png"
+    },
+    {
+      "id": "cooking:corn_soup",
+      "name": "옥수수 수프",
+      "family": "COOKING",
+      "model": "cooking_corn_soup",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/corn_soup.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/corn_soup.png",
+      "target": "assets/images/items/cooking-corn_soup.png"
+    },
+    {
+      "id": "cooking:cucumber_pickle",
+      "name": "오이피클",
+      "family": "COOKING",
+      "model": "cooking_cucumber_pickle",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/cucumber_pickle.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/cucumber_pickle.png",
+      "target": "assets/images/items/cooking-cucumber_pickle.png"
+    },
+    {
+      "id": "cooking:cucumber_salad",
+      "name": "오이 샐러드",
+      "family": "COOKING",
+      "model": "cooking_cucumber_salad",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/cucumber_salad.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/cucumber_salad.png",
+      "target": "assets/images/items/cooking-cucumber_salad.png"
+    },
+    {
+      "id": "cooking:five_color_fruit_ade",
+      "name": "오색 과일에이드",
+      "family": "COOKING",
+      "model": "barista_five_color_fruit_ade",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/five_color_fruit_ade.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/five_color_fruit_ade.png",
+      "target": "assets/images/items/cooking-five_color_fruit_ade.png"
+    },
+    {
+      "id": "cooking:flower_blend",
+      "name": "플라워 블렌드",
+      "family": "COOKING",
+      "model": "barista_flower_blend",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/flower_blend.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/flower_blend.png",
+      "target": "assets/images/items/cooking-flower_blend.png"
+    },
+    {
+      "id": "cooking:garden_blend",
+      "name": "가든 블렌드",
+      "family": "COOKING",
+      "model": "barista_garden_blend",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/garden_blend.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/garden_blend.png",
+      "target": "assets/images/items/cooking-garden_blend.png"
+    },
+    {
+      "id": "cooking:golden_grain_coffee",
+      "name": "황금 곡물 커피",
+      "family": "COOKING",
+      "model": "barista_golden_grain_coffee",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/golden_grain_coffee.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/golden_grain_coffee.png",
+      "target": "assets/images/items/cooking-golden_grain_coffee.png"
+    },
+    {
+      "id": "cooking:golden_harvest_festival_coffee",
+      "name": "황금 수확제 커피",
+      "family": "COOKING",
+      "model": "barista_golden_harvest_festival_coffee",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/golden_harvest_festival_coffee.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/golden_harvest_festival_coffee.png",
+      "target": "assets/images/items/cooking-golden_harvest_festival_coffee.png"
+    },
+    {
+      "id": "cooking:grape_ade",
+      "name": "포도 에이드",
+      "family": "COOKING",
+      "model": "barista_grape_ade",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/grape_ade.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/grape_ade.png",
+      "target": "assets/images/items/cooking-grape_ade.png"
+    },
+    {
+      "id": "cooking:hamburger",
+      "name": "햄버거",
+      "family": "COOKING",
+      "model": "cooking_hamburger",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/hamburger.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/hamburger.png",
+      "target": "assets/images/items/cooking-hamburger.png"
+    },
+    {
+      "id": "cooking:hibiscus_ade",
+      "name": "히비스커스 에이드",
+      "family": "COOKING",
+      "model": "barista_hibiscus_ade",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/hibiscus_ade.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/hibiscus_ade.png",
+      "target": "assets/images/items/cooking-hibiscus_ade.png"
+    },
+    {
+      "id": "cooking:hibiscus_tea",
+      "name": "히비스커스 티",
+      "family": "COOKING",
+      "model": "barista_hibiscus_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/hibiscus_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/hibiscus_tea.png",
+      "target": "assets/images/items/cooking-hibiscus_tea.png"
+    },
+    {
+      "id": "cooking:jasmine_rose_tea",
+      "name": "자스민 로즈 티",
+      "family": "COOKING",
+      "model": "barista_jasmine_rose_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/jasmine_rose_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/jasmine_rose_tea.png",
+      "target": "assets/images/items/cooking-jasmine_rose_tea.png"
+    },
+    {
+      "id": "cooking:jasmine_tea",
+      "name": "자스민 티",
+      "family": "COOKING",
+      "model": "barista_jasmine_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/jasmine_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/jasmine_tea.png",
+      "target": "assets/images/items/cooking-jasmine_tea.png"
+    },
+    {
+      "id": "cooking:lamb_skewer",
+      "name": "양고기 꼬치구이",
+      "family": "COOKING",
+      "model": "cooking_lamb_skewer",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/lamb_skewer.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/lamb_skewer.png",
+      "target": "assets/images/items/cooking-lamb_skewer.png"
+    },
+    {
+      "id": "cooking:lavender_tea",
+      "name": "라벤더 티",
+      "family": "COOKING",
+      "model": "barista_lavender_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/lavender_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/lavender_tea.png",
+      "target": "assets/images/items/cooking-lavender_tea.png"
+    },
+    {
+      "id": "cooking:lemongrass_iced_tea",
+      "name": "레몬그라스 아이스티",
+      "family": "COOKING",
+      "model": "barista_lemongrass_iced_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/lemongrass_iced_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/lemongrass_iced_tea.png",
+      "target": "assets/images/items/cooking-lemongrass_iced_tea.png"
+    },
+    {
+      "id": "cooking:lemongrass_tea",
+      "name": "레몬그라스 티",
+      "family": "COOKING",
+      "model": "barista_lemongrass_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/lemongrass_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/lemongrass_tea.png",
+      "target": "assets/images/items/cooking-lemongrass_tea.png"
+    },
+    {
+      "id": "cooking:meat_pie",
+      "name": "미트파이",
+      "family": "COOKING",
+      "model": "cooking_meat_pie",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/meat_pie.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/meat_pie.png",
+      "target": "assets/images/items/cooking-meat_pie.png"
+    },
+    {
+      "id": "cooking:midsummer_refreshing_drink",
+      "name": "한여름 청량수",
+      "family": "COOKING",
+      "model": "barista_midsummer_refreshing_drink",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/midsummer_refreshing_drink.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/midsummer_refreshing_drink.png",
+      "target": "assets/images/items/cooking-midsummer_refreshing_drink.png"
+    },
+    {
+      "id": "cooking:mint_blend",
+      "name": "민트 블렌드",
+      "family": "COOKING",
+      "model": "barista_mint_blend",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/mint_blend.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/mint_blend.png",
+      "target": "assets/images/items/cooking-mint_blend.png"
+    },
+    {
+      "id": "cooking:mint_iced_tea",
+      "name": "민트 아이스티",
+      "family": "COOKING",
+      "model": "barista_mint_iced_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/mint_iced_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/mint_iced_tea.png",
+      "target": "assets/images/items/cooking-mint_iced_tea.png"
+    },
+    {
+      "id": "cooking:mixed_berry_tart",
+      "name": "믹스베리 타르트",
+      "family": "COOKING",
+      "model": "cooking_mixed_berry_tart",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/mixed_berry_tart.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/mixed_berry_tart.png",
+      "target": "assets/images/items/cooking-mixed_berry_tart.png"
+    },
+    {
+      "id": "cooking:mixed_grill",
+      "name": "믹스드 그릴",
+      "family": "COOKING",
+      "model": "cooking_mixed_grill",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/mixed_grill.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/mixed_grill.png",
+      "target": "assets/images/items/cooking-mixed_grill.png"
+    },
+    {
+      "id": "cooking:moonlight_garden_tea",
+      "name": "달빛 정원차",
+      "family": "COOKING",
+      "model": "barista_moonlight_garden_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/moonlight_garden_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/moonlight_garden_tea.png",
+      "target": "assets/images/items/cooking-moonlight_garden_tea.png"
+    },
+    {
+      "id": "cooking:moonlight_tea",
+      "name": "문라이트 티",
+      "family": "COOKING",
+      "model": "barista_moonlight_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/moonlight_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/moonlight_tea.png",
+      "target": "assets/images/items/cooking-moonlight_tea.png"
+    },
+    {
+      "id": "cooking:onion_soup",
+      "name": "양파 수프",
+      "family": "COOKING",
+      "model": "cooking_onion_soup",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/onion_soup.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/onion_soup.png",
+      "target": "assets/images/items/cooking-onion_soup.png"
+    },
+    {
+      "id": "cooking:peppermint_tea",
+      "name": "페퍼민트 티",
+      "family": "COOKING",
+      "model": "barista_peppermint_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/peppermint_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/peppermint_tea.png",
+      "target": "assets/images/items/cooking-peppermint_tea.png"
+    },
+    {
+      "id": "cooking:pizza",
+      "name": "피자",
+      "family": "COOKING",
+      "model": "cooking_pizza",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/pizza.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/pizza.png",
+      "target": "assets/images/items/cooking-pizza.png"
+    },
+    {
+      "id": "cooking:pumpkin_gratin",
+      "name": "호박 그라탱",
+      "family": "COOKING",
+      "model": "cooking_pumpkin_gratin",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/pumpkin_gratin.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/pumpkin_gratin.png",
+      "target": "assets/images/items/cooking-pumpkin_gratin.png"
+    },
+    {
+      "id": "cooking:red_blend",
+      "name": "레드 블렌드",
+      "family": "COOKING",
+      "model": "barista_red_blend",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/red_blend.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/red_blend.png",
+      "target": "assets/images/items/cooking-red_blend.png"
+    },
+    {
+      "id": "cooking:rosehip_ade",
+      "name": "로즈힙 에이드",
+      "family": "COOKING",
+      "model": "barista_rosehip_ade",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/rosehip_ade.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/rosehip_ade.png",
+      "target": "assets/images/items/cooking-rosehip_ade.png"
+    },
+    {
+      "id": "cooking:rosehip_tea",
+      "name": "로즈힙 티",
+      "family": "COOKING",
+      "model": "barista_rosehip_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/rosehip_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/rosehip_tea.png",
+      "target": "assets/images/items/cooking-rosehip_tea.png"
+    },
+    {
+      "id": "cooking:rosemary_tea",
+      "name": "로즈마리 티",
+      "family": "COOKING",
+      "model": "barista_rosemary_tea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/rosemary_tea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/rosemary_tea.png",
+      "target": "assets/images/items/cooking-rosemary_tea.png"
+    },
+    {
+      "id": "cooking:strawberry_ade",
+      "name": "딸기 에이드",
+      "family": "COOKING",
+      "model": "barista_strawberry_ade",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/strawberry_ade.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/strawberry_ade.png",
+      "target": "assets/images/items/cooking-strawberry_ade.png"
+    },
+    {
+      "id": "cooking:strawberry_jam",
+      "name": "딸기잼",
+      "family": "COOKING",
+      "model": "cooking_strawberry_jam",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/strawberry_jam.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/strawberry_jam.png",
+      "target": "assets/images/items/cooking-strawberry_jam.png"
+    },
+    {
+      "id": "cooking:strawberry_jam_toast",
+      "name": "딸기잼 토스트",
+      "family": "COOKING",
+      "model": "cooking_strawberry_jam_toast",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/strawberry_jam_toast.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/strawberry_jam_toast.png",
+      "target": "assets/images/items/cooking-strawberry_jam_toast.png"
+    },
+    {
+      "id": "cooking:sunset_fruit_hwachae",
+      "name": "석양빛 과일 화채",
+      "family": "COOKING",
+      "model": "barista_sunset_fruit_hwachae",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/sunset_fruit_hwachae.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/barista/sunset_fruit_hwachae.png",
+      "target": "assets/images/items/cooking-sunset_fruit_hwachae.png"
+    },
+    {
+      "id": "cooking:tomato_spaghetti",
+      "name": "토마토 스파게티",
+      "family": "COOKING",
+      "model": "cooking_tomato_spaghetti",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/tomato_spaghetti.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/tomato_spaghetti.png",
+      "target": "assets/images/items/cooking-tomato_spaghetti.png"
+    },
+    {
+      "id": "cooking:wine",
+      "name": "와인",
+      "family": "COOKING",
+      "model": "cooking_wine",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/cooking/wine.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/cooking/wine.png",
+      "target": "assets/images/items/cooking-wine.png"
+    },
+    {
+      "id": "custom_crop:barley",
+      "name": "보리",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_barley",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/barley.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/barley.png",
+      "target": "assets/images/items/custom_crop-barley.png"
+    },
+    {
+      "id": "custom_crop:barley_giant",
+      "name": "거대 보리",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_barley_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/barley_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/barley_giant.png",
+      "target": "assets/images/items/custom_crop-barley_giant.png"
+    },
+    {
+      "id": "custom_crop:barley_giant_seed",
+      "name": "거대 보리 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_barley_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/barley_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/barley_giant_seed.png",
+      "target": "assets/images/items/custom_crop-barley_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:barley_seed",
+      "name": "보리 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_barley_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/barley_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/barley_seed.png",
+      "target": "assets/images/items/custom_crop-barley_seed.png"
+    },
+    {
+      "id": "custom_crop:bean",
+      "name": "콩",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_bean",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/bean.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/bean.png",
+      "target": "assets/images/items/custom_crop-bean.png"
+    },
+    {
+      "id": "custom_crop:bean_giant",
+      "name": "거대 콩",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_bean_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/bean_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/bean_giant.png",
+      "target": "assets/images/items/custom_crop-bean_giant.png"
+    },
+    {
+      "id": "custom_crop:bean_giant_seed",
+      "name": "거대 콩 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_bean_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/bean_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/bean_giant_seed.png",
+      "target": "assets/images/items/custom_crop-bean_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:bean_seed",
+      "name": "콩 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_bean_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/bean_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/bean_seed.png",
+      "target": "assets/images/items/custom_crop-bean_seed.png"
+    },
+    {
+      "id": "custom_crop:blueberry",
+      "name": "블루베리",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_blueberry",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/blueberry.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/blueberry.png",
+      "target": "assets/images/items/custom_crop-blueberry.png"
+    },
+    {
+      "id": "custom_crop:blueberry_giant",
+      "name": "거대 블루베리",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_blueberry_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/blueberry_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/blueberry_giant.png",
+      "target": "assets/images/items/custom_crop-blueberry_giant.png"
+    },
+    {
+      "id": "custom_crop:blueberry_giant_seed",
+      "name": "거대 블루베리 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_blueberry_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/blueberry_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/blueberry_giant_seed.png",
+      "target": "assets/images/items/custom_crop-blueberry_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:blueberry_seed",
+      "name": "블루베리 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_blueberry_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/blueberry_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/blueberry_seed.png",
+      "target": "assets/images/items/custom_crop-blueberry_seed.png"
+    },
+    {
+      "id": "custom_crop:cabbage",
+      "name": "양배추",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_cabbage",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/cabbage.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/cabbage.png",
+      "target": "assets/images/items/custom_crop-cabbage.png"
+    },
+    {
+      "id": "custom_crop:cabbage_giant",
+      "name": "거대 양배추",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_cabbage_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/cabbage_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/cabbage_giant.png",
+      "target": "assets/images/items/custom_crop-cabbage_giant.png"
+    },
+    {
+      "id": "custom_crop:cabbage_giant_seed",
+      "name": "거대 양배추 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_cabbage_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/cabbage_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/cabbage_giant_seed.png",
+      "target": "assets/images/items/custom_crop-cabbage_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:cabbage_seed",
+      "name": "양배추 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_cabbage_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/cabbage_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/cabbage_seed.png",
+      "target": "assets/images/items/custom_crop-cabbage_seed.png"
+    },
+    {
+      "id": "custom_crop:chamomile",
+      "name": "캐모마일",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_chamomile",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/chamomile.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/chamomile.png",
+      "target": "assets/images/items/custom_crop-chamomile.png"
+    },
+    {
+      "id": "custom_crop:chamomile_giant",
+      "name": "거대 캐모마일",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_chamomile_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/chamomile_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/chamomile_giant.png",
+      "target": "assets/images/items/custom_crop-chamomile_giant.png"
+    },
+    {
+      "id": "custom_crop:chamomile_giant_seed",
+      "name": "거대 캐모마일 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_chamomile_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/chamomile_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/chamomile_giant_seed.png",
+      "target": "assets/images/items/custom_crop-chamomile_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:chamomile_seed",
+      "name": "캐모마일 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_chamomile_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/chamomile_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/chamomile_seed.png",
+      "target": "assets/images/items/custom_crop-chamomile_seed.png"
+    },
+    {
+      "id": "custom_crop:corn",
+      "name": "옥수수",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_corn",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/corn.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/corn.png",
+      "target": "assets/images/items/custom_crop-corn.png"
+    },
+    {
+      "id": "custom_crop:corn_giant",
+      "name": "거대 옥수수",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_corn_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/corn_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/corn_giant.png",
+      "target": "assets/images/items/custom_crop-corn_giant.png"
+    },
+    {
+      "id": "custom_crop:corn_giant_seed",
+      "name": "거대 옥수수 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_corn_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/corn_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/corn_giant_seed.png",
+      "target": "assets/images/items/custom_crop-corn_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:corn_seed",
+      "name": "옥수수 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_corn_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/corn_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/corn_seed.png",
+      "target": "assets/images/items/custom_crop-corn_seed.png"
+    },
+    {
+      "id": "custom_crop:cucumber",
+      "name": "오이",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_cucumber",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/cucumber.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/cucumber.png",
+      "target": "assets/images/items/custom_crop-cucumber.png"
+    },
+    {
+      "id": "custom_crop:cucumber_giant",
+      "name": "거대 오이",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_cucumber_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/cucumber_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/cucumber_giant.png",
+      "target": "assets/images/items/custom_crop-cucumber_giant.png"
+    },
+    {
+      "id": "custom_crop:cucumber_giant_seed",
+      "name": "거대 오이 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_cucumber_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/cucumber_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/cucumber_giant_seed.png",
+      "target": "assets/images/items/custom_crop-cucumber_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:cucumber_seed",
+      "name": "오이 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_cucumber_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/cucumber_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/cucumber_seed.png",
+      "target": "assets/images/items/custom_crop-cucumber_seed.png"
+    },
+    {
+      "id": "custom_crop:garlic",
+      "name": "마늘",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_garlic",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/garlic.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/garlic.png",
+      "target": "assets/images/items/custom_crop-garlic.png"
+    },
+    {
+      "id": "custom_crop:garlic_giant",
+      "name": "거대 마늘",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_garlic_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/garlic_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/garlic_giant.png",
+      "target": "assets/images/items/custom_crop-garlic_giant.png"
+    },
+    {
+      "id": "custom_crop:garlic_giant_seed",
+      "name": "거대 마늘 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_garlic_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/garlic_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/garlic_giant_seed.png",
+      "target": "assets/images/items/custom_crop-garlic_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:garlic_seed",
+      "name": "마늘 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_garlic_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/garlic_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/garlic_seed.png",
+      "target": "assets/images/items/custom_crop-garlic_seed.png"
+    },
+    {
+      "id": "custom_crop:grape",
+      "name": "포도",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_grape",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/grape.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/grape.png",
+      "target": "assets/images/items/custom_crop-grape.png"
+    },
+    {
+      "id": "custom_crop:grape_giant",
+      "name": "거대 포도",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_grape_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/grape_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/grape_giant.png",
+      "target": "assets/images/items/custom_crop-grape_giant.png"
+    },
+    {
+      "id": "custom_crop:grape_giant_seed",
+      "name": "거대 포도 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_grape_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/grape_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/grape_giant_seed.png",
+      "target": "assets/images/items/custom_crop-grape_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:grape_seed",
+      "name": "포도 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_grape_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/grape_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/grape_seed.png",
+      "target": "assets/images/items/custom_crop-grape_seed.png"
+    },
+    {
+      "id": "custom_crop:hibiscus",
+      "name": "히비스커스",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_hibiscus",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/hibiscus.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/hibiscus.png",
+      "target": "assets/images/items/custom_crop-hibiscus.png"
+    },
+    {
+      "id": "custom_crop:hibiscus_giant",
+      "name": "거대 히비스커스",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_hibiscus_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/hibiscus_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/hibiscus_giant.png",
+      "target": "assets/images/items/custom_crop-hibiscus_giant.png"
+    },
+    {
+      "id": "custom_crop:hibiscus_giant_seed",
+      "name": "거대 히비스커스 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_hibiscus_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/hibiscus_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/hibiscus_giant_seed.png",
+      "target": "assets/images/items/custom_crop-hibiscus_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:hibiscus_seed",
+      "name": "히비스커스 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_hibiscus_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/hibiscus_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/hibiscus_seed.png",
+      "target": "assets/images/items/custom_crop-hibiscus_seed.png"
+    },
+    {
+      "id": "custom_crop:jasmine",
+      "name": "자스민",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_jasmine",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/jasmine.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/jasmine.png",
+      "target": "assets/images/items/custom_crop-jasmine.png"
+    },
+    {
+      "id": "custom_crop:jasmine_giant",
+      "name": "거대 자스민",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_jasmine_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/jasmine_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/jasmine_giant.png",
+      "target": "assets/images/items/custom_crop-jasmine_giant.png"
+    },
+    {
+      "id": "custom_crop:jasmine_giant_seed",
+      "name": "거대 자스민 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_jasmine_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/jasmine_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/jasmine_giant_seed.png",
+      "target": "assets/images/items/custom_crop-jasmine_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:jasmine_seed",
+      "name": "자스민 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_jasmine_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/jasmine_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/jasmine_seed.png",
+      "target": "assets/images/items/custom_crop-jasmine_seed.png"
+    },
+    {
+      "id": "custom_crop:lavender",
+      "name": "라벤더",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_lavender",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/lavender.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/lavender.png",
+      "target": "assets/images/items/custom_crop-lavender.png"
+    },
+    {
+      "id": "custom_crop:lavender_giant",
+      "name": "거대 라벤더",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_lavender_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/lavender_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/lavender_giant.png",
+      "target": "assets/images/items/custom_crop-lavender_giant.png"
+    },
+    {
+      "id": "custom_crop:lavender_giant_seed",
+      "name": "거대 라벤더 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_lavender_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/lavender_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/lavender_giant_seed.png",
+      "target": "assets/images/items/custom_crop-lavender_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:lavender_seed",
+      "name": "라벤더 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_lavender_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/lavender_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/lavender_seed.png",
+      "target": "assets/images/items/custom_crop-lavender_seed.png"
+    },
+    {
+      "id": "custom_crop:lemongrass",
+      "name": "레몬그라스",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_lemongrass",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/lemongrass.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/lemongrass.png",
+      "target": "assets/images/items/custom_crop-lemongrass.png"
+    },
+    {
+      "id": "custom_crop:lemongrass_giant",
+      "name": "거대 레몬그라스",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_lemongrass_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/lemongrass_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/lemongrass_giant.png",
+      "target": "assets/images/items/custom_crop-lemongrass_giant.png"
+    },
+    {
+      "id": "custom_crop:lemongrass_giant_seed",
+      "name": "거대 레몬그라스 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_lemongrass_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/lemongrass_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/lemongrass_giant_seed.png",
+      "target": "assets/images/items/custom_crop-lemongrass_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:lemongrass_seed",
+      "name": "레몬그라스 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_lemongrass_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/lemongrass_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/lemongrass_seed.png",
+      "target": "assets/images/items/custom_crop-lemongrass_seed.png"
+    },
+    {
+      "id": "custom_crop:lettuce",
+      "name": "상추",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_lettuce",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/lettuce.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/lettuce.png",
+      "target": "assets/images/items/custom_crop-lettuce.png"
+    },
+    {
+      "id": "custom_crop:lettuce_giant",
+      "name": "거대 상추",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_lettuce_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/lettuce_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/lettuce_giant.png",
+      "target": "assets/images/items/custom_crop-lettuce_giant.png"
+    },
+    {
+      "id": "custom_crop:lettuce_giant_seed",
+      "name": "거대 상추 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_lettuce_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/lettuce_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/lettuce_giant_seed.png",
+      "target": "assets/images/items/custom_crop-lettuce_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:lettuce_seed",
+      "name": "상추 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_lettuce_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/lettuce_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/lettuce_seed.png",
+      "target": "assets/images/items/custom_crop-lettuce_seed.png"
+    },
+    {
+      "id": "custom_crop:olive",
+      "name": "올리브",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_olive",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/olive.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/olive.png",
+      "target": "assets/images/items/custom_crop-olive.png"
+    },
+    {
+      "id": "custom_crop:olive_giant",
+      "name": "거대 올리브",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_olive_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/olive_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/olive_giant.png",
+      "target": "assets/images/items/custom_crop-olive_giant.png"
+    },
+    {
+      "id": "custom_crop:olive_giant_seed",
+      "name": "거대 올리브 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_olive_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/olive_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/olive_giant_seed.png",
+      "target": "assets/images/items/custom_crop-olive_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:olive_seed",
+      "name": "올리브 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_olive_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/olive_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/olive_seed.png",
+      "target": "assets/images/items/custom_crop-olive_seed.png"
+    },
+    {
+      "id": "custom_crop:onion",
+      "name": "양파",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_onion",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/onion.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/onion.png",
+      "target": "assets/images/items/custom_crop-onion.png"
+    },
+    {
+      "id": "custom_crop:onion_giant",
+      "name": "거대 양파",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_onion_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/onion_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/onion_giant.png",
+      "target": "assets/images/items/custom_crop-onion_giant.png"
+    },
+    {
+      "id": "custom_crop:onion_giant_seed",
+      "name": "거대 양파 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_onion_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/onion_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/onion_giant_seed.png",
+      "target": "assets/images/items/custom_crop-onion_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:onion_seed",
+      "name": "양파 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_onion_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/onion_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/onion_seed.png",
+      "target": "assets/images/items/custom_crop-onion_seed.png"
+    },
+    {
+      "id": "custom_crop:peppermint",
+      "name": "페퍼민트",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_peppermint",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/peppermint.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/peppermint.png",
+      "target": "assets/images/items/custom_crop-peppermint.png"
+    },
+    {
+      "id": "custom_crop:peppermint_giant",
+      "name": "거대 페퍼민트",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_peppermint_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/peppermint_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/peppermint_giant.png",
+      "target": "assets/images/items/custom_crop-peppermint_giant.png"
+    },
+    {
+      "id": "custom_crop:peppermint_giant_seed",
+      "name": "거대 페퍼민트 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_peppermint_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/peppermint_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/peppermint_giant_seed.png",
+      "target": "assets/images/items/custom_crop-peppermint_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:peppermint_seed",
+      "name": "페퍼민트 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_peppermint_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/peppermint_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/peppermint_seed.png",
+      "target": "assets/images/items/custom_crop-peppermint_seed.png"
+    },
+    {
+      "id": "custom_crop:radish",
+      "name": "무",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_radish",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/radish.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/radish.png",
+      "target": "assets/images/items/custom_crop-radish.png"
+    },
+    {
+      "id": "custom_crop:radish_giant",
+      "name": "거대 무",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_radish_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/radish_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/radish_giant.png",
+      "target": "assets/images/items/custom_crop-radish_giant.png"
+    },
+    {
+      "id": "custom_crop:radish_giant_seed",
+      "name": "거대 무 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_radish_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/radish_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/radish_giant_seed.png",
+      "target": "assets/images/items/custom_crop-radish_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:radish_seed",
+      "name": "무 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_radish_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/radish_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/radish_seed.png",
+      "target": "assets/images/items/custom_crop-radish_seed.png"
+    },
+    {
+      "id": "custom_crop:rosehip",
+      "name": "로즈힙",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_rosehip",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/rosehip.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/rosehip.png",
+      "target": "assets/images/items/custom_crop-rosehip.png"
+    },
+    {
+      "id": "custom_crop:rosehip_giant",
+      "name": "거대 로즈힙",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_rosehip_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/rosehip_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/rosehip_giant.png",
+      "target": "assets/images/items/custom_crop-rosehip_giant.png"
+    },
+    {
+      "id": "custom_crop:rosehip_giant_seed",
+      "name": "거대 로즈힙 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_rosehip_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/rosehip_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/rosehip_giant_seed.png",
+      "target": "assets/images/items/custom_crop-rosehip_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:rosehip_seed",
+      "name": "로즈힙 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_rosehip_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/rosehip_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/rosehip_seed.png",
+      "target": "assets/images/items/custom_crop-rosehip_seed.png"
+    },
+    {
+      "id": "custom_crop:rosemary",
+      "name": "로즈마리",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_rosemary",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/rosemary.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/rosemary.png",
+      "target": "assets/images/items/custom_crop-rosemary.png"
+    },
+    {
+      "id": "custom_crop:rosemary_giant",
+      "name": "거대 로즈마리",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_rosemary_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/rosemary_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/rosemary_giant.png",
+      "target": "assets/images/items/custom_crop-rosemary_giant.png"
+    },
+    {
+      "id": "custom_crop:rosemary_giant_seed",
+      "name": "거대 로즈마리 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_rosemary_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/rosemary_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/rosemary_giant_seed.png",
+      "target": "assets/images/items/custom_crop-rosemary_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:rosemary_seed",
+      "name": "로즈마리 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_rosemary_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/rosemary_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/rosemary_seed.png",
+      "target": "assets/images/items/custom_crop-rosemary_seed.png"
+    },
+    {
+      "id": "custom_crop:strawberry",
+      "name": "딸기",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_strawberry",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/strawberry.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/strawberry.png",
+      "target": "assets/images/items/custom_crop-strawberry.png"
+    },
+    {
+      "id": "custom_crop:strawberry_giant",
+      "name": "거대 딸기",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_strawberry_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/strawberry_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/strawberry_giant.png",
+      "target": "assets/images/items/custom_crop-strawberry_giant.png"
+    },
+    {
+      "id": "custom_crop:strawberry_giant_seed",
+      "name": "거대 딸기 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_strawberry_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/strawberry_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/strawberry_giant_seed.png",
+      "target": "assets/images/items/custom_crop-strawberry_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:strawberry_seed",
+      "name": "딸기 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_strawberry_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/strawberry_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/strawberry_seed.png",
+      "target": "assets/images/items/custom_crop-strawberry_seed.png"
+    },
+    {
+      "id": "custom_crop:tomato",
+      "name": "토마토",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_tomato",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/tomato.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/tomato.png",
+      "target": "assets/images/items/custom_crop-tomato.png"
+    },
+    {
+      "id": "custom_crop:tomato_giant",
+      "name": "거대 토마토",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_tomato_giant",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/tomato_giant.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/tomato_giant.png",
+      "target": "assets/images/items/custom_crop-tomato_giant.png"
+    },
+    {
+      "id": "custom_crop:tomato_giant_seed",
+      "name": "거대 토마토 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_tomato_giant_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/tomato_giant_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/tomato_giant_seed.png",
+      "target": "assets/images/items/custom_crop-tomato_giant_seed.png"
+    },
+    {
+      "id": "custom_crop:tomato_seed",
+      "name": "토마토 씨앗",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_tomato_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/crops/tomato_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/tomato_seed.png",
+      "target": "assets/images/items/custom_crop-tomato_seed.png"
+    },
+    {
+      "id": "custom_crop:farm_plot",
+      "name": "테스트 재배 블록",
+      "family": "CUSTOM_CROP",
+      "model": "custom_crop_farm_plot",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/farm_plot.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/custom_crop/farm_plot.png",
+      "target": "assets/images/items/custom_crop-farm_plot.png"
+    },
+    {
+      "id": "gem:astra",
+      "name": "아스트라",
+      "family": "SMELTING",
+      "model": "gem_astra",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/astra.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/birthstone/astra.png",
+      "target": "assets/images/items/gem-astra.png"
+    },
+    {
+      "id": "gem:azura",
+      "name": "아주라",
+      "family": "SMELTING",
+      "model": "gem_azura",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/azura.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/birthstone/azura.png",
+      "target": "assets/images/items/gem-azura.png"
+    },
+    {
+      "id": "gem:black_gem",
+      "name": "흑옥석",
+      "family": "SMELTING",
+      "model": "gem_black_gem",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/black_gem.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/lower_gem/black_gem.png",
+      "target": "assets/images/items/gem-black_gem.png"
+    },
+    {
+      "id": "gem:blue_gem",
+      "name": "청옥석",
+      "family": "SMELTING",
+      "model": "gem_blue_gem",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/blue_gem.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/lower_gem/blue_gem.png",
+      "target": "assets/images/items/gem-blue_gem.png"
+    },
+    {
+      "id": "gem:flora",
+      "name": "플로라",
+      "family": "SMELTING",
+      "model": "gem_flora",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/flora.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/birthstone/flora.png",
+      "target": "assets/images/items/gem-flora.png"
+    },
+    {
+      "id": "gem:green_gem",
+      "name": "녹옥석",
+      "family": "SMELTING",
+      "model": "gem_green_gem",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/green_gem.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/lower_gem/green_gem.png",
+      "target": "assets/images/items/gem-green_gem.png"
+    },
+    {
+      "id": "gem:lumina",
+      "name": "루미나",
+      "family": "SMELTING",
+      "model": "gem_lumina",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/lumina.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/birthstone/lumina.png",
+      "target": "assets/images/items/gem-lumina.png"
+    },
+    {
+      "id": "gem:lunaris",
+      "name": "루나리스",
+      "family": "SMELTING",
+      "model": "gem_lunaris",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/lunaris.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/birthstone/lunaris.png",
+      "target": "assets/images/items/gem-lunaris.png"
+    },
+    {
+      "id": "gem:nereia",
+      "name": "네레이아",
+      "family": "SMELTING",
+      "model": "gem_nereia",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/nereia.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/birthstone/nereia.png",
+      "target": "assets/images/items/gem-nereia.png"
+    },
+    {
+      "id": "gem:prisma",
+      "name": "프리즈마",
+      "family": "SMELTING",
+      "model": "gem_prisma",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/prisma.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/birthstone/prisma.png",
+      "target": "assets/images/items/gem-prisma.png"
+    },
+    {
+      "id": "gem:purple_gem",
+      "name": "자옥석",
+      "family": "SMELTING",
+      "model": "gem_purple_gem",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/purple_gem.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/lower_gem/purple_gem.png",
+      "target": "assets/images/items/gem-purple_gem.png"
+    },
+    {
+      "id": "gem:red_gem",
+      "name": "홍옥석",
+      "family": "SMELTING",
+      "model": "gem_red_gem",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/red_gem.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/lower_gem/red_gem.png",
+      "target": "assets/images/items/gem-red_gem.png"
+    },
+    {
+      "id": "gem:selene",
+      "name": "셀레네",
+      "family": "SMELTING",
+      "model": "gem_selene",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/selene.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/birthstone/selene.png",
+      "target": "assets/images/items/gem-selene.png"
+    },
+    {
+      "id": "gem:silvaris",
+      "name": "실바리스",
+      "family": "SMELTING",
+      "model": "gem_silvaris",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/silvaris.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/birthstone/silvaris.png",
+      "target": "assets/images/items/gem-silvaris.png"
+    },
+    {
+      "id": "gem:solea",
+      "name": "솔레아",
+      "family": "SMELTING",
+      "model": "gem_solea",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/solea.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/birthstone/solea.png",
+      "target": "assets/images/items/gem-solea.png"
+    },
+    {
+      "id": "gem:solis",
+      "name": "솔리스",
+      "family": "SMELTING",
+      "model": "gem_solis",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/solis.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/birthstone/solis.png",
+      "target": "assets/images/items/gem-solis.png"
+    },
+    {
+      "id": "gem:spirit_stone_cycle",
+      "name": "순환의 정령석",
+      "family": "SMELTING",
+      "model": "gem_spirit_stone_cycle",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/spirit_stone_cycle.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/spirit_stone/spirit_stone_cycle.png",
+      "target": "assets/images/items/gem-spirit_stone_cycle.png"
+    },
+    {
+      "id": "gem:spirit_stone_earth",
+      "name": "대지의 정령석",
+      "family": "SMELTING",
+      "model": "gem_spirit_stone_earth",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/spirit_stone_earth.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/spirit_stone/spirit_stone_earth.png",
+      "target": "assets/images/items/gem-spirit_stone_earth.png"
+    },
+    {
+      "id": "gem:spirit_stone_fire",
+      "name": "불의 정령석",
+      "family": "SMELTING",
+      "model": "gem_spirit_stone_fire",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/spirit_stone_fire.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/spirit_stone/spirit_stone_fire.png",
+      "target": "assets/images/items/gem-spirit_stone_fire.png"
+    },
+    {
+      "id": "gem:spirit_stone_resonance",
+      "name": "공명의 정령석",
+      "family": "SMELTING",
+      "model": "gem_spirit_stone_resonance",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/spirit_stone_resonance.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/spirit_stone/spirit_stone_resonance.png",
+      "target": "assets/images/items/gem-spirit_stone_resonance.png"
+    },
+    {
+      "id": "gem:spirit_stone_water",
+      "name": "물의 정령석",
+      "family": "SMELTING",
+      "model": "gem_spirit_stone_water",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/spirit_stone_water.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/spirit_stone/spirit_stone_water.png",
+      "target": "assets/images/items/gem-spirit_stone_water.png"
+    },
+    {
+      "id": "gem:spirit_stone_wind",
+      "name": "바람의 정령석",
+      "family": "SMELTING",
+      "model": "gem_spirit_stone_wind",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/spirit_stone_wind.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/spirit_stone/spirit_stone_wind.png",
+      "target": "assets/images/items/gem-spirit_stone_wind.png"
+    },
+    {
+      "id": "gem:turquoise_gem",
+      "name": "청록석",
+      "family": "SMELTING",
+      "model": "gem_turquoise_gem",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/turquoise_gem.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/lower_gem/turquoise_gem.png",
+      "target": "assets/images/items/gem-turquoise_gem.png"
+    },
+    {
+      "id": "gem:vesper",
+      "name": "베스퍼",
+      "family": "SMELTING",
+      "model": "gem_vesper",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/vesper.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/birthstone/vesper.png",
+      "target": "assets/images/items/gem-vesper.png"
+    },
+    {
+      "id": "gem:white_gem",
+      "name": "백옥석",
+      "family": "SMELTING",
+      "model": "gem_white_gem",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/white_gem.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/lower_gem/white_gem.png",
+      "target": "assets/images/items/gem-white_gem.png"
+    },
+    {
+      "id": "gem:yellow_gem",
+      "name": "황옥석",
+      "family": "SMELTING",
+      "model": "gem_yellow_gem",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/gem/yellow_gem.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/gem/lower_gem/yellow_gem.png",
+      "target": "assets/images/items/gem-yellow_gem.png"
+    },
+    {
+      "id": "smelting:compressed_coal",
+      "name": "압축 석탄",
+      "family": "SMELTING",
+      "model": "smelting_compressed_coal",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/mineral/compressed_coal.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/compressed_mineral/compressed_coal.png",
+      "target": "assets/images/items/smelting-compressed_coal.png"
+    },
+    {
+      "id": "smelting:compressed_copper",
+      "name": "압축 구리",
+      "family": "SMELTING",
+      "model": "smelting_compressed_copper",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/mineral/compressed_copper.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/compressed_mineral/compressed_copper.png",
+      "target": "assets/images/items/smelting-compressed_copper.png"
+    },
+    {
+      "id": "smelting:compressed_diamond",
+      "name": "압축 다이아몬드",
+      "family": "SMELTING",
+      "model": "smelting_compressed_diamond",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/mineral/compressed_diamond.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/compressed_mineral/compressed_diamond.png",
+      "target": "assets/images/items/smelting-compressed_diamond.png"
+    },
+    {
+      "id": "smelting:compressed_emerald",
+      "name": "압축 에메랄드",
+      "family": "SMELTING",
+      "model": "smelting_compressed_emerald",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/mineral/compressed_emerald.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/compressed_mineral/compressed_emerald.png",
+      "target": "assets/images/items/smelting-compressed_emerald.png"
+    },
+    {
+      "id": "smelting:compressed_gold",
+      "name": "압축 금",
+      "family": "SMELTING",
+      "model": "smelting_compressed_gold",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/mineral/compressed_gold.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/compressed_mineral/compressed_gold.png",
+      "target": "assets/images/items/smelting-compressed_gold.png"
+    },
+    {
+      "id": "smelting:compressed_iron",
+      "name": "압축 철",
+      "family": "SMELTING",
+      "model": "smelting_compressed_iron",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/mineral/compressed_iron.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/compressed_mineral/compressed_iron.png",
+      "target": "assets/images/items/smelting-compressed_iron.png"
+    },
+    {
+      "id": "smelting:compressed_lapis",
+      "name": "압축 청금석",
+      "family": "SMELTING",
+      "model": "smelting_compressed_lapis",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/mineral/compressed_lapis.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/compressed_mineral/compressed_lapis.png",
+      "target": "assets/images/items/smelting-compressed_lapis.png"
+    },
+    {
+      "id": "smelting:compressed_redstone",
+      "name": "압축 레드스톤",
+      "family": "SMELTING",
+      "model": "smelting_compressed_redstone",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/mineral/compressed_redstone.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/compressed_mineral/compressed_redstone.png",
+      "target": "assets/images/items/smelting-compressed_redstone.png"
+    },
+    {
+      "id": "pet:pickup_squirrel_mid",
+      "name": "수확 다람이 (중급)",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/pet/pickup_squirrel_mid.yml",
+      "source": null,
+      "target": "assets/images/items/pet-pickup_squirrel_mid.png"
+    },
+    {
+      "id": "processing:station",
+      "name": "가공대",
+      "family": "TECH",
+      "model": "processing_station",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/processing_station.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/processing/station.png",
+      "target": "assets/images/items/processing-station.png"
+    },
+    {
+      "id": "smelting:basic_alloy",
+      "name": "기초 합금",
+      "family": "SMELTING",
+      "model": "smelting_basic_alloy",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/smelting/basic_alloy.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/alloy/basic_alloy.png",
+      "target": "assets/images/items/smelting-basic_alloy.png"
+    },
+    {
+      "id": "smelting:basic_plate",
+      "name": "기초 판재",
+      "family": "SMELTING",
+      "model": "smelting_basic_plate",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/smelting/basic_plate.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/plate/basic_plate.png",
+      "target": "assets/images/items/smelting-basic_plate.png"
+    },
+    {
+      "id": "smelting:high_density_alloy",
+      "name": "고밀도 합금",
+      "family": "SMELTING",
+      "model": "smelting_high_density_alloy",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/smelting/high_density_alloy.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/alloy/high_density_alloy.png",
+      "target": "assets/images/items/smelting-high_density_alloy.png"
+    },
+    {
+      "id": "smelting:high_density_plate",
+      "name": "고밀도 판재",
+      "family": "SMELTING",
+      "model": "smelting_high_density_plate",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/smelting/high_density_plate.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/plate/high_density_plate.png",
+      "target": "assets/images/items/smelting-high_density_plate.png"
+    },
+    {
+      "id": "smelting:precision_alloy",
+      "name": "정밀 합금",
+      "family": "SMELTING",
+      "model": "smelting_precision_alloy",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/smelting/precision_alloy.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/alloy/precision_alloy.png",
+      "target": "assets/images/items/smelting-precision_alloy.png"
+    },
+    {
+      "id": "smelting:precision_plate",
+      "name": "정밀 판재",
+      "family": "SMELTING",
+      "model": "smelting_precision_plate",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/smelting/precision_plate.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/plate/precision_plate.png",
+      "target": "assets/images/items/smelting-precision_plate.png"
+    },
+    {
+      "id": "smelting:reinforced_alloy",
+      "name": "강화 합금",
+      "family": "SMELTING",
+      "model": "smelting_reinforced_alloy",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/smelting/reinforced_alloy.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/alloy/reinforced_alloy.png",
+      "target": "assets/images/items/smelting-reinforced_alloy.png"
+    },
+    {
+      "id": "smelting:reinforced_plate",
+      "name": "강화 판재",
+      "family": "SMELTING",
+      "model": "smelting_reinforced_plate",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/smelting/reinforced_plate.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/smelting/plate/reinforced_plate.png",
+      "target": "assets/images/items/smelting-reinforced_plate.png"
+    },
+    {
+      "id": "tech:circuit_board",
+      "name": "회로 기판",
+      "family": "TECH",
+      "model": "tech_circuit_board",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/circuit_board.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/circuit_board.png",
+      "target": "assets/images/items/tech-circuit_board.png"
+    },
+    {
+      "id": "tech:compression_cylinder",
+      "name": "압축 실린더",
+      "family": "TECH",
+      "model": "tech_compression_cylinder",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/compression_cylinder.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/compression_cylinder.png",
+      "target": "assets/images/items/tech-compression_cylinder.png"
+    },
+    {
+      "id": "tech:electric_wire",
+      "name": "전기선",
+      "family": "TECH",
+      "model": "tech_electric_wire",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/electric_wire.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/electric_wire.png",
+      "target": "assets/images/items/tech-electric_wire.png"
+    },
+    {
+      "id": "tech:gearbox",
+      "name": "변속기",
+      "family": "TECH",
+      "model": "tech_gearbox",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/gearbox.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/gearbox.png",
+      "target": "assets/images/items/tech-gearbox.png"
+    },
+    {
+      "id": "tech:heat_exchanger",
+      "name": "열교환기",
+      "family": "TECH",
+      "model": "tech_heat_exchanger",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/heat_exchanger.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/heat_exchanger.png",
+      "target": "assets/images/items/tech-heat_exchanger.png"
+    },
+    {
+      "id": "tech:heating_coil",
+      "name": "가열 코일",
+      "family": "TECH",
+      "model": "tech_heating_coil",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/heating_coil.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/heating_coil.png",
+      "target": "assets/images/items/tech-heating_coil.png"
+    },
+    {
+      "id": "tech:high_density_part",
+      "name": "고밀도 부품",
+      "family": "TECH",
+      "model": "tech_high_density_part",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/high_density_part.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/high_density_part.png",
+      "target": "assets/images/items/tech-high_density_part.png"
+    },
+    {
+      "id": "tech:machine_part",
+      "name": "기계 부품",
+      "family": "TECH",
+      "model": "tech_machine_part",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/machine_part.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/machine_part.png",
+      "target": "assets/images/items/tech-machine_part.png"
+    },
+    {
+      "id": "tech:magic_core",
+      "name": "마도 코어",
+      "family": "TECH",
+      "model": "tech_magic_core",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/magic_core.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/magic_core.png",
+      "target": "assets/images/items/tech-magic_core.png"
+    },
+    {
+      "id": "tech:motor",
+      "name": "모터",
+      "family": "TECH",
+      "model": "tech_motor",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/motor.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/motor.png",
+      "target": "assets/images/items/tech-motor.png"
+    },
+    {
+      "id": "tech:power_relay",
+      "name": "전력 릴레이",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/power_relay.yml",
+      "source": null,
+      "target": "assets/images/items/tech-power_relay.png"
+    },
+    {
+      "id": "tech:pressure_tank",
+      "name": "압력 탱크",
+      "family": "TECH",
+      "model": "tech_pressure_tank",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/pressure_tank.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/pressure_tank.png",
+      "target": "assets/images/items/tech-pressure_tank.png"
+    },
+    {
+      "id": "tech:pump",
+      "name": "펌프",
+      "family": "TECH",
+      "model": "tech_pump",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/pump.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/pump.png",
+      "target": "assets/images/items/tech-pump.png"
+    },
+    {
+      "id": "tech:regulator",
+      "name": "조절기",
+      "family": "TECH",
+      "model": "tech_regulator",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/regulator.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/regulator.png",
+      "target": "assets/images/items/tech-regulator.png"
+    },
+    {
+      "id": "tech:sealed_container",
+      "name": "밀폐 용기",
+      "family": "TECH",
+      "model": "tech_sealed_container",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/sealed_container.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/sealed_container.png",
+      "target": "assets/images/items/tech-sealed_container.png"
+    },
+    {
+      "id": "tech:sensor",
+      "name": "센서",
+      "family": "TECH",
+      "model": "tech_sensor",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/sensor.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/sensor.png",
+      "target": "assets/images/items/tech-sensor.png"
+    },
+    {
+      "id": "tech:soil_probe",
+      "name": "토양 탐침",
+      "family": "TECH",
+      "model": "tech_soil_probe",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/soil_probe.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/soil_probe.png",
+      "target": "assets/images/items/tech-soil_probe.png"
+    },
+    {
+      "id": "tech:sorting_filter",
+      "name": "분류 필터",
+      "family": "TECH",
+      "model": "tech_sorting_filter",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/sorting_filter.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/sorting_filter.png",
+      "target": "assets/images/items/tech-sorting_filter.png"
+    },
+    {
+      "id": "tech:spray_nozzle",
+      "name": "분사 노즐",
+      "family": "TECH",
+      "model": "tech_spray_nozzle",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/spray_nozzle.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/spray_nozzle.png",
+      "target": "assets/images/items/tech-spray_nozzle.png"
+    },
+    {
+      "id": "tech:water_valve",
+      "name": "급수 밸브",
+      "family": "TECH",
+      "model": "tech_water_valve",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/component/water_valve.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/water_valve.png",
+      "target": "assets/images/items/tech-water_valve.png"
+    },
+    {
+      "id": "tech:fuel_tank",
+      "name": "연료통",
+      "family": "TECH",
+      "model": "tech_fuel_tank",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/infrastructure/fuel_tank.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/fuel_tank.png",
+      "target": "assets/images/items/tech-fuel_tank.png"
+    },
+    {
+      "id": "tech:line_rail",
+      "name": "레일",
+      "family": "TECH",
+      "model": "tech_line_rail",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/infrastructure/line_rail.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/line_rail.png",
+      "target": "assets/images/items/tech-line_rail.png"
+    },
+    {
+      "id": "tech:material_tank",
+      "name": "재료통",
+      "family": "TECH",
+      "model": "tech_material_tank",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/infrastructure/material_tank.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/material_tank.png",
+      "target": "assets/images/items/tech-material_tank.png"
+    },
+    {
+      "id": "tech:control_unit",
+      "name": "마도 제어 장치",
+      "family": "TECH",
+      "model": "tech_control_unit",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/magic/control_unit.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/control_unit.png",
+      "target": "assets/images/items/tech-control_unit.png"
+    },
+    {
+      "id": "tech:core_shell",
+      "name": "마도 코어 외피",
+      "family": "TECH",
+      "model": "tech_core_shell",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/magic/core_shell.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/core_shell.png",
+      "target": "assets/images/items/tech-core_shell.png"
+    },
+    {
+      "id": "tech:mana_condenser",
+      "name": "마력 응축기",
+      "family": "TECH",
+      "model": "tech_mana_condenser",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/magic/mana_condenser.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/mana_condenser.png",
+      "target": "assets/images/items/tech-mana_condenser.png"
+    },
+    {
+      "id": "tech:high_grade_metal_plate",
+      "name": "정밀 금속판",
+      "family": "TECH",
+      "model": "tech_high_grade_metal_plate",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/material/high_grade_metal_plate.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/high_grade_metal_plate.png",
+      "target": "assets/images/items/tech-high_grade_metal_plate.png"
+    },
+    {
+      "id": "tech:low_grade_metal_plate",
+      "name": "기초 금속판",
+      "family": "TECH",
+      "model": "tech_low_grade_metal_plate",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/material/low_grade_metal_plate.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/low_grade_metal_plate.png",
+      "target": "assets/images/items/tech-low_grade_metal_plate.png"
+    },
+    {
+      "id": "tech:mid_grade_metal_plate",
+      "name": "강화 금속판",
+      "family": "TECH",
+      "model": "tech_mid_grade_metal_plate",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/material/mid_grade_metal_plate.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/mid_grade_metal_plate.png",
+      "target": "assets/images/items/tech-mid_grade_metal_plate.png"
+    },
+    {
+      "id": "tech:top_grade_metal_plate",
+      "name": "고밀도 금속판",
+      "family": "TECH",
+      "model": "tech_top_grade_metal_plate",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/material/top_grade_metal_plate.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/top_grade_metal_plate.png",
+      "target": "assets/images/items/tech-top_grade_metal_plate.png"
+    },
+    {
+      "id": "tech:auto_block_compressor",
+      "name": "자동 블록 압축기",
+      "family": "TECH",
+      "model": "tech_auto_block_compressor",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_block_compressor.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/auto_block_compressor.png",
+      "target": "assets/images/items/tech-auto_block_compressor.png"
+    },
+    {
+      "id": "tech:auto_collector_1",
+      "name": "자동 수거기 I",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_collector_1.yml",
+      "source": null,
+      "target": "assets/images/items/tech-auto_collector_1.png"
+    },
+    {
+      "id": "tech:auto_collector_2",
+      "name": "자동 수거기 II",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_collector_2.yml",
+      "source": null,
+      "target": "assets/images/items/tech-auto_collector_2.png"
+    },
+    {
+      "id": "tech:auto_collector_3",
+      "name": "자동 수거기 III",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_collector_3.yml",
+      "source": null,
+      "target": "assets/images/items/tech-auto_collector_3.png"
+    },
+    {
+      "id": "tech:auto_collector_4",
+      "name": "자동 수거기 IV",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_collector_4.yml",
+      "source": null,
+      "target": "assets/images/items/tech-auto_collector_4.png"
+    },
+    {
+      "id": "tech:auto_crafting_table_1",
+      "name": "자동 제작대 I",
+      "family": "TECH",
+      "model": "tech_auto_crafting_table_1",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_crafting_table_1.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/auto_crafting_table_1.png",
+      "target": "assets/images/items/tech-auto_crafting_table_1.png"
+    },
+    {
+      "id": "tech:auto_crafting_table_2",
+      "name": "자동 제작대 II",
+      "family": "TECH",
+      "model": "tech_auto_crafting_table_2",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_crafting_table_2.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/auto_crafting_table_2.png",
+      "target": "assets/images/items/tech-auto_crafting_table_2.png"
+    },
+    {
+      "id": "tech:auto_crafting_table_3",
+      "name": "자동 제작대 III",
+      "family": "TECH",
+      "model": "tech_auto_crafting_table_3",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_crafting_table_3.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/auto_crafting_table_3.png",
+      "target": "assets/images/items/tech-auto_crafting_table_3.png"
+    },
+    {
+      "id": "tech:auto_crafting_table_4",
+      "name": "자동 제작대 IV",
+      "family": "TECH",
+      "model": "tech_auto_crafting_table_4",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_crafting_table_4.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/auto_crafting_table_4.png",
+      "target": "assets/images/items/tech-auto_crafting_table_4.png"
+    },
+    {
+      "id": "tech:auto_planter_1",
+      "name": "자동 파종기 I",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_planter_1.yml",
+      "source": null,
+      "target": "assets/images/items/tech-auto_planter_1.png"
+    },
+    {
+      "id": "tech:auto_planter_2",
+      "name": "자동 파종기 II",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_planter_2.yml",
+      "source": null,
+      "target": "assets/images/items/tech-auto_planter_2.png"
+    },
+    {
+      "id": "tech:auto_planter_3",
+      "name": "자동 파종기 III",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_planter_3.yml",
+      "source": null,
+      "target": "assets/images/items/tech-auto_planter_3.png"
+    },
+    {
+      "id": "tech:auto_planter_4",
+      "name": "자동 파종기 IV",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/auto_planter_4.yml",
+      "source": null,
+      "target": "assets/images/items/tech-auto_planter_4.png"
+    },
+    {
+      "id": "tech:chest_sorter",
+      "name": "상자 정리 장치",
+      "family": "TECH",
+      "model": "tech_chest_sorter",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/chest_sorter.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/chest_sorter.png",
+      "target": "assets/images/items/tech-chest_sorter.png"
+    },
+    {
+      "id": "tech:crop_storage_1",
+      "name": "농산물 창고 I",
+      "family": "TECH",
+      "model": "tech_crop_storage_1",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/crop_storage_1.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/crop_storage_1.png",
+      "target": "assets/images/items/tech-crop_storage_1.png"
+    },
+    {
+      "id": "tech:crop_storage_2",
+      "name": "농산물 창고 II",
+      "family": "TECH",
+      "model": "tech_crop_storage_2",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/crop_storage_2.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/crop_storage_2.png",
+      "target": "assets/images/items/tech-crop_storage_2.png"
+    },
+    {
+      "id": "tech:crop_storage_3",
+      "name": "농산물 창고 III",
+      "family": "TECH",
+      "model": "tech_crop_storage_3",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/crop_storage_3.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/crop_storage_3.png",
+      "target": "assets/images/items/tech-crop_storage_3.png"
+    },
+    {
+      "id": "tech:crop_storage_4",
+      "name": "농산물 창고 IV",
+      "family": "TECH",
+      "model": "tech_crop_storage_4",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/crop_storage_4.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/crop_storage_4.png",
+      "target": "assets/images/items/tech-crop_storage_4.png"
+    },
+    {
+      "id": "tech:crop_storage_infinite",
+      "name": "무한 농산물 창고",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/crop_storage_infinite.yml",
+      "source": null,
+      "target": "assets/images/items/tech-crop_storage_infinite.png"
+    },
+    {
+      "id": "tech:growth_notifier_1",
+      "name": "재배 알리미 I",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/growth_notifier_1.yml",
+      "source": null,
+      "target": "assets/images/items/tech-growth_notifier_1.png"
+    },
+    {
+      "id": "tech:growth_notifier_2",
+      "name": "재배 알리미 II",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/growth_notifier_2.yml",
+      "source": null,
+      "target": "assets/images/items/tech-growth_notifier_2.png"
+    },
+    {
+      "id": "tech:growth_notifier_3",
+      "name": "재배 알리미 III",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/growth_notifier_3.yml",
+      "source": null,
+      "target": "assets/images/items/tech-growth_notifier_3.png"
+    },
+    {
+      "id": "tech:growth_notifier_4",
+      "name": "재배 알리미 IV",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/growth_notifier_4.yml",
+      "source": null,
+      "target": "assets/images/items/tech-growth_notifier_4.png"
+    },
+    {
+      "id": "tech:high_performance_furnace_1",
+      "name": "고성능 화로 I",
+      "family": "TECH",
+      "model": "tech_high_performance_furnace_1",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/high_performance_furnace_1.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/high_performance_furnace_1.png",
+      "target": "assets/images/items/tech-high_performance_furnace_1.png"
+    },
+    {
+      "id": "tech:high_performance_furnace_2",
+      "name": "고성능 화로 II",
+      "family": "TECH",
+      "model": "tech_high_performance_furnace_2",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/high_performance_furnace_2.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/high_performance_furnace_2.png",
+      "target": "assets/images/items/tech-high_performance_furnace_2.png"
+    },
+    {
+      "id": "tech:high_performance_furnace_3",
+      "name": "고성능 화로 III",
+      "family": "TECH",
+      "model": "tech_high_performance_furnace_3",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/high_performance_furnace_3.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/high_performance_furnace_3.png",
+      "target": "assets/images/items/tech-high_performance_furnace_3.png"
+    },
+    {
+      "id": "tech:high_performance_furnace_4",
+      "name": "고성능 화로 IV",
+      "family": "TECH",
+      "model": "tech_high_performance_furnace_4",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/high_performance_furnace_4.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/high_performance_furnace_4.png",
+      "target": "assets/images/items/tech-high_performance_furnace_4.png"
+    },
+    {
+      "id": "tech:mineral_storage_1",
+      "name": "광물 창고 I",
+      "family": "TECH",
+      "model": "tech_mineral_storage_1",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/mineral_storage_1.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/mineral_storage_1.png",
+      "target": "assets/images/items/tech-mineral_storage_1.png"
+    },
+    {
+      "id": "tech:mineral_storage_2",
+      "name": "광물 창고 II",
+      "family": "TECH",
+      "model": "tech_mineral_storage_2",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/mineral_storage_2.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/mineral_storage_2.png",
+      "target": "assets/images/items/tech-mineral_storage_2.png"
+    },
+    {
+      "id": "tech:mineral_storage_3",
+      "name": "광물 창고 III",
+      "family": "TECH",
+      "model": "tech_mineral_storage_3",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/mineral_storage_3.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/mineral_storage_3.png",
+      "target": "assets/images/items/tech-mineral_storage_3.png"
+    },
+    {
+      "id": "tech:mineral_storage_4",
+      "name": "광물 창고 IV",
+      "family": "TECH",
+      "model": "tech_mineral_storage_4",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/mineral_storage_4.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/mineral_storage_4.png",
+      "target": "assets/images/items/tech-mineral_storage_4.png"
+    },
+    {
+      "id": "tech:mineral_storage_infinite",
+      "name": "무한 광물 창고",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/mineral_storage_infinite.yml",
+      "source": null,
+      "target": "assets/images/items/tech-mineral_storage_infinite.png"
+    },
+    {
+      "id": "tech:scarecrow",
+      "name": "허수아비 I",
+      "family": "TECH",
+      "model": "tech_scarecrow",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/scarecrow.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/scarecrow.png",
+      "target": "assets/images/items/tech-scarecrow.png"
+    },
+    {
+      "id": "tech:scarecrow_2",
+      "name": "허수아비 II",
+      "family": "TECH",
+      "model": "tech_scarecrow_2",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/scarecrow_2.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/scarecrow_2.png",
+      "target": "assets/images/items/tech-scarecrow_2.png"
+    },
+    {
+      "id": "tech:scarecrow_3",
+      "name": "허수아비 III",
+      "family": "TECH",
+      "model": "tech_scarecrow_3",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/scarecrow_3.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/scarecrow_3.png",
+      "target": "assets/images/items/tech-scarecrow_3.png"
+    },
+    {
+      "id": "tech:scarecrow_4",
+      "name": "허수아비 IV",
+      "family": "TECH",
+      "model": "tech_scarecrow_4",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/scarecrow_4.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/scarecrow_4.png",
+      "target": "assets/images/items/tech-scarecrow_4.png"
+    },
+    {
+      "id": "tech:sprinkler_1",
+      "name": "스프링클러 I",
+      "family": "TECH",
+      "model": "tech_sprinkler_1",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/sprinkler_1.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/sprinkler_1.png",
+      "target": "assets/images/items/tech-sprinkler_1.png"
+    },
+    {
+      "id": "tech:sprinkler_2",
+      "name": "스프링클러 II",
+      "family": "TECH",
+      "model": "tech_sprinkler_2",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/sprinkler_2.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/sprinkler_2.png",
+      "target": "assets/images/items/tech-sprinkler_2.png"
+    },
+    {
+      "id": "tech:sprinkler_3",
+      "name": "스프링클러 III",
+      "family": "TECH",
+      "model": "tech_sprinkler_3",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/sprinkler_3.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/sprinkler_3.png",
+      "target": "assets/images/items/tech-sprinkler_3.png"
+    },
+    {
+      "id": "tech:sprinkler_4",
+      "name": "스프링클러 IV",
+      "family": "TECH",
+      "model": "tech_sprinkler_4",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/sprinkler_4.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/sprinkler_4.png",
+      "target": "assets/images/items/tech-sprinkler_4.png"
+    },
+    {
+      "id": "tech:sprinkler_infinite",
+      "name": "무한 스프링클러",
+      "family": "TECH",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/products/sprinkler_infinite.yml",
+      "source": null,
+      "target": "assets/images/items/tech-sprinkler_infinite.png"
+    },
+    {
+      "id": "tech:workstation_arcane",
+      "name": "마도공학 기술대",
+      "family": "TECH",
+      "model": "tech_workstation_arcane",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/workstation/workstation_arcane.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/workstation_arcane.png",
+      "target": "assets/images/items/tech-workstation_arcane.png"
+    },
+    {
+      "id": "tech:workstation_basic",
+      "name": "일반 기술대",
+      "family": "TECH",
+      "model": "tech_workstation_basic",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/workstation/workstation_basic.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/workstation_basic.png",
+      "target": "assets/images/items/tech-workstation_basic.png"
+    },
+    {
+      "id": "tech:workstation_steam",
+      "name": "증기 기술대",
+      "family": "TECH",
+      "model": "tech_workstation_steam",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/workstation/workstation_steam.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/workstation_steam.png",
+      "target": "assets/images/items/tech-workstation_steam.png"
+    },
+    {
+      "id": "tech:workstation_electric",
+      "name": "전기 기술대",
+      "family": "TECH",
+      "model": "tech_workstation_electric",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/workstation_electric.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/tech/workstation_electric.png",
+      "target": "assets/images/items/tech-workstation_electric.png"
+    },
+    {
+      "id": "world:world_core",
+      "name": "월드코어",
+      "family": "TECH",
+      "model": "world_world_core",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/world_core.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/world/world_core.png",
+      "target": "assets/images/items/world-world_core.png"
+    },
+    {
+      "id": "world:world_root_civilization_flame",
+      "name": "세계의 근원 - 문명의 불씨",
+      "family": "TECH",
+      "model": "world_world_root_civilization_flame",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/world_roots/world_root_civilization_flame.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/world/world_root_civilization_flame.png",
+      "target": "assets/images/items/world-world_root_civilization_flame.png"
+    },
+    {
+      "id": "world:world_root_cycle_seed",
+      "name": "세계의 근원 - 순환의 씨앗",
+      "family": "TECH",
+      "model": "world_world_root_cycle_seed",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/world_roots/world_root_cycle_seed.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/world/world_root_cycle_seed.png",
+      "target": "assets/images/items/world-world_root_cycle_seed.png"
+    },
+    {
+      "id": "world:world_root_earth_heart",
+      "name": "세계의 근원 - 대지의 심장",
+      "family": "TECH",
+      "model": "world_world_root_earth_heart",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/world_roots/world_root_earth_heart.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/world/world_root_earth_heart.png",
+      "target": "assets/images/items/world-world_root_earth_heart.png"
+    },
+    {
+      "id": "world:world_root_harmony_drop",
+      "name": "세계의 근원 - 융화의 물방울",
+      "family": "TECH",
+      "model": "world_world_root_harmony_drop",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/world_roots/world_root_harmony_drop.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/world/world_root_harmony_drop.png",
+      "target": "assets/images/items/world-world_root_harmony_drop.png"
+    },
+    {
+      "id": "world:world_root_wind_breath",
+      "name": "세계의 근원 - 바람의 숨결",
+      "family": "TECH",
+      "model": "world_world_root_wind_breath",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/tech/world_roots/world_root_wind_breath.yml",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/item/world/world_root_wind_breath.png",
+      "target": "assets/images/items/world-world_root_wind_breath.png"
+    },
+    {
+      "id": "custom_crop:watering_can",
+      "name": "테스트 물뿌리개",
+      "family": "CUSTOM_CROP",
+      "model": "",
+      "definition": "SERVER_ROOT/plugins/MineFarmContentPlugin/content/items/watering_can.yml",
+      "source": null,
+      "target": "assets/images/items/custom_crop-watering_can.png"
+    }
+  ],
+  "residents": [
+    {
+      "id": "farmer_glenn",
+      "slug": "farmer-glenn",
+      "name": "글렌",
+      "role": "농장주, 농부, 농부 전직 안내자",
+      "region": "hill_village",
+      "description": [
+        "계절과 작물 상태를 읽으며 마을 농업을 이끌고, 농부의 길을 안내하는 숙련된 농장주"
+      ],
+      "personality": "차분함, 느긋함, 관찰력, 숙련됨, 책임감",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/glenn.png",
+      "target": "assets/images/residents/farmer-glenn.png"
+    },
+    {
+      "id": "hill_baker_erin",
+      "slug": "hill-baker-erin",
+      "name": "에린",
+      "role": "작은 제과·식품 작업실 운영자",
+      "region": "hill_village",
+      "description": [
+        "새로운 맛을 계속 만드는 것보다 익숙한 음식을 매일 무리 없이 이어 가는 데 능한 차분하고 생활감 있는 식품 작업 주민"
+      ],
+      "personality": "차분함, 꾸준함, 생활력, 현실적인 배려, 변화를 서두르지 않음",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/erin.png",
+      "target": "assets/images/residents/hill-baker-erin.png"
+    },
+    {
+      "id": "hill_engineer_theo",
+      "slug": "hill-engineer-theo",
+      "name": "테오",
+      "role": "기계·설비 장인",
+      "region": "hill_village",
+      "description": [
+        "새로운 장치를 만드는 것보다 사람들이 반복해서 겪는 불편을 먼저 찾아 그것을 어떻게 덜 번거롭게 만들지 생각하는 실용적인 설비 장인"
+      ],
+      "personality": "실용적, 관찰력, 개선 욕구, 끈질김, 과하게 손보는 버릇",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/theo.png",
+      "target": "assets/images/residents/hill-engineer-theo.png"
+    },
+    {
+      "id": "hill_miner_bran",
+      "slug": "hill-miner-bran",
+      "name": "브란",
+      "role": "광부·채굴꾼",
+      "region": "hill_village",
+      "description": [
+        "광석을 얼마나 많이 캐느냐보다 어디로 들어갔고 어떻게 돌아올지를 먼저 생각하는 지형 감각 좋은 채굴꾼"
+      ],
+      "personality": "현실적, 방향감각, 끈기, 위험 과시를 싫어함, 건조한 농담",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/bran.png",
+      "target": "assets/images/residents/hill-miner-bran.png"
+    },
+    {
+      "id": "hill_smith_doren",
+      "slug": "hill-smith-doren",
+      "name": "도렌",
+      "role": "금속·제련 장인",
+      "region": "hill_village",
+      "description": [
+        "좋은 재료를 한 번 잘 다루는 것보다 같은 기준의 결과를 계속 만들어 내는 것을 더 중요하게 여기는 꾸준하고 기준이 엄격한 금속 장인"
+      ],
+      "personality": "묵직함, 엄격한 기준, 반복에 강함, 감정기복 적음, 자기 기준에 대한 고집",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/doren.png",
+      "target": "assets/images/residents/hill-smith-doren.png"
+    },
+    {
+      "id": "night_market_broker_viola",
+      "slug": "night-market-broker-viola",
+      "name": "비올라",
+      "role": "야시장 상인·중개인",
+      "region": "brick_village",
+      "description": [
+        "물건 자체보다 지금 이걸 필요로 하는 사람이 누구인가를 먼저 떠올리는, 사람과 수요를 연결하는 데 능한 야시장 중개인"
+      ],
+      "personality": "사교적, 눈치 빠름, 기억력 좋음, 유연함, 사람을 너무 빨리 안다고 생각하는 경향",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/viola.png",
+      "target": "assets/images/residents/night-market-broker-viola.png"
+    },
+    {
+      "id": "night_market_logistics_luca",
+      "slug": "night-market-logistics-luca",
+      "name": "루카",
+      "role": "야시장 물류·정리 담당 주민",
+      "region": "brick_village",
+      "description": [
+        "물건을 많이 옮기는 것보다 들어온 물건이 필요한 순간에 바로 나갈 수 있도록 자리와 순서를 맞추는 데 능한 야시장 물류 담당자"
+      ],
+      "personality": "정리정돈, 빠른 상황판단, 침착함, 실무적, 약간 통제하려는 성향",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/luca.png",
+      "target": "assets/images/residents/night-market-logistics-luca.png"
+    },
+    {
+      "id": "village_carrier_leni",
+      "slug": "village-carrier-leni",
+      "name": "레니",
+      "role": "운송·배달 담당 주민",
+      "region": "hill_village",
+      "description": [
+        "빨리 움직이는 것보다 여러 사람의 물건과 약속이 서로 꼬이지 않게 순서를 맞추는 데 능한 부지런한 운송 주민"
+      ],
+      "personality": "활동적, 책임감, 좋은 기억력, 약속에 민감함, 약간 성급함",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/leni.png",
+      "target": "assets/images/residents/village-carrier-leni.png"
+    },
+    {
+      "id": "village_general_store_rowan",
+      "slug": "village-general-store-rowan",
+      "name": "로웬",
+      "role": "잡화점 주인",
+      "region": "brick_village",
+      "description": [
+        "물건의 가격보다 어디에 어떻게 쓸 수 있는지를 먼저 보고, 다양한 생활 물건과 주민의 필요를 이어 주는 호기심 많은 잡화점 주인"
+      ],
+      "personality": "호기심, 눈썰미, 실용적, 유연함, 사람 좋아함",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/rowan.png",
+      "target": "assets/images/residents/village-general-store-rowan.png"
+    },
+    {
+      "id": "village_grocer_mira",
+      "slug": "village-grocer-mira",
+      "name": "미라",
+      "role": "식료품점 사장",
+      "region": "brick_village",
+      "description": [
+        "마을 주민들의 식탁을 책임지는 현실적이고 부지런한 식료품점 주인"
+      ],
+      "personality": "실용적, 부지런함, 책임감, 다정함, 엄격함",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/mira.png",
+      "target": "assets/images/residents/village-grocer-mira.png"
+    },
+    {
+      "id": "village_healer_lyle",
+      "slug": "village-healer-lyle",
+      "name": "라일",
+      "role": "치료사·약초사",
+      "region": "brick_village",
+      "description": [
+        "무언가 문제가 생기면 곧바로 결론부터 내리기보다 평소와 무엇이 달라졌는지를 먼저 확인하는 차분하고 꼼꼼한 치료사"
+      ],
+      "personality": "침착함, 꼼꼼함, 신중함, 약간 건조함, 은근한 친절",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/lyle.png",
+      "target": "assets/images/residents/village-healer-lyle.png"
+    },
+    {
+      "id": "village_innkeeper_maren",
+      "slug": "village-innkeeper-maren",
+      "name": "마렌",
+      "role": "여관주인",
+      "region": "brick_village",
+      "description": [
+        "사람이 말을 하고 싶은지, 그냥 조용히 쉬고 싶은지를 잘 알아차리면서도 함부로 캐묻지 않는 차분한 여관주인"
+      ],
+      "personality": "차분함, 관찰력, 배려, 현실적, 적당한 거리감",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/maren.png",
+      "target": "assets/images/residents/village-innkeeper-maren.png"
+    },
+    {
+      "id": "village_restaurant_serra",
+      "slug": "village-restaurant-serra",
+      "name": "세라",
+      "role": "식당 운영자·요리사",
+      "region": "brick_village",
+      "description": [
+        "정해진 방식만 따르기보다 재료의 상태와 조합을 직접 보고 지금 가장 잘 살릴 방법을 빠르게 판단하는 감각 좋은 요리사"
+      ],
+      "personality": "감각적, 빠른 판단, 솔직함, 활기, 약간의 고집",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/serra.png",
+      "target": "assets/images/residents/village-restaurant-serra.png"
+    },
+    {
+      "id": "clocktower_astronomer_estelle",
+      "slug": "clocktower-astronomer-estelle",
+      "name": "에스텔",
+      "role": "천문학자",
+      "region": "brick_village",
+      "description": [
+        "말수는 적지만 별에 관한 질문을 받으면 누구보다 빠르게 이야기하는 젊은 천문학자"
+      ],
+      "personality": "소심함, 관측, 정확성, 야간 생활, 별, 보석",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/estelle.png",
+      "target": "assets/images/residents/clocktower-astronomer-estelle.png"
+    },
+    {
+      "id": "hill_farmhand_finn",
+      "slug": "hill-farmhand-finn",
+      "name": "핀",
+      "role": "글렌의 농장에서 일하는 농장 보조",
+      "region": "hill_village",
+      "description": [
+        "새로운 씨앗과 낯선 방법에는 누구보다 먼저 손을 대지만, 익숙해진 일을 끝까지 돌보는 법은 아직 배우고 있는 젊은 농장 보조"
+      ],
+      "personality": "호기심, 빠른 적응, 새로운 시작, 마무리 연습, 가벼운 솔직함",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/finn.png",
+      "target": "assets/images/residents/hill-farmhand-finn.png"
+    },
+    {
+      "id": "hill_maintenance_worker_edgar",
+      "slug": "hill-maintenance-worker-edgar",
+      "name": "에드거",
+      "role": "루미나 타운 공용 설비 보수공",
+      "region": "hill_village",
+      "description": [
+        "고장 난 설비는 확실하게 고치지만 사람과 물건 모두에게 처음부터 기대하지 않으려는 퉁명스러운 젊은 보수공"
+      ],
+      "personality": "퉁명스러움, 방어적 태도, 유지 보수, 책임감, 상실, 오래된 우정",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/edgar.png",
+      "target": "assets/images/residents/hill-maintenance-worker-edgar.png"
+    },
+    {
+      "id": "hill_night_market_vendor_lili",
+      "slug": "hill-night-market-vendor-lili",
+      "name": "리리",
+      "role": "야시장 음식·음료 노점 공동 운영자",
+      "region": "hill_village",
+      "description": [
+        "사람과 분위기의 변화를 빠르게 읽어 노점에 활기를 만들지만 뒤처리는 루루가 해 줄 것이라 기대하기 쉬운 쌍둥이 동생이다."
+      ],
+      "personality": "호기심, 즉흥성, 관찰력, 말장난, 분위기, 책임의 성장, 쌍둥이 동생",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/lili.png",
+      "target": "assets/images/residents/hill-night-market-vendor-lili.png"
+    },
+    {
+      "id": "hill_night_market_vendor_lulu",
+      "slug": "hill-night-market-vendor-lulu",
+      "name": "루루",
+      "role": "야시장 음식·음료 노점 공동 운영자",
+      "region": "hill_village",
+      "description": [
+        "해야 할 일을 먼저 정리해 노점을 안정적으로 굴리지만 다른 사람의 몫까지 떠안기 쉬운 쌍둥이 언니다."
+      ],
+      "personality": "책임감, 정리, 마감, 무심한 농담, 숨긴 피로, 쌍둥이 언니",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/lulu.png",
+      "target": "assets/images/residents/hill-night-market-vendor-lulu.png"
+    },
+    {
+      "id": "hill_relic_storyteller_oscar",
+      "slug": "hill-relic-storyteller-oscar",
+      "name": "오스카",
+      "role": "유물 설화 수집가, 이야기꾼",
+      "region": "hill_village",
+      "description": [
+        "확인된 유물 기록과 과장된 설화를 따로 모으면서도, 사람들에게는 기억에 남는 이야기를 먼저 들려주는 수집가"
+      ],
+      "personality": "유물, 이야기, 과장, 기록, 호기심, 숨겨진 수집실",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/oscar.png",
+      "target": "assets/images/residents/hill-relic-storyteller-oscar.png"
+    },
+    {
+      "id": "night_market_fortune_teller_lorenz",
+      "slug": "night-market-fortune-teller-lorenz",
+      "name": "로렌츠",
+      "role": "루미나 타운 야시장의 점술가",
+      "region": "brick_village",
+      "description": [
+        "미래를 실제로 예언할 수 있다고 믿지는 않지만 관찰과 대화를 통해 손님이 자기 답을 말하게 돕는 유쾌하고 수상한 인상의 점술가"
+      ],
+      "personality": "점술 연출, 관찰, 유랑 상단, 정착, 야시장, 윤리적 경계, 유쾌한 괴짜",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/lorenz.png",
+      "target": "assets/images/residents/night-market-fortune-teller-lorenz.png"
+    },
+    {
+      "id": "village_jeweler_vivian",
+      "slug": "village-jeweler-vivian",
+      "name": "비비안",
+      "role": "보석 세공사·장신구 디자이너",
+      "region": "brick_village",
+      "description": [
+        "자신의 아름다움을 당당하게 사랑하며 모든 사람이 각자의 아름다움을 가꿀 자격이 있다고 믿는 화려한 보석 세공사"
+      ],
+      "personality": "자기애, 아름다움, 노력, 세공, 솔직한 칭찬, 완벽한 연출",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/vivian.png",
+      "target": "assets/images/residents/village-jeweler-vivian.png"
+    },
+    {
+      "id": "village_night_caretaker_morris",
+      "slug": "village-night-caretaker-morris",
+      "name": "모리스",
+      "role": "루미나 타운 야간 생활 관리인",
+      "region": "hill_village",
+      "description": [
+        "밤의 작은 이상을 한 번 정확히 확인하고 다음 사람이 처리할 수 있도록 남겨 두지만, 자신의 피로와 감정만은 인수인계하지 못하는 야간 생활 관리인"
+      ],
+      "personality": "침착함, 관찰, 야간 생활, 인수인계, 절제, 오래된 이웃",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/morris.png",
+      "target": "assets/images/residents/village-night-caretaker-morris.png"
+    },
+    {
+      "id": "village_resident_elma",
+      "slug": "village-resident-elma",
+      "name": "엘마",
+      "role": "없음",
+      "region": "hill_village",
+      "description": [
+        "부드럽게 말하지만 해야 할 일과 멈춰야 할 순간을 빠르게 판단하는 단호한 할머니"
+      ],
+      "personality": "나긋함, 빠른 판단, 생활 경험, 경계, 새벽 산책, 지나친 선결정",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/elma.png",
+      "target": "assets/images/residents/village-resident-elma.png"
+    },
+    {
+      "id": "village_resident_walter",
+      "slug": "village-resident-walter",
+      "name": "월터",
+      "role": "없음",
+      "region": "hill_village",
+      "description": [
+        "나이가 들어도 세상의 변화가 여전히 재미있어 모르는 것을 거리낌 없이 묻는 호기심 많은 할아버지"
+      ],
+      "personality": "호기심, 능청스러움, 배움, 새벽 산책, 끈기, 체력 과신",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/walter.png",
+      "target": "assets/images/residents/village-resident-walter.png"
+    },
+    {
+      "id": "brick_architect_matilda",
+      "slug": "brick-architect-matilda",
+      "name": "마틸다",
+      "role": "건축 설계가·공간 기획자",
+      "region": "brick_village",
+      "description": [
+        "휴고와 함께 벽돌마을을 세웠으며 아름다움과 실제 생활이 함께 유지되는 공간을 설계하는 우아한 건축가"
+      ],
+      "personality": "우아함, 관찰력, 높은 기준, 침착함, 공간 감각, 은근한 자부심",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/matilda.png",
+      "target": "assets/images/residents/brick-architect-matilda.png"
+    },
+    {
+      "id": "brick_developer_hugo",
+      "slug": "brick-developer-hugo",
+      "name": "휴고",
+      "role": "도시 개발 사업가·현장 총괄",
+      "region": "brick_village",
+      "description": [
+        "언덕마을의 현장 일꾼에서 출발해 마틸다와 함께 벽돌마을 개발을 이끈 호탕하고 책임감 강한 자수성가형 사업가"
+      ],
+      "personality": "호탕함, 추진력, 현장 감각, 통 큰 씀씀이, 책임감, 확장 욕구",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/hugo.png",
+      "target": "assets/images/residents/brick-developer-hugo.png"
+    },
+    {
+      "id": "brick_development_heir_lloyd",
+      "slug": "brick-development-heir-lloyd",
+      "name": "로이드",
+      "role": "개발 사업 기획 보조·계약 실무 수습",
+      "region": "brick_village",
+      "description": [
+        "부모가 세운 벽돌마을을 자랑스러워하며 자신의 판단으로 가업을 잇기 위해 작은 계약과 실무부터 배워 나가는 자신만만한 후계자 유망주"
+      ],
+      "personality": "자신감, 성장 욕구, 잦은 실수, 빠른 학습, 책임감, 은근한 허세",
+      "source": null,
+      "target": "assets/images/residents/brick-development-heir-lloyd.png"
+    },
+    {
+      "id": "brick_trade_wanderer_raul",
+      "slug": "brick-trade-wanderer-raul",
+      "name": "라울",
+      "role": "무역 화물 운송·현장 조율 담당 방랑가",
+      "region": "brick_village",
+      "description": [
+        "이든이 세운 출고 계획을 항구와 현장에서 완성하고 길과 사람의 변화를 다음 계획으로 가져오는 젊은 방랑가"
+      ],
+      "personality": "활동적, 신뢰, 현장 판단, 책임감, 교섭, 든든함",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/raul.png",
+      "target": "assets/images/residents/brick-trade-wanderer-raul.png"
+    },
+    {
+      "id": "hill_mining_operator_iden",
+      "slug": "hill-mining-operator-iden",
+      "name": "이든",
+      "role": "자동 광물 생산 관리자·무역 계약 담당",
+      "region": "hill_village",
+      "description": [
+        "늘 잠이 덜 깬 듯 보이지만 생산 기록과 계약 조건의 작은 오차를 놓치지 않는 자동 광물 생산 관리자"
+      ],
+      "personality": "나른함, 정확한 계산, 관찰, 효율, 책임감, 편안한 침묵",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/iden.png",
+      "target": "assets/images/residents/hill-mining-operator-iden.png"
+    },
+    {
+      "id": "hill_workshop_apprentice_liv",
+      "slug": "hill-workshop-apprentice-liv",
+      "name": "리브",
+      "role": "도렌의 공방에서 일하는 견습생",
+      "region": "hill_village",
+      "description": [
+        "다른 사람은 쓸 수 있는지부터 판단하지만, 리브는 어디에 다시 쓸 수 있을지부터 생각하는 젊은 공방 견습생"
+      ],
+      "personality": "가능성 발견, 재사용 관점, 실험적 사고, 마무리 학습, 차분한 호기심",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/liv.png",
+      "target": "assets/images/residents/hill-workshop-apprentice-liv.png"
+    },
+    {
+      "id": "private_island_farmer_mabel",
+      "slug": "private-island-farmer-mabel",
+      "name": "메이블",
+      "role": "개인 섬에서 자기 농장을 운영하는 독립 농부",
+      "region": "private_island",
+      "description": [
+        "자기 방식으로 농장을 만들기 위해 개인 섬으로 독립했으며 플레이어를 같은 생활을 하는 동료 섬주민으로 받아들이는 젊은 농부"
+      ],
+      "personality": "개인 섬, 독립 농부, 동료 섬주민, 생활력, 자부심, 가벼운 경쟁심",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/mabel.png",
+      "target": "assets/images/residents/private-island-farmer-mabel.png"
+    },
+    {
+      "id": "village_annex_resident_ayla",
+      "slug": "village-annex-resident-ayla",
+      "name": "아일라",
+      "role": "여관 별채 장기 체류자, 음료·가공품 정리 보조",
+      "region": "brick_village",
+      "description": [
+        "남의 평가보다 충분히 지켜본 뒤 자신의 기준으로 판단하지만 사람과의 관계까지 시간이 해결할 일처럼 미루는 장기 체류자"
+      ],
+      "personality": "담담함, 관찰, 느긋함, 독립성, 거리감, 자기 판단",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/ayla.png",
+      "target": "assets/images/residents/village-annex-resident-ayla.png"
+    },
+    {
+      "id": "village_barista_abel",
+      "slug": "village-barista-abel",
+      "name": "아벨",
+      "role": "음료점 운영자·바리스타",
+      "region": "brick_village",
+      "description": [
+        "손님의 말보다 취향과 작은 변화를 먼저 기억하며 말하지 않아도 편히 머물 수 있는 음료점을 운영하는 조용한 바리스타"
+      ],
+      "personality": "차분함, 관찰, 절제된 배려, 편안한 침묵, 세밀한 조정, 자기 취향을 모름",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/abel.png",
+      "target": "assets/images/residents/village-barista-abel.png"
+    },
+    {
+      "id": "village_wanderer_nadia",
+      "slug": "village-wanderer-nadia",
+      "name": "나디아",
+      "role": "방랑가, 로웬의 잡화점 비정기 보조",
+      "region": "brick_village",
+      "description": [
+        "어디서든 금방 살아갈 방법을 찾지만 자신이 돌아오기를 기다리는 사람과 관계를 이어 가는 방법은 아직 배우지 못한 젊은 방랑가"
+      ],
+      "personality": "적응력, 붙임성, 현실적인 유머, 가벼운 짐, 불확실한 귀환, 독립성, 돌아올 장소",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/nadia.png",
+      "target": "assets/images/residents/village-wanderer-nadia.png"
+    },
+    {
+      "id": "brick_fisherman_graham",
+      "slug": "brick-fisherman-graham",
+      "name": "그레엄",
+      "role": "루미나 타운 물가에서 오래 일해 온 어부",
+      "region": "brick_village",
+      "description": [
+        "말없이 물가를 지키며, 가까워진 사람에게는 함께 침묵할 자리부터 내어 주는 노련한 어부"
+      ],
+      "personality": "과묵함, 인내심, 관찰력, 절약, 마른 유머, 독립성",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/graham.png",
+      "target": "assets/images/residents/brick-fisherman-graham.png"
+    },
+    {
+      "id": "brick_resident_evan",
+      "slug": "brick-resident-evan",
+      "name": "에반",
+      "role": "무직·진로 탐색 중인 주민",
+      "region": "brick_village",
+      "description": [
+        "무엇이 되고 싶은지는 아직 모르지만 형에게 계속 기대는 사람으로 보이기는 싫어 여러 일을 직접 기웃거리는 아벨의 남동생"
+      ],
+      "personality": "미숙한 자립심, 솔직함, 충동적 호기심, 방어적인 허세, 빠른 감정 회복, 책임을 배우는 중",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/evan.png",
+      "target": "assets/images/residents/brick-resident-evan.png"
+    },
+    {
+      "id": "brick_resident_lumi",
+      "slug": "brick-resident-lumi",
+      "name": "루미",
+      "role": "없음. 마을 주민들의 일을 구경하고 질문하며 배우는 어린 주민",
+      "region": "brick_village",
+      "description": [
+        "차분한 어른처럼 보이고 싶어 하지만 좋아하는 것 앞에서는 기대와 설렘을 숨기지 못하는 마렌의 15살 딸"
+      ],
+      "personality": "의젓해지고 싶은 마음, 단정함, 자기 취향, 설렘, 작은 고집, 솔직한 감정, 생활 속 배움",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/lumi.png",
+      "target": "assets/images/residents/brick-resident-lumi.png"
+    },
+    {
+      "id": "private_island_settler_noel",
+      "slug": "private-island-settler-noel",
+      "name": "노엘",
+      "role": "개인 섬의 농장·생활 설비를 직접 구축하는 신규 정착 기술자",
+      "region": "private_island",
+      "description": [
+        "혼자 살기 위한 준비는 철저히 했지만 실제 섬 생활에서 생기는 변수와 사람을 찾는 마음까지는 계획하지 못한 신규 정착 기술자"
+      ],
+      "personality": "준비성, 낙관적인 현실 감각, 이론과 현장의 차이, 질문할 줄 아는 태도, 조용한 애정, 정착 초기",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/noel.png",
+      "target": "assets/images/residents/private-island-settler-noel.png"
+    },
+    {
+      "id": "brick_potter_frida",
+      "slug": "brick-potter-frida",
+      "name": "프리다",
+      "role": "도예가",
+      "region": "brick_village",
+      "description": [
+        "자기 작품을 당당하게 좋아하고 새로운 것을 만들어 보는 재미를 놓지 못하는 시원시원한 도예가이자 비비안의 할머니"
+      ],
+      "personality": "시원시원함, 자기 작품 자랑, 새 시도, 확실한 취향, 솔직한 의견, 비비안의 할머니",
+      "source": "RESOURCE_PACK_ROOT/assets/minefarm/textures/font/npc/frida.png",
+      "target": "assets/images/residents/brick-potter-frida.png"
+    },
+    {
+      "id": "hill_accountant_simon",
+      "slug": "hill-accountant-simon",
+      "name": "사이먼",
+      "role": "마을 가게의 장부 정리와 내역 확인을 맡는 회계사",
+      "region": "hill_village",
+      "description": [
+        "상대의 말을 함부로 넘기고 싶지 않아 대답이 늦어지지만, 들었던 이야기는 기억하는 토빈의 아버지이자 회계사"
+      ],
+      "personality": "신중한 대답, 느린 감정 표현, 진지하게 듣기, 기억하는 관심, 담백한 농담, 일과 생활 구분, 토빈의 아버지",
+      "source": null,
+      "target": "assets/images/residents/hill-accountant-simon.png"
+    },
+    {
+      "id": "hill_carpenter_garrett",
+      "slug": "hill-carpenter-garrett",
+      "name": "가렛",
+      "role": "목수. 생활 가구·목제품 제작과 수리를 맡는 주민",
+      "region": "hill_village",
+      "description": [
+        "재미있는 일에는 먼저 손을 들고 책임질 일에서는 손을 빼지 않는, 웬디와 놀다가 본인도 진심이 되는 목수"
+      ],
+      "personality": "장난기, 승부욕, 직접 참여, 낙관적인 시간 계산, 책임감, 솔직한 사과, 웬디의 아버지",
+      "source": null,
+      "target": "assets/images/residents/hill-carpenter-garrett.png"
+    },
+    {
+      "id": "hill_herb_grower_molly",
+      "slug": "hill-herb-grower-molly",
+      "name": "몰리",
+      "role": "자기 규모에 맞게 약초를 재배하는 주민",
+      "region": "hill_village",
+      "description": [
+        "자기 몫은 해내지만 바쁘게 사는 것 자체를 자랑하지 않으며, 가족과 자기 시간을 함께 지키는 웬디의 어머니"
+      ],
+      "personality": "느긋함, 솔직함, 개인 시간, 적정 규모의 재배, 담백한 농담, 자기 몫, 웬디의 어머니",
+      "source": null,
+      "target": "assets/images/residents/hill-herb-grower-molly.png"
+    },
+    {
+      "id": "hill_resident_hazel",
+      "slug": "hill-resident-hazel",
+      "name": "헤이즐",
+      "role": "고정된 생업 없이 집과 마을에서 자기 생활을 꾸리는 주민",
+      "region": "hill_village",
+      "description": [
+        "새로운 것을 발견하면 누군가와 그 즐거움을 나누고 싶지만 혼자 구경하는 시간도 좋아하는 토빈의 어머니"
+      ],
+      "personality": "반응을 나누는 즐거움, 솔직한 들뜸, 외출과 혼자 쉬기, 대화 중 질문, 작은 서운함, 자기 취향, 토빈의 어머니",
+      "source": null,
+      "target": "assets/images/residents/hill-resident-hazel.png"
+    },
+    {
+      "id": "hill_resident_tobin",
+      "slug": "hill-resident-tobin",
+      "name": "토빈",
+      "role": "없음. 놀이와 자기 관심거리 구경이 중심인 어린 주민",
+      "region": "hill_village",
+      "description": [
+        "남들이 지나치는 것에서 혼자 재미를 찾고 자기 방식으로 노는, 사이먼과 헤이즐의 열 살 아들이자 웬디의 단짝"
+      ],
+      "personality": "조용한 호기심, 자기 취향, 작은 고집, 놀이에 몰입, 평범한 열 살, 웬디의 친구, 보여 주고 싶은 마음",
+      "source": null,
+      "target": "assets/images/residents/hill-resident-tobin.png"
+    },
+    {
+      "id": "hill_resident_wendy",
+      "slug": "hill-resident-wendy",
+      "name": "웬디",
+      "role": "없음. 놀이와 마을 구경이 중심인 어린 주민",
+      "region": "hill_village",
+      "description": [
+        "친구에게 재미있고 씩씩한 아이로 보이고 싶어 대장을 자처하지만 겁과 승부욕도 많은, 가렛과 몰리의 열 살 딸"
+      ],
+      "personality": "대장 놀이, 놀이 발상, 승부욕, 겁을 숨김, 친구와 놀고 싶은 마음, 빠른 감정 표현, 열 살 어린이",
+      "source": null,
+      "target": "assets/images/residents/hill-resident-wendy.png"
+    }
+  ],
+  "generated": [
+    {
+      "id": "world-banner-v1",
+      "prompt": "Use case: illustration-story. Asset type: MineValley wiki section header, wide 3:1. Use the reference only for style: crisp warm pixel-art contours, small friendly square-faced townsfolk, cream clouds, fresh green leaves, honey wood, terracotta roofs, simple cheerful life-simulation aesthetic. Readable at mobile size, gentle daylight, a continuous single scene. Original editorial illustration, not an in-game screenshot. No text, letters, numbers, logos, UI frames or watermarks. A cozy farm workshop neighborhood: small vegetable beds and herb planters on the left, a modest rocky mine entrance with an ore cart, a central outdoor kitchen with breads and steaming pot, a little copper assembly workbench to the right. Three townsfolk calmly tending these activities. Grounded small-scale pastoral scene showing gathering, processing and making. No floating magic crystal or epic castle.",
+      "source": "image_gen/world-banner-v1.png",
+      "target": "assets/images/sections/world-banner-v1.png"
+    },
+    {
+      "id": "economy-banner-v1",
+      "prompt": "Use case: illustration-story. Asset type: MineValley wiki section header, wide 3:1. Use the reference only for style: crisp warm pixel-art contours, small friendly square-faced townsfolk, cream clouds, fresh green leaves, honey wood, terracotta roofs, simple cheerful life-simulation aesthetic. Readable at mobile size, gentle daylight, a continuous single scene. Original editorial illustration, not an in-game screenshot. No text, letters, numbers, logos, UI frames or watermarks. A friendly village produce market with two wooden stalls under sage green and cream canvas awnings. Show baskets of vegetables, bread, a few refined metal bars, one small copper device and a closed parcel. Two villagers exchange a parcel across a counter, a third consults a ledger with completely blank unmarked pages. Clear cozy market composition emphasizing real goods and community exchange, not treasure piles or fantasy riches.",
+      "source": "image_gen/economy-banner-v1.png",
+      "target": "assets/images/sections/economy-banner-v1.png"
+    },
+    {
+      "id": "island-banner-v1",
+      "prompt": "Use case: illustration-story. Asset type: MineValley wiki section header, wide 3:1. Use the reference only for style: crisp warm pixel-art contours, small friendly square-faced townsfolk, cream clouds, fresh green leaves, honey wood, terracotta roofs, simple cheerful life-simulation aesthetic. Readable at mobile size, gentle daylight, a continuous single scene. Original editorial illustration, not an in-game screenshot. No text, letters, numbers, logos, UI frames or watermarks. A cozy small green floating personal island above soft clouds: a timber cottage, vegetable beds, a little pond, modest workshop and footpaths. Three friendly villagers tend the garden and carry a crate together. A small simple shared notice board with completely blank unmarked parchment. Communicate building a shared home and working toward community goals. One main island fills most of the wide frame, tiny distant islands for depth.",
+      "source": "image_gen/island-banner-v1.png",
+      "target": "assets/images/sections/island-banner-v1.png"
+    },
+    {
+      "id": "wiki-emblem-v1",
+      "prompt": "Use case: logo-brand. Asset type: square wiki app icon for MineValley, readable as a favicon. Create one simple cozy game emblem: a tiny terracotta cottage roof sheltered by two bright green sprout leaves, on a warm ivory circular field with a forest-green outer ring. Center the emblem, fill most of square, keep bold chunky shapes and dark clean pixel-art-like outlines matching the supplied village illustration. Use only forest green, leaf green, terracotta and cream with minimal shading. Flat solid cream background, no text, no letters, no initials, no intricate landscape, no watermark. Original standalone icon, not a scene or mockup.",
+      "source": "image_gen/wiki-emblem-v1.png",
+      "target": "assets/images/brand/wiki-emblem-v1.png"
+    }
+  ]
+}

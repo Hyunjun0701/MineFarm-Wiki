@@ -1,0 +1,58 @@
+# 보석·정령석 도감
+
+MineValley의 보석 계열은 하위 보석 8종, 직업 속성을 나타내는 정령석 6종과 월별 탄생석 12종으로 이루어집니다. 현재 26종 모두 품질 추첨 없이 고정 품질로 제작됩니다.
+
+아래 제작법은 2026년 9월 11일 LIVE 운영본 기준입니다. 보석 제작 1회에는 시설 물 60이 필요합니다.
+
+## 하위 보석 8종
+
+하위 보석은 광물 블록과 네더라이트 파편을 사용하며, 현재 제작 시간은 모두 60초입니다.
+
+| 보석 | 재료 |
+| --- | --- |
+| ![홍옥석](../assets/images/items/gem-red_gem.png) 홍옥석 | 레드스톤 블록 9개, 금 블록 3개, 네더라이트 파편 1개 |
+| ![청옥석](../assets/images/items/gem-blue_gem.png) 청옥석 | 청금석 블록 10개, 철 블록 4개, 네더라이트 파편 1개 |
+| ![녹옥석](../assets/images/items/gem-green_gem.png) 녹옥석 | 구리 블록 8개, 에메랄드 블록 2개, 네더라이트 파편 1개 |
+| ![황옥석](../assets/images/items/gem-yellow_gem.png) 황옥석 | 금 블록 6개, 레드스톤 블록 3개, 네더라이트 파편 1개 |
+| ![자옥석](../assets/images/items/gem-purple_gem.png) 자옥석 | 레드스톤 블록 8개, 청금석 블록 8개, 네더라이트 파편 1개 |
+| ![청록석](../assets/images/items/gem-turquoise_gem.png) 청록석 | 구리 블록 6개, 청금석 블록 6개, 에메랄드 블록 1개, 네더라이트 파편 1개 |
+| ![백옥석](../assets/images/items/gem-white_gem.png) 백옥석 | 철 블록 8개, 다이아몬드 블록 1개, 네더라이트 파편 1개 |
+| ![흑옥석](../assets/images/items/gem-black_gem.png) 흑옥석 | 석탄 블록 12개, 철 블록 3개, 네더라이트 파편 1개 |
+
+## 정령석 6종
+
+정령석은 하위 보석과 네더라이트 주괴를 조합하는 마도 강화 재료입니다. 현재 제작 시간은 모두 120초입니다.
+
+| 정령석 | 속성 | 재료 |
+| --- | --- | --- |
+| ![순환의 정령석](../assets/images/items/gem-spirit_stone_cycle.png) 순환의 정령석 | 농부 | 녹옥석 2개, 백옥석 1개, 흑옥석 1개, 네더라이트 주괴 1개 |
+| ![대지의 정령석](../assets/images/items/gem-spirit_stone_earth.png) 대지의 정령석 | 광부 | 흑옥석 2개, 황옥석 1개, 녹옥석 1개, 네더라이트 주괴 1개 |
+| ![물의 정령석](../assets/images/items/gem-spirit_stone_water.png) 물의 정령석 | 가공사 | 청옥석 2개, 청록석 1개, 백옥석 1개, 네더라이트 주괴 1개 |
+| ![불의 정령석](../assets/images/items/gem-spirit_stone_fire.png) 불의 정령석 | 기술자 | 홍옥석 2개, 황옥석 1개, 자옥석 1개, 네더라이트 주괴 1개 |
+| ![바람의 정령석](../assets/images/items/gem-spirit_stone_wind.png) 바람의 정령석 | 방랑가 | 청록석 2개, 청옥석 1개, 자옥석 1개, 네더라이트 주괴 1개 |
+| ![공명의 정령석](../assets/images/items/gem-spirit_stone_resonance.png) 공명의 정령석 | 공통 | 자옥석 2개, 백옥석 1개, 청록석 1개, 네더라이트 주괴 1개 |
+
+## 탄생석 12종
+
+탄생석은 하위 보석, 네더라이트 주괴와 대량의 압축 광물을 사용하는 상위 보석입니다. 현재 제작 시간은 모두 5초지만 재료량이 매우 크므로 시작 전에 수량을 다시 확인하세요.
+
+| 월 | 탄생석 | 재료 |
+| ---: | --- | --- |
+| 1월 | ![베스퍼](../assets/images/items/gem-vesper.png) 베스퍼 | 흑옥석 8개, 자옥석 6개, 네더라이트 주괴 8개, 압축 금 64개, 압축 다이아몬드 56개 |
+| 2월 | ![루나리스](../assets/images/items/gem-lunaris.png) 루나리스 | 백옥석 8개, 자옥석 6개, 네더라이트 주괴 8개, 압축 다이아몬드 64개, 압축 청금석 128개 |
+| 3월 | ![네레이아](../assets/images/items/gem-nereia.png) 네레이아 | 청옥석 8개, 청록석 6개, 네더라이트 주괴 8개, 압축 청금석 192개, 압축 구리 192개 |
+| 4월 | ![루미나](../assets/images/items/gem-lumina.png) 루미나 | 황옥석 8개, 백옥석 6개, 네더라이트 주괴 8개, 압축 금 96개, 압축 다이아몬드 56개 |
+| 5월 | ![실바리스](../assets/images/items/gem-silvaris.png) 실바리스 | 녹옥석 8개, 청록석 6개, 네더라이트 주괴 8개, 압축 에메랄드 64개, 압축 구리 128개 |
+| 6월 | ![셀레네](../assets/images/items/gem-selene.png) 셀레네 | 백옥석 8개, 녹옥석 6개, 네더라이트 주괴 8개, 압축 다이아몬드 48개, 압축 에메랄드 48개 |
+| 7월 | ![솔레아](../assets/images/items/gem-solea.png) 솔레아 | 홍옥석 8개, 황옥석 6개, 네더라이트 주괴 8개, 압축 레드스톤 192개, 압축 금 128개 |
+| 8월 | ![플로라](../assets/images/items/gem-flora.png) 플로라 | 녹옥석 8개, 황옥석 6개, 네더라이트 주괴 8개, 압축 에메랄드 64개, 압축 금 64개 |
+| 9월 | ![아주라](../assets/images/items/gem-azura.png) 아주라 | 청옥석 8개, 백옥석 6개, 네더라이트 주괴 8개, 압축 청금석 192개, 압축 다이아몬드 48개 |
+| 10월 | ![프리즈마](../assets/images/items/gem-prisma.png) 프리즈마 | 홍옥석·청옥석·녹옥석·황옥석 각 6개, 네더라이트 주괴 4개 |
+| 11월 | ![솔리스](../assets/images/items/gem-solis.png) 솔리스 | 황옥석 6개, 홍옥석 4개, 백옥석 4개, 네더라이트 주괴 10개, 압축 금 192개 |
+| 12월 | ![아스트라](../assets/images/items/gem-astra.png) 아스트라 | 자옥석 8개, 청옥석 4개, 백옥석 4개, 네더라이트 주괴 8개, 압축 다이아몬드 64개 |
+
+## 사용처
+
+하위 보석은 정령석과 탄생석의 재료가 되며, 세공에서는 반지·귀걸이·목걸이·팔찌와 브로치 제작에 사용됩니다. 정령석은 직업 속성 장신구와 마도공학 계열 제작에 연결됩니다.
+
+관련 문서: [광물·제련 도감](minerals-and-smelting.md) · [가공](../world/processing.md) · [기술 설비](../world/technology.md)

@@ -1,0 +1,21 @@
+{
+  "asset": "jobs-banner-v1.png",
+  "purpose": "직업 섹션 소개용 콘셉트 일러스트",
+  "generator": "built-in image_gen",
+  "prompt": "Use case: illustration-story\nAsset type: MineValley wiki jobs section banner, wide 3:1 horizontal composition\nInput images: the five supplied images are visual style and profession references only: farmer, miner, processor, technician, wanderer respectively. Keep their friendly simple square-faced human character language, crisp pixel-art-inspired outlines, warm wooden village world and accessible life-simulation mood. Do not copy the interface frames or buttons.\nPrimary request: an original continuous village street scene showing exactly five friendly adult townsfolk, one per profession, collaborating during an ordinary sunny workday: a farmer tending a small vegetable plot with a harvest basket; a miner with a pickaxe and an ore cart beside a modest mine entrance; a processor at an open workshop with bread, a steaming cooking pot and a few cut gems; a technician assembling a small copper-and-wood mechanism at a workbench; a wandering courier talking to the group with a satchel and an open order ledger. Make the five roles equally readable, connected by the path and the exchange of everyday goods.\nStyle: cozy, cute and clear illustrated game world with chunky pixel-art contours and restrained detail, soft green foliage, cream clouds, honey wood, terracotta roofs and small copper accents. Cheerful human community, gentle eye-level slightly isometric composition, not epic fantasy, no monumental castle or floating magical crystal. Use bright daytime lighting and broad clean color areas. Landscape banner composition with useful content concentrated centrally and breathing room along edges, approximately 1800 by 600.\nConstraints: no words, no letters, no numbers, no logos, no UI, no borders, no watermark. No extra foreground characters. This is conceptual editorial illustration, not a screenshot or a promise of exact in-game layout.",
+  "references": [
+    "Graphic/GUI/디자이너원본/메뉴_직업/job_farmer.png",
+    "Graphic/GUI/디자이너원본/메뉴_직업/job_miner.png",
+    "Graphic/GUI/디자이너원본/메뉴_직업/job_processor.png",
+    "Graphic/GUI/디자이너원본/메뉴_직업/job_engineer.png",
+    "Graphic/GUI/디자이너원본/메뉴_직업/job_wanderer.png"
+  ],
+  "reusedArt": {
+    "farmer.png": "job_farmer.png",
+    "miner.png": "job_miner.png",
+    "processor.png": "job_processor.png",
+    "technician.png": "job_engineer.png",
+    "wanderer.png": "job_wanderer.png"
+  },
+  "note": "배너와 직업 메뉴 원화는 소개용 이미지이며, 실서버 조작 화면이나 배치 증거가 아님. 게임 원화는 수정 없이 복사."
+}
