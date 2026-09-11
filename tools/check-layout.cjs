@@ -27,7 +27,7 @@ for(const entry of index){
 const summary=fs.readFileSync(path.join(ROOT,'SUMMARY.md'),'utf8');
 assert.match(summary,/  \* \[주문소\]\(economy\/public-orders.md\)\r?\n    \* \[방랑가 전용 개인 주문\]/);
 const orders=fs.readFileSync(path.join(OUT,'economy/public-orders.html'),'utf8');
-assert.match(orders,/<h2 id="방랑가-전용-개인-주문">/);
+assert.match(orders,/<h2 id="wanderer-private-orders">/);
 assert.match(orders,/<a class="info-card" href="private-orders.html">/);
 assert.ok(counts.tabs>=6&&counts.steps>=8&&counts.expandables>=12&&counts.cards>=20);
 console.log(JSON.stringify({counts,failures}));
