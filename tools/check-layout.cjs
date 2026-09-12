@@ -30,5 +30,15 @@ const orders=fs.readFileSync(path.join(OUT,'economy/public-orders.html'),'utf8')
 assert.match(orders,/<h2 id="wanderer-private-orders">/);
 assert.match(orders,/<a class="info-card" href="private-orders.html">/);
 assert.ok(counts.tabs>=6&&counts.steps>=8&&counts.expandables>=12&&counts.cards>=20);
+const media=JSON.parse(fs.readFileSync(path.join(ROOT,'assets/media-slots.json'),'utf8'));
+assert.equal(new Set(media.slots.map(s=>s.id)).size,media.slots.length,'Duplicate media slot id');
+assert.ok(fs.existsSync(path.join(ROOT,media.placeholder)),'Missing blank media frame');
+for(const page of new Set(media.slots.map(s=>s.page))){
+ const html=fs.readFileSync(path.join(OUT,page.replace(/\.md$/,'.html')),'utf8');
+ const reserved=[...html.matchAll(/<img\b[^>]*src="[^"]*\/media-slots\/landscape\.svg"/g)].length;
+ assert.equal(reserved,media.slots.filter(s=>s.page===page).length,page+': reserved media count');
+}
+const homeHtml=fs.readFileSync(path.join(OUT,'README.html'),'utf8');
+assert.equal((homeHtml.match(/class="card-cover"/g)||[]).length,6,'Home guide covers');
 console.log(JSON.stringify({counts,failures}));
 if(failures.length)process.exitCode=1;

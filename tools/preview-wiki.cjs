@@ -54,16 +54,18 @@ async function main() {
     const html=`<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(entry.title)} · MineValley 위키</title><link rel="icon" href="${prefix}assets/images/brand/wiki-emblem-v1.png"><link rel="stylesheet" href="${prefix}theme.css"></head><body>
 <a class="skip" href="#main">본문 바로가기</a>
 <header><button id="menu-toggle" aria-label="목차 열기" aria-expanded="false">☰</button><a class="brand" href="${href('README.md')}"><img src="${prefix}assets/images/brand/wiki-emblem-v1.png" width="40" height="40" alt=""><span>MineValley<small>마인밸리 플레이어 위키</small></span></a><div class="search"><label for="search">위키 검색</label><input id="search" type="search" placeholder="아이템, 직업, 주민 검색" autocomplete="off" aria-controls="search-results"><div id="search-results" hidden></div></div><button id="theme-toggle" aria-label="화면 밝기 전환">◐</button></header>
-<div class="preview-note">전체 문서 디자인 미리보기 · 실제 GitBook 테마와 다를 수 있습니다</div>
+<div class="preview-note">공개 전 디자인 시안 · 빈 프레임은 사진·영상 자료를 받을 자리입니다 · 실제 GitBook 배치와 다를 수 있습니다</div>
 <div class="layout"><nav id="sidebar" aria-label="문서 목차">${nav}</nav><main id="main" class="${entry.file==='README.md'?'home':''}"><div class="breadcrumb">MINEVALLEY GUIDE <span>/ ${esc(entry.title)}</span></div><article>${content}</article><div class="pager">${pager}</div><footer>게임 속 현재 안내와 함께 확인해 주세요. · <a href="${href('help/README.md')}">도움말</a></footer></main><aside aria-label="이 페이지의 목차"><strong>이 페이지에서</strong>${toc}</aside></div>
 <script>window.WIKI_ROOT=${JSON.stringify(prefix)};</script><script src="${prefix}app.js"></script></body></html>`;
     const dest=path.join(OUT,htmlPath(entry.file));fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,html);
-    search.push({title:entry.title,path:htmlPath(entry.file),text:md.replace(/{%[\s\S]*?%}/g,' ').replace(/<[^>]*>/g,' ').replace(/!\[[^\]]*\]\([^)]*\)/g,'').replace(/\[([^\]]+)\]\([^)]*\)/g,'$1').replace(/[|#*`>{}]/g,' ').replace(/\s+/g,' ').trim()});
+    // Use rendered text so linked item images do not leak Markdown paths into snippets.
+    const searchText=content.replace(/<!--[\s\S]*?-->/g,' ').replace(/<[^>]*>/g,' ').replace(/&(amp|lt|gt|quot|#39|nbsp);/g,(_,entity)=>({amp:'&',lt:'<',gt:'>',quot:'"','#39':"'",nbsp:' '}[entity])).replace(/\s+/g,' ').trim();
+    search.push({title:entry.title,path:htmlPath(entry.file),text:searchText});
   }
   fs.writeFileSync(path.join(OUT,'search-index.json'),JSON.stringify(search));
   fs.writeFileSync(path.join(OUT,'index.html'),'<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=README.html"><a href="README.html">MineValley 위키 열기</a>');
   for(const entry of fs.readdirSync(path.join(ROOT,'assets'),{recursive:true,withFileTypes:true})){
-    if(!entry.isFile()||!entry.name.endsWith('.png'))continue;
+    if(!entry.isFile()||!/\.(?:png|svg)$/.test(entry.name))continue;
     const src=path.join(entry.parentPath||entry.path,entry.name),dest=path.join(OUT,path.relative(ROOT,src));fs.mkdirSync(path.dirname(dest),{recursive:true});fs.copyFileSync(src,dest);
   }
   fs.copyFileSync(path.join(__dirname,'preview-theme.css'),path.join(OUT,'theme.css'));

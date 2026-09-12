@@ -1,16 +1,72 @@
 # 농사
 
-MineValley의 농사는 밭을 만들고 씨앗을 심은 뒤, 물을 관리하며 작물을 수확하는 생활 콘텐츠입니다. 농부가 아니어도 농사를 시작할 수 있고, 농부는 더 다양한 작물과 편의 기능을 단계적으로 활용합니다.
+씨앗을 심고 물을 관리해 작물을 수확하는 방법을 안내합니다.
 
-## 기본 흐름
+## 시작 전에 <a href="#before-you-start" id="before-you-start"></a>
 
-1. 재배할 수 있는 밭과 씨앗을 준비합니다.
-2. 빈 밭에 씨앗을 심습니다.
-3. 심은 밭에 물을 주고 성장 상태를 확인합니다.
-4. 다 자란 작물을 수확합니다.
-5. 수확물을 농작물창고에 보관하거나 가공·거래·납품에 사용합니다.
+| 준비할 것 | 확인할 것 |
+| --- | --- |
+| 밭과 씨앗 | 해당 씨앗을 심을 수 있는 재배 공간 |
+| 물 | 씨앗을 심은 뒤 물을 공급할 준비 |
+| 보관 공간 | 수확물을 확인하고 꺼낼 공간 |
 
-작물은 물이 있는 밭에서 시간이 흘러야 자랍니다. 비어 있는 밭에 미리 준 물은 새로 심은 작물의 성장 시간으로 그대로 이어지지 않으므로, 씨앗을 심은 뒤 밭 상태를 다시 확인하세요.
+{% hint style="success" %}
+**기본 농사는 농부가 아니어도 시작할 수 있습니다.** 허브와 대형 작물은 별도의 전문 해금과 재배 조건을 확인하세요.
+{% endhint %}
+
+## 영상으로 따라가기 <a href="#farming-video" id="farming-video"></a>
+
+<!-- MEDIA_SLOT farm-overview-video: supplied gameplay video, not an illustration. -->
+<figure><img src="../assets/media-slots/landscape.svg" alt="농사 전체 과정 영상 자리 · 촬영 자료 대기"><figcaption><p>심기 → 물 관리 → 수확·보관</p></figcaption></figure>
+
+## 첫 재배 따라가기 <a href="#first-crop" id="first-crop"></a>
+
+{% stepper %}
+{% step %}
+### 밭과 씨앗 준비
+
+재배할 수 있는 밭과 씨앗을 준비합니다. 일반 씨앗과 대형 씨앗은 구분해서 확인하세요.
+
+<!-- MEDIA_SLOT farm-preparation-image -->
+<figure><img src="../assets/media-slots/landscape.svg" alt="밭과 씨앗 준비 화면 자리 · 촬영 자료 대기"><figcaption><p>밭과 씨앗 확인</p></figcaption></figure>
+{% endstep %}
+{% step %}
+### 씨앗 심기
+
+빈 밭에 씨앗을 심고, 밭의 상태를 확인합니다.
+
+<!-- MEDIA_SLOT farm-planting-image -->
+<figure><img src="../assets/media-slots/landscape.svg" alt="씨앗 심기 화면 자리 · 촬영 자료 대기"><figcaption><p>씨앗을 심은 밭</p></figcaption></figure>
+{% endstep %}
+{% step %}
+### 물을 주고 성장 확인
+
+심은 밭에 물을 주고 성장 상태를 확인합니다. 작물은 물이 있는 밭에서 시간이 흘러야 자랍니다.
+
+<!-- MEDIA_SLOT farm-watering-image -->
+<figure><img src="../assets/media-slots/landscape.svg" alt="급수와 밭 상태 화면 자리 · 촬영 자료 대기"><figcaption><p>급수 후 밭 상태</p></figcaption></figure>
+
+{% hint style="warning" %}
+**씨앗을 심은 뒤 물 상태를 다시 확인하세요.** 비어 있는 밭에 미리 준 물은 새로 심은 작물의 성장 시간으로 그대로 이어지지 않습니다.
+{% endhint %}
+{% endstep %}
+{% step %}
+### 다 자란 작물 수확
+
+수확 가능한 상태가 된 작물을 수확합니다. 품질과 보관 상태를 확인하고 다음 사용처를 정하세요.
+
+<!-- MEDIA_SLOT farm-harvest-image -->
+<figure><img src="../assets/media-slots/landscape.svg" alt="작물 수확 화면 자리 · 촬영 자료 대기"><figcaption><p>수확 상태와 결과</p></figcaption></figure>
+{% endstep %}
+{% step %}
+### 농작물창고에서 확인
+
+농작물창고는 지원되는 작물을 모아 두는 전용 공간입니다. 수확물을 확인하고 필요할 때 꺼내 가공·거래·납품에 사용합니다. 일반 창고와 저장 대상이 다르므로 [보관 공간 비교](../guides/storage-and-mail.md)도 확인하세요.
+
+<!-- MEDIA_SLOT farm-storage-image -->
+<figure><img src="../assets/media-slots/landscape.svg" alt="농작물창고 화면 자리 · 촬영 자료 대기"><figcaption><p>보관한 수확물 확인</p></figcaption></figure>
+{% endstep %}
+{% endstepper %}
 
 ## 재배 작물
 
@@ -31,15 +87,24 @@ MineValley의 농사는 밭을 만들고 씨앗을 심은 뒤, 물을 관리하�
 
 작물은 여러 성장 모습을 거쳐 수확 가능한 상태가 됩니다. 수확물에는 품질 차이가 생길 수 있으며, 품질은 가공·거래·납품에서 가치 차이로 이어질 수 있습니다.
 
+<!-- MEDIA_SLOT farm-growth-comparison-image -->
+<figure><img src="../assets/media-slots/landscape.svg" alt="같은 작물의 성장 단계 비교 이미지 자리 · 촬영 자료 대기"><figcaption><p>성장 중인 모습과 수확 가능한 모습 비교</p></figcaption></figure>
+
 품질 단계와 발생 확률은 밸런스 조정 대상입니다. 위키에서는 확정되지 않은 확률표를 먼저 공개하지 않습니다.
 
 ## 대형 작물
 
-대형 작물은 일반 작물이 우연히 크게 자라는 방식이 아니라, 전용 씨앗과 별도의 재배 조건을 가진 콘텐츠입니다. 필요한 공간과 밭 상태를 확인한 뒤 심어야 하며, 일반 씨앗을 오래 두는 것만으로 바뀌지는 않습니다.
+대형 작물은 **전용 씨앗과 별도의 재배 조건**을 가진 콘텐츠입니다. 필요한 공간과 밭 상태를 확인한 뒤 심어야 합니다.
 
-## 농작물창고
+| 일반 토마토 씨앗 | 대형 토마토 씨앗 |
+| --- | --- |
+| ![일반 토마토 씨앗 아이콘](../assets/images/items/custom_crop-tomato_seed.png) | ![대형 토마토 씨앗 아이콘](../assets/images/items/custom_crop-tomato_giant_seed.png) |
 
-농작물창고는 지원되는 작물을 모아 두는 전용 저장 공간입니다. 수확물을 꺼내 가공대 재료로 사용하거나 주문과 납품에 연결할 수 있습니다. 일반 창고와 저장 대상이 다르므로 [창고와 우편함](../guides/storage-and-mail.md)도 함께 확인하세요.
+위 그림은 씨앗 아이템을 구분하는 예시입니다. 성장 중인 작물의 모습은 아닙니다.
+
+{% hint style="warning" %}
+일반 작물을 오래 두거나 우연히 성장시키는 것만으로 대형 작물이 되지는 않습니다.
+{% endhint %}
 
 ## 농사 장비
 
@@ -53,11 +118,22 @@ MineValley의 농사는 밭을 만들고 씨앗을 심은 뒤, 물을 관리하�
 
 현재 급수 한 주기는 게임 안의 하루를 기준으로 흐르며, 서버가 꺼져 있는 동안에는 시간이 진행되지 않습니다. 장비별 범위와 용량은 등급에 따라 달라지므로 설치 전 아이템 설명을 확인하세요.
 
-## 작물이 자라지 않을 때
+## 작물이 안 자라요 <a href="#crop-not-growing" id="crop-not-growing"></a>
 
-- 씨앗을 심은 뒤 밭에 물을 주었는지 확인합니다.
-- 작물이 아직 성장 중인지, 이미 수확 가능한 상태인지 외형을 확인합니다.
-- 해당 씨앗의 재배 조건이나 직업 해금 조건을 확인합니다.
-- 밭을 반복해서 부수기 전에 현재 화면을 촬영해 문의 자료로 남깁니다.
+| 확인 순서 | 살펴볼 내용 |
+| --- | --- |
+| 물 공급 | 씨앗을 심은 뒤 밭에 물을 주었나요? |
+| 성장 상태 | 아직 성장 중인가요, 이미 수확 가능한가요? |
+| 재배 조건 | 씨앗의 재배 조건과 직업 해금 조건을 갖췄나요? |
 
-관련 문서: [작물 도감](../atlas/crops.md) · [농부](../jobs/farmer.md) · [생산과 수요의 연결](production-chain.md) · [자주 묻는 질문](../guides/faq.md)
+밭을 반복해서 부수기 전에 현재 화면을 촬영해 [문의 안내](../help/README.md)에 따라 알려 주세요.
+
+## 수확 다음에는 <a href="#after-harvest" id="after-harvest"></a>
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
+<tr><td><strong>다음에 키울 작물 찾기</strong></td><td>작물 그림과 가공 사용처를 확인해요.</td><td><a href="../atlas/crops.md">작물 도감</a></td></tr>
+<tr><td><strong>수확물 가공하기</strong></td><td>재료를 음식과 음료로 만드는 방법을 알아봐요.</td><td><a href="processing.md">가공</a></td></tr>
+<tr><td><strong>첫 판매 확인하기</strong></td><td>주민 상점의 취급 품목과 판매 가능 여부를 확인해요.</td><td><a href="../economy/npc-shops.md#first-sale">첫 판매</a></td></tr>
+</tbody></table>
+
+직업 성장과 전문 해금은 [농부](../jobs/farmer.md), 활동 간 연결은 [생산과 수요의 연결](production-chain.md)에서 확인하세요.

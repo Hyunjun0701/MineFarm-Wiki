@@ -1,0 +1,21 @@
+{
+  "status": "approved-for-publication-awaiting-user-media",
+  "basis": "User requested intentionally blank image and video areas. These are not captured gameplay or playable videos. Existing approved brand illustrations and item icons are retained separately.",
+  "placeholder": "assets/media-slots/landscape.svg",
+  "aspectRatio": "16:9",
+  "publicationGate": "Moon approved publishing the current layout with intentionally blank media slots on 2026-09-12. This does not approve or complete gameplay media. Confirm each supplied asset matches the current server and replace video slots with a supported player or embed, not an image with a play icon.",
+  "slots": [
+    {"id":"home-commands-cover","page":"README.md","kind":"image","location":"명령어 모음 card cover","capture":"명령어 또는 메뉴 이용을 나타내는 대표 화면"},
+    {"id":"home-atlas-cover","page":"README.md","kind":"image","location":"그림 도감 card cover","capture":"도감을 알아볼 수 있는 실제 아이템 또는 도감 화면"},
+    {"id":"farm-overview-video","page":"world/farming.md","kind":"video","location":"영상으로 따라가기","capture":"씨앗 심기, 급수, 수확과 보관의 핵심 동작. 성장 대기는 구간 편집하고 경과를 명시"},
+    {"id":"farm-preparation-image","page":"world/farming.md","kind":"image","location":"밭과 씨앗 준비","capture":"현재 재배용 밭과 씨앗을 확인할 수 있는 화면"},
+    {"id":"farm-planting-image","page":"world/farming.md","kind":"image","location":"씨앗 심기","capture":"씨앗을 심은 직후의 밭 상태"},
+    {"id":"farm-watering-image","page":"world/farming.md","kind":"image","location":"물을 주고 성장 확인","capture":"급수 동작 또는 급수 후 상태 표시"},
+    {"id":"farm-harvest-image","page":"world/farming.md","kind":"image","location":"다 자란 작물 수확","capture":"수확 가능한 작물과 수확 결과"},
+    {"id":"farm-storage-image","page":"world/farming.md","kind":"image","location":"농작물창고에서 확인","capture":"농작물창고에 보관된 수확물을 확인하는 화면"},
+    {"id":"farm-growth-comparison-image","page":"world/farming.md","kind":"image","location":"성장 상태와 품질","capture":"같은 작물의 검증된 성장 단계별 장면. 각 원본을 받으면 순서와 단계 수 확인 후 비교 배치"},
+    {"id":"menu-navigation-video","page":"guides/menu-and-navigation.md","kind":"video","location":"메뉴에서 목적지까지","capture":"메뉴 열기와 목적지 화면 진입 과정"},
+    {"id":"menu-overview-image","page":"guides/menu-and-navigation.md","kind":"image","location":"메뉴에서 찾을 입구","capture":"상하단 입구 이름과 아이콘이 읽히는 메인 메뉴 실제 화면"},
+    {"id":"job-profile-image","page":"guides/menu-and-navigation.md","kind":"image","location":"직업 화면 읽기","capture":"현재 레벨, 경험치, 성장표 또는 전문 해금 상태가 보이는 직업 화면"}
+  ]
+}

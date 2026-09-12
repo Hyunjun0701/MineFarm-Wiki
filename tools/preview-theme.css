@@ -12,3 +12,14 @@ body{font-size:16px;line-height:1.85}nav,aside{font-size:14px}.breadcrumb,.brand
 .content-tabs{margin:24px 0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--panel)}.tab-buttons{display:none;flex-wrap:wrap;gap:4px;padding:9px;background:var(--soft);border-bottom:1px solid var(--line)}.is-enhanced>.tab-buttons{display:flex}.tab-buttons button{border:1px solid transparent;min-height:42px;min-width:0;padding:7px 13px;border-radius:8px;background:transparent;font-size:14px;font-weight:700}.tab-buttons button[aria-selected=true]{background:var(--paper);border-color:var(--line);color:var(--green);box-shadow:0 2px 5px #0001}.content-tabs>[role=tabpanel]{padding:4px 20px 20px;min-width:0}.content-tabs .table-scroll{margin:16px 0}.tab-fallback-title{font-weight:800}.is-enhanced .tab-fallback-title{display:none}article details{border:1px solid var(--line);border-radius:12px;margin:12px 0;padding:0 20px;background:var(--panel)}article details>summary{font-weight:700;cursor:pointer;padding:16px 0;line-height:1.6}article details[open]>summary{border-bottom:1px solid var(--line);color:var(--green)}article details>p:last-child{margin-bottom:20px}article details a{font-weight:600}
 @media(max-width:760px){body{font-size:16px}article>p:first-of-type{font-size:16px}main{padding:23px 17px}.card-grid{grid-template-columns:1fr}.hint{display:block;padding:15px 17px}.hint-label{display:block;margin-bottom:7px}.guide-steps>li{padding-left:44px}.guide-steps h3{font-size:17px}.content-tabs>[role=tabpanel]{padding:4px 12px 14px}.tab-buttons{gap:2px;padding:6px}.tab-buttons button{padding:7px 10px;font-size:14px}td,th{font-size:14px}article details{padding:0 15px}.brand small{font-size:10px}}
 @media print{.tab-buttons{display:none!important}.content-tabs>[role=tabpanel][hidden]{display:block!important}.tab-fallback-title{display:block!important}article details::details-content{content-visibility:visible}header,nav,aside,.preview-note,.pager{display:none}.layout{display:block}main{border:0;padding:0;box-shadow:none}}
+
+/* Native card covers and media reservation frames; never fake playback controls. */
+article .info-card:has(>.card-cover){overflow:hidden;padding:0 0 18px;gap:10px}
+article .info-card>.card-cover{display:block;width:100%;height:auto;max-height:none;max-width:none;aspect-ratio:16/9;object-fit:cover;border-radius:0;margin:0 0 6px;background:var(--soft)}
+article .info-card:has(>.card-cover)>span{margin-left:18px;margin-right:18px}
+article figure{margin:20px 0;min-width:0}
+article figure>img{display:block;width:100%;max-width:100%;height:auto;border-radius:10px}
+article figcaption{font-size:13px;color:var(--muted);text-align:center;line-height:1.6}
+article figcaption p{margin:8px 0}
+article img[src*='/media-slots/']{aspect-ratio:16/9;object-fit:contain}
+article p>a>img[src*='/residents/']{max-width:100%;height:auto}

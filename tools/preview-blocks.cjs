@@ -19,11 +19,16 @@ module.exports = function createRenderer(marked, esc) {
       return hold(`<div class="hint ${style}" role="note" aria-label="${labels[style]}"><span class="hint-label">${labels[style]}</span><div>${render(body)}</div></div>`);
     });
     md = md.replace(/<table data-view="cards">([\s\S]*?)<\/table>/g, (_, table) => {
+      const headers = [...(table.match(/<thead>([\s\S]*?)<\/thead>/)?.[1] || '').matchAll(/<th\b([^>]*)>[\s\S]*?<\/th>/g)].map(h=>h[1]);
+      const targetIndex = headers.findIndex(h=>/\bdata-card-target\b/.test(h));
+      const coverIndex = headers.findIndex(h=>/\bdata-card-cover(?:\s|$)/.test(h));
       const body = table.match(/<tbody>([\s\S]*?)<\/tbody>/)?.[1] || '';
       const cards = [...body.matchAll(/<tr>([\s\S]*?)<\/tr>/g)].map(row => {
         const cells = [...row[1].matchAll(/<td>([\s\S]*?)<\/td>/g)].map(c=>c[1]);
-        const target = cells[2]?.match(/href="([^"]+)"/)?.[1];
-        return target ? `<a class="info-card" href="${target}"><span class="card-title">${cells[0]}</span><span class="card-description">${cells[1]}</span><span class="card-action" aria-hidden="true">자세히 보기 ↗</span></a>` : `<div class="info-card"><span class="card-title">${cells[0]}</span><span class="card-description">${cells[1]}</span></div>`;
+        const target = cells[targetIndex]?.match(/href="([^"]+)"/)?.[1];
+        const coverLink = cells[coverIndex]?.match(/<a href="([^"]+)">([^<]*)<\/a>/);
+        const cover = coverLink ? `<img class="card-cover" src="${coverLink[1]}" alt="${esc(coverLink[2])}">` : '';
+        return target ? `<a class="info-card" href="${target}">${cover}<span class="card-title">${cells[0]}</span><span class="card-description">${cells[1]}</span><span class="card-action" aria-hidden="true">자세히 보기 ↗</span></a>` : `<div class="info-card">${cover}<span class="card-title">${cells[0]}</span><span class="card-description">${cells[1]}</span></div>`;
       });
       return hold(`<div class="card-grid">${cards.join('')}</div>`);
     });
