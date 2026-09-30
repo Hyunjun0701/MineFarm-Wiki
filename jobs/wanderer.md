@@ -4,17 +4,7 @@ icon: compass
 
 # 방랑가
 
-방랑가는 마을과 거래처를 돌아다니며 주민의 요청, 물품의 수요와 이동 경로를 기회로 바꾸는 직업입니다.
-
-![주민과 마주 앉아 장부를 살피는 방랑가의 직업 메뉴 원화](../assets/images/jobs/wanderer.png)
-
-{% hint style="success" %}
-**이런 생활을 좋아한다면**
-
-주민을 만나고 필요한 물건의 주인을 찾아 주는 생활을 즐겨 보세요.
-{% endhint %}
-
-## 시작 방법 <a href="#getting-started" id="getting-started"></a>
+방랑가는 주민의 의뢰를 맡고 필요한 물건을 구해 주는 직업입니다. 마을을 돌아다니며 주민을 만나고 수행할 의뢰를 골라 보세요.
 
 | 시작 전에 | 확인할 내용 |
 | --- | --- |
@@ -22,6 +12,9 @@ icon: compass
 | 첫 목표 | 수행 가능한 요청 하나를 골라 보고까지 완료 |
 | 처음 읽을 사용법 | [주민 대화와 퀘스트](../npc-quests.md) |
 
+<figure><img src="../assets/images/jobs/wanderer.png" alt="주민과 마주 앉아 장부를 살피는 방랑가의 직업 메뉴 원화" width="280"><figcaption><p>방랑가 직업 메뉴 원화</p></figcaption></figure>
+
+## <i class="fa-compass">:compass:</i> 시작 방법 <a href="#getting-started" id="getting-started"></a>
 
 {% stepper %}
 
@@ -51,15 +44,15 @@ icon: compass
 
 {% endstepper %}
 
-주민마다 제공하는 기능은 다릅니다. [NPC와 퀘스트](../npc-quests.md)에서 대화·수락·보고 흐름을 먼저 살펴보세요.
+주민마다 맡길 수 있는 일이 다릅니다. [NPC와 퀘스트](../npc-quests.md)에서 대화·수락·보고 방법을 먼저 살펴보세요.
 
-## 해금 조건 <a href="#unlocks" id="unlocks"></a>
+## <i class="fa-users">:users:</i> 해금 조건 <a href="#unlocks" id="unlocks"></a>
 
 주민과 관계를 쌓고 의뢰를 정상적으로 완료하며 성장합니다. **열람이나 수락만으로 완료 보상과 직업 성장이 지급되지는 않습니다.**
 
 공통 규칙은 [직업 성장 방식](growth.md)에서 확인하세요.
 
-2026년 9월 11일 서버의 성장 설정과 스킬 표시 기준입니다. 표시된 레벨 외에도 현재 주직업·전직 조건과 해당 기능의 사용 조건을 확인하세요.
+2026년 9월 11일 성장표와 스킬 안내 기준입니다. 표시된 레벨 외에도 현재 주직업·전직 조건과 해당 기능의 사용 조건을 확인하세요.
 
 {% tabs %}
 
@@ -95,7 +88,7 @@ icon: compass
 
 {% endtabs %}
 
-## 사용법과 주의사항 <a href="#usage" id="usage"></a>
+## <i class="fa-comments">:comments:</i> 사용법과 주의사항 <a href="#usage" id="usage"></a>
 
 ### 액티브 기본 입력
 
@@ -117,15 +110,15 @@ icon: compass
 
 [주문소의 개인 주문 안내](../economy/public-orders.md#wanderer-private-orders)에서 작성자와 납품 상대의 역할, 시작 방법을 확인하세요.
 
-## 다음 목표 <a href="#next-goal" id="next-goal"></a>
+## <i class="fa-route">:route:</i> 다음 목표 <a href="#next-goal" id="next-goal"></a>
 
-주민의 요청을 하나 완료했다면 다음 요청의 물품을 어디서 구할지 찾아보세요. [아이템·레시피 도감](../atlas/README.md)은 획득·제작 경로를, [경제와 거래](../economy/README.md)는 조달 방식을 안내합니다.
+주민의 요청을 하나 완료했다면 다음 요청의 물품을 어디서 구할지 찾아보세요. 직접 만들려면 [아이템·레시피 도감](../atlas/README.md), 다른 플레이어에게 구하려면 [경제와 거래](../economy/README.md)를 확인하세요.
 
 정식 방랑가 50레벨의 조건을 만족했다면 [주문소 하단의 전용 개인 주문 안내](../economy/public-orders.md#wanderer-private-orders)로 이어가세요. 개인 주문은 별개의 거래소가 아니라 주문소 안의 상대 지정 기능입니다.
 
 ### 이전 이름 안내
 
-과거 개발 기록과 일부 호환 명령에는 `상인`이라는 이름이 남아 있을 수 있지만, 플레이어에게 표시되는 현재 직업명은 **방랑가**입니다.
+일부 명령에서 `상인`이라는 이름이 보이더라도 현재 직업명은 **방랑가**입니다.
 
 ### 관련 도감과 사용법
 

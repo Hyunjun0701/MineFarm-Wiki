@@ -24,6 +24,15 @@ async function main() {
   const summary = fs.readFileSync(path.join(ROOT,'SUMMARY.md'),'utf8');
   const entries = [...summary.matchAll(/^(\s*)\* \[([^\]]+)\]\(([^)]+\.md)\)/gm)].map(m=>({depth:m[1].replace(/\n/g,'').length,title:m[2],file:m[3]}));
   if(new Set(entries.map(e=>e.file)).size!==entries.length)throw Error('Duplicate navigation destination');
+  const expected = new Set(['index.html', ...entries.map(e=>htmlPath(e.file))]);
+  // Delete only stale generated HTML inside this preview, never source documents.
+  for(const item of fs.readdirSync(OUT,{recursive:true,withFileTypes:true})){
+    if(!item.isFile()||!item.name.endsWith('.html'))continue;
+    const target=path.resolve(item.parentPath||item.path,item.name);
+    const relative=path.relative(OUT,target).split(path.sep).join('/');
+    if(relative.startsWith('../')||path.isAbsolute(relative))throw Error('Unsafe preview cleanup');
+    if(!expected.has(relative))fs.unlinkSync(target);
+  }
   // Read native GitBook frontmatter once. The sidebar and page heading share it.
   for(const entry of entries) entry.source = pageSource(fs.readFileSync(path.join(ROOT,entry.file),'utf8'));
   const groups=[],stack=[];

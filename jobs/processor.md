@@ -4,17 +4,7 @@ icon: utensils
 
 # 가공사
 
-가공사는 작물과 광물 같은 원재료를 음식, 산업 재료와 더 높은 가치의 제품으로 바꾸는 직업입니다.
-
-![요리와 보석 가공을 함께 보여 주는 가공사의 직업 메뉴 원화](../assets/images/jobs/processor.png)
-
-{% hint style="success" %}
-**이런 생활을 좋아한다면**
-
-재료를 모아 요리부터 장신구까지 직접 완성하는 즐거움을 느껴 보세요.
-{% endhint %}
-
-## 시작 방법 <a href="#getting-started" id="getting-started"></a>
+가공사는 작물과 광물을 음식, 음료, 산업 재료와 장신구로 만드는 직업입니다. 만들고 싶은 품목을 고르고 재료를 준비해 보세요.
 
 | 시작 전에 | 확인할 내용 |
 | --- | --- |
@@ -22,6 +12,9 @@ icon: utensils
 | 첫 목표 | 이용 가능한 레시피 하나의 완성품 수령 |
 | 먼저 열 화면 | `/가공도감` |
 
+<figure><img src="../assets/images/jobs/processor.png" alt="요리와 보석 가공을 함께 보여 주는 가공사의 직업 메뉴 원화" width="280"><figcaption><p>가공사 직업 메뉴 원화</p></figcaption></figure>
+
+## <i class="fa-compass">:compass:</i> 시작 방법 <a href="#getting-started" id="getting-started"></a>
 
 {% stepper %}
 
@@ -47,13 +40,13 @@ icon: utensils
 
 시설에 따라 물도 필요합니다. 첫 제작은 [가공 안내](../world/processing.md)의 순서를 따라가세요.
 
-## 해금 조건 <a href="#unlocks" id="unlocks"></a>
+## <i class="fa-utensils">:utensils:</i> 해금 조건 <a href="#unlocks" id="unlocks"></a>
 
 가공을 반복하면 직업 경험치와 레시피별 숙련이 쌓입니다. **직업 레벨과 레시피 숙련은 별개**이며, 품목의 사용 가능 상태는 도감과 시설 화면에서 확인하세요.
 
 공통 규칙은 [직업 성장 방식](growth.md)에서 확인하세요.
 
-2026년 9월 11일 서버의 성장 설정과 스킬 표시 기준입니다. 표시된 레벨 외에도 현재 주직업·전직 조건과 해당 기능의 사용 조건을 확인하세요.
+2026년 9월 11일 성장표와 스킬 안내 기준입니다. 표시된 레벨 외에도 현재 주직업·전직 조건과 해당 기능의 사용 조건을 확인하세요.
 
 {% tabs %}
 
@@ -89,7 +82,7 @@ icon: utensils
 
 {% endtabs %}
 
-## 사용법과 주의사항 <a href="#usage" id="usage"></a>
+## <i class="fa-screwdriver-wrench">:screwdriver-wrench:</i> 사용법과 주의사항 <a href="#usage" id="usage"></a>
 
 ### 액티브 기본 입력
 
@@ -115,16 +108,16 @@ icon: utensils
 | 세공 | 반지, 귀걸이, 목걸이 등 장신구 | [장신구](../atlas/accessories.md) |
 
 {% hint style="warning" %}
-**완성품 수령까지가 한 번의 제작입니다.** 새 제작을 시작하기 전에 이전 결과물을 수령했는지 확인하세요. 제작이 시작되지 않으면 지원 레시피·정품 재료·수량과 시설의 물 상태를 확인합니다.
+**완성품 수령까지가 한 번의 제작입니다.** 새 제작을 시작하기 전에 이전 결과물을 수령했는지 확인하세요. 제작이 시작되지 않으면 해당 시설의 제작 목록, 레시피에 표시된 재료·수량과 남은 물을 확인합니다.
 {% endhint %}
 
-## 다음 목표 <a href="#next-goal" id="next-goal"></a>
+## <i class="fa-route">:route:</i> 다음 목표 <a href="#next-goal" id="next-goal"></a>
 
 첫 완성품을 받았다면 같은 레시피의 숙련을 쌓거나 다른 제작 분야를 골라 보세요. 품질의 적용 방식은 품목마다 다릅니다.
 
 완성품은 직접 사용하거나 상점·유저거래소·주문소·주민과 섬 퀘스트에 활용할 수 있습니다. 모든 품목이 모든 판매 경로를 가지는 것은 아니므로 [거래 경로](../economy/README.md)를 확인하세요.
 
-작물은 농부에게, 광물은 광부에게 구하고, 만든 합금·판재는 기술자의 부품·설비 재료로 연결할 수도 있습니다.
+작물이나 광물이 부족하면 다른 플레이어와 거래해 준비하세요. 만든 합금·판재는 기술 부품과 설비의 재료로도 쓸 수 있습니다.
 
 ### 관련 도감과 사용법
 

@@ -92,7 +92,6 @@
   * [기술 재료·부품 도감](atlas/technical-components.md)
   * [기술대·기반 설비 도감](atlas/technical-facilities.md)
   * [기술 완제품 도감](atlas/technical-products.md)
-  * [세계의 근원과 월드코어](atlas/world-core.md)
   * [레시피와 제작 조건](atlas/recipes.md)
 * [도움말](help/README.md)
   * [콘텐츠 표시 기준](help/content-status.md)

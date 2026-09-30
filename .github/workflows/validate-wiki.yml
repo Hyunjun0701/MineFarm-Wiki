@@ -18,6 +18,8 @@ jobs:
           python-version: "3.13"
       - name: Validate structured data and links
         run: python tools/wiki_tools.py check
+      - name: Check public content boundaries
+        run: node tools/check-publication.cjs
       - name: Regenerate item atlas
         run: python tools/wiki_tools.py generate
       - name: Ensure generated pages are current

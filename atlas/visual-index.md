@@ -1,8 +1,12 @@
+---
+icon: book-open
+---
+
 # 그림으로 찾는 전체 도감
 
-작물·음식·제련·보석·장신구·기술 계열 301종을 그림과 이름으로 찾아보세요. 아이템 이름을 누르면 해당 제작법과 사용처 안내로 이동합니다.
+작물·음식·제련·보석·장신구·기술 계열 292종을 그림과 이름으로 찾아보세요. 아이템 이름을 누르면 해당 제작법과 사용처 안내로 이동합니다.
 
-이름 검색은 위키 검색이나 브라우저의 페이지 내 찾기를 이용하세요. 이미지는 게임 리소스팩의 아이콘을 사용했으며, 개별 아이콘 연결이 없는 품목은 이름으로 안내합니다.
+이름은 위키 검색이나 브라우저의 페이지 내 찾기로 검색할 수 있습니다. 그림이 없는 아이템은 이름을 눌러 확인하세요.
 
 ## 작물과 씨앗 88종
 
@@ -134,7 +138,7 @@
 | [![청록 팔찌](../assets/images/items/accessory-turquoise_bracelet.png)](accessories.md)<br>[청록 팔찌](accessories.md) | [![一月 황혼 — 베스퍼](../assets/images/items/accessory-vesper.png)](accessories.md)<br>[一月 황혼 — 베스퍼](accessories.md) |
 | [![백옥 반지](../assets/images/items/accessory-white_gem_ring.png)](accessories.md)<br>[백옥 반지](accessories.md) | [![황옥 브로치](../assets/images/items/accessory-yellow_gem_brooch.png)](accessories.md)<br>[황옥 브로치](accessories.md) |
 
-## 기술 부품·설비·완제품 75종
+## 기술 부품·설비·완제품 72종
 
 | 아이템 | 아이템 |
 | --- | --- |
@@ -162,28 +166,20 @@
 | [자동 파종기 IV](technical-products.md) | [![상자 정리 장치](../assets/images/items/tech-chest_sorter.png)](technical-products.md)<br>[상자 정리 장치](technical-products.md) |
 | [![농산물 창고 I](../assets/images/items/tech-crop_storage_1.png)](technical-products.md)<br>[농산물 창고 I](technical-products.md) | [![농산물 창고 II](../assets/images/items/tech-crop_storage_2.png)](technical-products.md)<br>[농산물 창고 II](technical-products.md) |
 | [![농산물 창고 III](../assets/images/items/tech-crop_storage_3.png)](technical-products.md)<br>[농산물 창고 III](technical-products.md) | [![농산물 창고 IV](../assets/images/items/tech-crop_storage_4.png)](technical-products.md)<br>[농산물 창고 IV](technical-products.md) |
-| [무한 농산물 창고](technical-products.md) | [재배 알리미 I](technical-products.md) |
+|  | [재배 알리미 I](technical-products.md) |
 | [재배 알리미 II](technical-products.md) | [재배 알리미 III](technical-products.md) |
 | [재배 알리미 IV](technical-products.md) | [![고성능 화로 I](../assets/images/items/tech-high_performance_furnace_1.png)](technical-products.md)<br>[고성능 화로 I](technical-products.md) |
 | [![고성능 화로 II](../assets/images/items/tech-high_performance_furnace_2.png)](technical-products.md)<br>[고성능 화로 II](technical-products.md) | [![고성능 화로 III](../assets/images/items/tech-high_performance_furnace_3.png)](technical-products.md)<br>[고성능 화로 III](technical-products.md) |
 | [![고성능 화로 IV](../assets/images/items/tech-high_performance_furnace_4.png)](technical-products.md)<br>[고성능 화로 IV](technical-products.md) | [![광물 창고 I](../assets/images/items/tech-mineral_storage_1.png)](technical-products.md)<br>[광물 창고 I](technical-products.md) |
 | [![광물 창고 II](../assets/images/items/tech-mineral_storage_2.png)](technical-products.md)<br>[광물 창고 II](technical-products.md) | [![광물 창고 III](../assets/images/items/tech-mineral_storage_3.png)](technical-products.md)<br>[광물 창고 III](technical-products.md) |
-| [![광물 창고 IV](../assets/images/items/tech-mineral_storage_4.png)](technical-products.md)<br>[광물 창고 IV](technical-products.md) | [무한 광물 창고](technical-products.md) |
+| [![광물 창고 IV](../assets/images/items/tech-mineral_storage_4.png)](technical-products.md)<br>[광물 창고 IV](technical-products.md) |  |
 | [![허수아비 I](../assets/images/items/tech-scarecrow.png)](technical-products.md)<br>[허수아비 I](technical-products.md) | [![허수아비 II](../assets/images/items/tech-scarecrow_2.png)](technical-products.md)<br>[허수아비 II](technical-products.md) |
 | [![허수아비 III](../assets/images/items/tech-scarecrow_3.png)](technical-products.md)<br>[허수아비 III](technical-products.md) | [![허수아비 IV](../assets/images/items/tech-scarecrow_4.png)](technical-products.md)<br>[허수아비 IV](technical-products.md) |
 | [![스프링클러 I](../assets/images/items/tech-sprinkler_1.png)](technical-products.md)<br>[스프링클러 I](technical-products.md) | [![스프링클러 II](../assets/images/items/tech-sprinkler_2.png)](technical-products.md)<br>[스프링클러 II](technical-products.md) |
 | [![스프링클러 III](../assets/images/items/tech-sprinkler_3.png)](technical-products.md)<br>[스프링클러 III](technical-products.md) | [![스프링클러 IV](../assets/images/items/tech-sprinkler_4.png)](technical-products.md)<br>[스프링클러 IV](technical-products.md) |
-| [무한 스프링클러](technical-products.md) | [![마도공학 기술대](../assets/images/items/tech-workstation_arcane.png)](technical-facilities.md)<br>[마도공학 기술대](technical-facilities.md) |
+|  | [![마도공학 기술대](../assets/images/items/tech-workstation_arcane.png)](technical-facilities.md)<br>[마도공학 기술대](technical-facilities.md) |
 | [![일반 기술대](../assets/images/items/tech-workstation_basic.png)](technical-facilities.md)<br>[일반 기술대](technical-facilities.md) | [![증기 기술대](../assets/images/items/tech-workstation_steam.png)](technical-facilities.md)<br>[증기 기술대](technical-facilities.md) |
 | [![전기 기술대](../assets/images/items/tech-workstation_electric.png)](technical-facilities.md)<br>[전기 기술대](technical-facilities.md) |  |
-
-## 세계의 근원과 월드코어 6종
-
-| 아이템 | 아이템 |
-| --- | --- |
-| [![월드코어](../assets/images/items/world-world_core.png)](world-core.md)<br>[월드코어](world-core.md) | [![세계의 근원 - 문명의 불씨](../assets/images/items/world-world_root_civilization_flame.png)](world-core.md)<br>[세계의 근원 - 문명의 불씨](world-core.md) |
-| [![세계의 근원 - 순환의 씨앗](../assets/images/items/world-world_root_cycle_seed.png)](world-core.md)<br>[세계의 근원 - 순환의 씨앗](world-core.md) | [![세계의 근원 - 대지의 심장](../assets/images/items/world-world_root_earth_heart.png)](world-core.md)<br>[세계의 근원 - 대지의 심장](world-core.md) |
-| [![세계의 근원 - 융화의 물방울](../assets/images/items/world-world_root_harmony_drop.png)](world-core.md)<br>[세계의 근원 - 융화의 물방울](world-core.md) | [![세계의 근원 - 바람의 숨결](../assets/images/items/world-world_root_wind_breath.png)](world-core.md)<br>[세계의 근원 - 바람의 숨결](world-core.md) |
 
 기본 생활 도구와 펫은 [플레이 가이드](../guides/README.md)에서 확인할 수 있습니다.
 
