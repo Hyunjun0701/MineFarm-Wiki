@@ -33,7 +33,7 @@ const BASE='http://127.0.0.1:8765/';
   await page.keyboard.press('Escape');await page.locator('#theme-toggle').click();
   if(await page.locator('html').getAttribute('data-theme')!=='dark')failures.push({type:'theme'});
   const links=[];
-  for(const entry of index){const html=fs.readFileSync(path.join(ROOT,entry.path),'utf8');for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)){const ref=m[1].split('#')[0];if(/^(?:https?:|data:)/.test(ref))continue;const resolved=path.resolve(path.dirname(path.join(ROOT,entry.path)),ref);if(!fs.existsSync(resolved))links.push({page:entry.path,ref});}}
+  for(const entry of index){const html=fs.readFileSync(path.join(ROOT,entry.path),'utf8');for(const m of html.matchAll(/(?:href|src)="([^"#]+)"/g)){const ref=m[1].split(/[?#]/)[0];if(/^(?:https?:|data:)/.test(ref))continue;const resolved=path.resolve(path.dirname(path.join(ROOT,entry.path)),ref);if(!fs.existsSync(resolved))links.push({page:entry.path,ref});}}
   failures.push(...links.map(l=>({type:'missing-local-file',...l})));
   const report={pagesChecked,viewports:[1440,390],searchChecks:['글렌','변속기'],shots,failures};
   fs.writeFileSync(path.join(ROOT,'qa-results.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));

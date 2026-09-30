@@ -1,3 +1,7 @@
+---
+icon: store
+---
+
 # 경제와 거래
 
 ![농산물과 가공품, 기술 제품을 나누는 마을 시장 소개 일러스트](../assets/images/sections/economy-banner-v1.png)

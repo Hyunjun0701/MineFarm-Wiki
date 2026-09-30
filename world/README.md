@@ -1,3 +1,7 @@
+---
+icon: leaf
+---
+
 # 생산과 생활
 
 ![밭과 광산, 주방과 공방이 이어지는 생활 소개 일러스트](../assets/images/sections/world-banner-v1.png)

@@ -19,7 +19,24 @@ article .info-card>.card-cover{display:block;width:100%;height:auto;max-height:n
 article .info-card:has(>.card-cover)>span{margin-left:18px;margin-right:18px}
 article figure{margin:20px 0;min-width:0}
 article figure>img{display:block;width:100%;max-width:100%;height:auto;border-radius:10px}
+/* Match the compact width in the publishing source instead of enlarging job art. */
+article figure>img[width="280"][src*='/jobs/']{width:280px;max-width:100%;aspect-ratio:auto;object-fit:contain;margin-inline:auto}
 article figcaption{font-size:13px;color:var(--muted);text-align:center;line-height:1.6}
 article figcaption p{margin:8px 0}
 article img[src*='/media-slots/']{aspect-ratio:16/9;object-fit:contain}
 article p>a>img[src*='/residents/']{max-width:100%;height:auto}
+
+/* Icons are derived from publishing metadata, never from the current URL.
+   Local outline glyphs show placement only; GitBook supplies its own icon family. */
+.wiki-icon{display:inline-block;width:1.15em;height:1.15em;vertical-align:-.17em;flex:none;color:currentColor}
+.wiki-icon--inline{margin-right:.28em}
+.wiki-icon--page{width:1.02em;height:1.02em;vertical-align:-.11em;margin-right:.2em;color:var(--green)}
+.wiki-icon--nav{width:18px;height:18px;vertical-align:-4px;margin-right:8px;color:var(--green)}
+nav a .nav-label,nav summary .nav-label{vertical-align:baseline}
+nav a:has(.wiki-icon){display:flex;align-items:flex-start;gap:0}
+nav a .wiki-icon--nav{margin-top:4px}
+nav summary .wiki-icon--nav{margin-right:6px}
+.card-title .wiki-icon{color:var(--green)}
+h2 .wiki-icon{color:var(--green)}
+td:first-child:has(.wiki-icon){white-space:nowrap}
+@media(max-width:760px){html{scroll-padding-top:145px}h1 .wiki-icon--page{width:1em;height:1em}td:first-child:has(.wiki-icon){white-space:normal;min-width:112px}}

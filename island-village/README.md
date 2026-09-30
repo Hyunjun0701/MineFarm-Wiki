@@ -1,3 +1,7 @@
+---
+icon: house
+---
+
 # 섬과 마을
 
 ![집과 밭, 공방을 함께 가꾸는 작은 섬의 소개 일러스트](../assets/images/sections/island-banner-v1.png)

@@ -1,42 +1,65 @@
-# 무엇이 궁금한가요?
+---
+icon: book-open
+---
 
-농사부터 제작과 거래까지, 마인밸리에서 필요한 안내를 찾아보세요.
+# 마인밸리 플레이어 위키
 
-{% hint style="info" %}
-**이름을 알고 있다면 상단 검색을 이용하세요.**
+<figure><img src="assets/images/jobs/jobs-banner-v1.png" alt="농부, 광부, 가공사, 기술자와 방랑가가 함께하는 마인밸리 생활 소개 일러스트" width="768"></figure>
 
-찾고 싶은 직업·아이템·주민 이름을 입력하세요. PC에서는 `Ctrl + K`로 검색을 열 수 있습니다.
-{% endhint %}
+농사부터 제작과 거래까지, 마을에서의 하루를 안내합니다. [마인밸리 홈페이지](https://minevalley.imissjuly2.workers.dev/)
 
-**주제 바로가기** · [농사](world/farming.md) · [직업](jobs/README.md) · [거래](economy/README.md) · [제작](atlas/recipes.md) · [주민](residents/README.md) · [명령어](guides/commands.md)
+직업·아이템·주민은 **상단 검색**으로 찾으세요. PC에서는 `Ctrl + K`로 열 수 있습니다.
 
-## 먼저 읽을 가이드 <a href="#start-here" id="start-here"></a>
+## <i class="fa-compass">:compass:</i> 처음 오셨나요? <a href="#start-here" id="start-here"></a>
 
-처음이라면 **접속 준비 → 처음 10분 → 첫 판매** 순서로 따라가세요.
+{% stepper %}
+{% step %}
+### 접속 준비
+
+접속 주소는 `minevalley.kr`입니다. [게임 버전과 리소스팩 확인하기](getting-started/connect.md)
+{% endstep %}
+{% step %}
+### 첫 활동
+
+메뉴를 열고 내 섬에서 할 일을 찾아보세요. [첫 활동 따라가기](getting-started/first-steps.md)
+{% endstep %}
+{% step %}
+### 첫 판매
+
+주민 상점에서 취급 품목과 판매 조건을 확인하세요. [첫 판매 안내 보기](economy/npc-shops.md#first-sale)
+{% endstep %}
+{% endstepper %}
+
+## <i class="fa-magnifying-glass">:magnifying-glass:</i> 플레이 중 빠르게 찾기 <a href="#find-a-guide" id="find-a-guide"></a>
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody>
-<tr><td><strong>접속 준비</strong></td><td>게임 버전과 리소스팩부터 확인해요.</td><td><a href="getting-started/connect.md">접속 준비</a></td><td><a href="assets/images/brand/minevalley-home-hero.png">마인밸리 풍경 소개 일러스트</a></td></tr>
-<tr><td><strong>처음 10분</strong></td><td>메뉴를 열고 내 섬에서 첫 활동을 시작해요.</td><td><a href="getting-started/first-steps.md">처음 10분</a></td><td><a href="assets/images/sections/island-banner-v1.png">개인 섬의 생활 소개 일러스트</a></td></tr>
-<tr><td><strong>첫 판매</strong></td><td>주민 상점에서 품목과 판매 가능 여부를 확인해요.</td><td><a href="economy/npc-shops.md#first-sale">첫 판매</a></td><td><a href="assets/images/sections/economy-banner-v1.png">마을 시장 소개 일러스트</a></td></tr>
-<tr><td><strong>명령어 모음</strong></td><td>이동·거래·보관에 필요한 명령을 찾아요.</td><td><a href="guides/commands.md">명령어 모음</a></td><td><a href="assets/media-slots/landscape.svg">명령어 안내 대표 화면 자리 · 자료 대기</a></td></tr>
-<tr><td><strong>직업 선택</strong></td><td>다섯 직업의 활동과 성장 방향을 비교해요.</td><td><a href="jobs/README.md">직업 선택</a></td><td><a href="assets/images/jobs/jobs-banner-v1.png">다섯 직업 소개 일러스트</a></td></tr>
-<tr><td><strong>그림 도감</strong></td><td>아이템을 그림으로 찾고 제작 안내로 이동해요.</td><td><a href="atlas/visual-index.md">그림 도감</a></td><td><a href="assets/media-slots/landscape.svg">아이템 도감 대표 화면 자리 · 자료 대기</a></td></tr>
+<tr><td><strong><i class="fa-terminal">:terminal:</i> 명령어 모음</strong></td><td>이동·거래·보관에 필요한 명령을 찾으세요.</td><td><a href="guides/commands.md">명령어 모음</a></td><td><a href="assets/media-slots/landscape.svg">명령어 안내 대표 화면 자리 · 자료 대기</a></td></tr>
+<tr><td><strong><i class="fa-book-open">:book-open:</i> 그림 도감</strong></td><td>아이템을 그림으로 찾고 제작 안내를 확인하세요.</td><td><a href="atlas/visual-index.md">그림 도감</a></td><td><a href="assets/media-slots/landscape.svg">아이템 도감 대표 화면 자리 · 자료 대기</a></td></tr>
 </tbody></table>
 
-## 전체 카테고리 <a href="#find-a-guide" id="find-a-guide"></a>
+{% tabs %}
+{% tab title="생활과 성장" %}
+**<i class="fa-leaf">:leaf:</i> [생산과 생활](world/README.md)**<br>농사, 채광, 가공과 기술 설비의 사용 순서
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
-<tr><td><strong>처음 시작하기</strong></td><td>접속 · 리소스팩 · 첫 활동</td><td><a href="getting-started/README.md">처음 시작하기</a></td></tr>
-<tr><td><strong>메뉴·편의 기능</strong></td><td>이동 · 명령어 · 보관 · 펫</td><td><a href="guides/README.md">메뉴·편의 기능</a></td></tr>
-<tr><td><strong>생산과 생활</strong></td><td>농사 · 채광 · 가공 · 기술 설비</td><td><a href="world/README.md">생산과 생활</a></td></tr>
-<tr><td><strong>직업과 성장</strong></td><td>다섯 직업 · 스킬 · 전문 해금</td><td><a href="jobs/README.md">직업과 성장</a></td></tr>
-<tr><td><strong>경제와 거래</strong></td><td>주민 상점 · 유저거래소 · 주문소</td><td><a href="economy/README.md">경제와 거래</a></td></tr>
-<tr><td><strong>섬과 마을</strong></td><td>섬 기여도 · 공동 목표 · 주간 정산</td><td><a href="island-village/README.md">섬과 마을</a></td></tr>
-<tr><td><strong>주민과 퀘스트</strong></td><td>주민 45명의 이름과 얼굴 · 관계와 퀘스트 안내</td><td><a href="residents/README.md">마을 주민</a></td></tr>
-<tr><td><strong>아이템·레시피 도감</strong></td><td>301종 그림 도감 · 재료 · 제작 조건</td><td><a href="atlas/README.md">아이템·레시피 도감</a></td></tr>
-</tbody></table>
+**<i class="fa-briefcase">:briefcase:</i> [직업과 성장](jobs/README.md)**<br>다섯 직업의 활동, 스킬과 전문 해금
 
-## 도움이 필요하다면 <a href="#next-life" id="next-life"></a>
+**<i class="fa-house">:house:</i> [섬과 마을](island-village/README.md)**<br>섬 기여도, 공동 목표와 주간 정산
+{% endtab %}
+{% tab title="거래와 주민" %}
+**<i class="fa-store">:store:</i> [경제와 거래](economy/README.md)**<br>주민 상점, 유저거래소와 주문소
+
+**<i class="fa-users">:users:</i> [주민과 퀘스트](residents/README.md)**<br>주민의 이름과 얼굴, 관계와 퀘스트
+{% endtab %}
+{% tab title="편의와 도감" %}
+**<i class="fa-layer-group">:layer-group:</i> [메뉴·편의 기능](guides/README.md)**<br>메뉴, 이동, 보관과 펫
+
+**<i class="fa-book-open">:book-open:</i> [아이템·레시피 도감](atlas/README.md)**<br>재료, 제작 조건과 완성품
+
+**<i class="fa-compass">:compass:</i> [처음 시작하기](getting-started/README.md)**<br>접속과 리소스팩 안내 다시 보기
+{% endtab %}
+{% endtabs %}
+
+## <i class="fa-circle-question">:circle-question:</i> 도움이 필요하다면 <a href="#next-life" id="next-life"></a>
 
 [자주 묻는 질문](guides/faq.md) · [문의 안내](help/README.md) · [위키 업데이트](updates/README.md)
 

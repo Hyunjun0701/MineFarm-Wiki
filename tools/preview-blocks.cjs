@@ -1,5 +1,6 @@
 // Render the documented GitBook source blocks without changing the publishing source.
 module.exports = function createRenderer(marked, esc) {
+  const {renderInline} = require('./preview-icons.cjs');
   let sequence = 0;
   function render(source) {
     const blocks = [];
@@ -32,7 +33,7 @@ module.exports = function createRenderer(marked, esc) {
       });
       return hold(`<div class="card-grid">${cards.join('')}</div>`);
     });
-    return marked.parse(md).replace(/<gb-preview-block data-slot="(\d+)"><\/gb-preview-block>/g, (_, n)=>blocks[Number(n)]);
+    return renderInline(marked.parse(md).replace(/<gb-preview-block data-slot="(\d+)"><\/gb-preview-block>/g, (_, n)=>blocks[Number(n)]));
   }
   return render;
 };

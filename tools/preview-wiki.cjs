@@ -4,7 +4,9 @@
  */
 const fs = require('node:fs');
 const path = require('node:path');
+const {createHash} = require('node:crypto');
 const {pathToFileURL} = require('node:url');
+const {icon, pageSource} = require('./preview-icons.cjs');
 const ROOT = path.resolve(__dirname, '..');
 const OUT = path.join(ROOT, '.preview');
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -14,10 +16,16 @@ const slug = s => s.toLowerCase().replace(/<[^>]*>/g,'').replace(/[^\p{L}\p{N}\s
 async function main() {
   const {marked} = await import(pathToFileURL(require.resolve('marked')).href);
   const render = require('./preview-blocks.cjs')(marked, esc);
+  // Stable across unchanged builds, different when the asset bytes change.
+  const assetVersion = file => createHash('sha256').update(fs.readFileSync(path.join(__dirname,file))).digest('hex').slice(0,12);
+  const themeVersion = assetVersion('preview-theme.css');
+  const appVersion = assetVersion('preview-app.js');
   fs.mkdirSync(OUT,{recursive:true});
   const summary = fs.readFileSync(path.join(ROOT,'SUMMARY.md'),'utf8');
   const entries = [...summary.matchAll(/^(\s*)\* \[([^\]]+)\]\(([^)]+\.md)\)/gm)].map(m=>({depth:m[1].replace(/\n/g,'').length,title:m[2],file:m[3]}));
   if(new Set(entries.map(e=>e.file)).size!==entries.length)throw Error('Duplicate navigation destination');
+  // Read native GitBook frontmatter once. The sidebar and page heading share it.
+  for(const entry of entries) entry.source = pageSource(fs.readFileSync(path.join(ROOT,entry.file),'utf8'));
   const groups=[],stack=[];
   for(const entry of entries){
     const node={entry,children:[]};
@@ -27,10 +35,11 @@ async function main() {
   const search=[];
   for(let i=0;i<entries.length;i++){
     const entry=entries[i];
-    const md=fs.readFileSync(path.join(ROOT,entry.file),'utf8');
+    const md=entry.source.body;
     const prefix='../'.repeat(entry.file.split('/').length-1);
     const href=file=>prefix+htmlPath(file);
     let content=render(md);
+    if(entry.source.icon) content=content.replace('<h1>', '<h1>'+icon(entry.source.icon, 'page')+' ');
     if (/{%\s*(?:end)?(?:hint|tabs?|step(?:per)?)\b/.test(content)) throw Error('Unrendered GitBook block: '+entry.file);
     content=content.replace(/href="([^"#]+)\.md(#[^"]*)?"/g,'href="$1.html$2"');
     const headings=[],usedIds=new Map();
@@ -45,18 +54,19 @@ async function main() {
     const containsCurrent=g=>g.entry.file===entry.file||g.children.some(containsCurrent);
     const renderNav=g=>{
       const current=containsCurrent(g);
-      const link=e=>`<a ${e.file===entry.file?'aria-current="page" ':''}href="${esc(href(e.file))}">${esc(e.title)}</a>`;
-      return g.children.length?`<details ${current?'open':''}><summary>${esc(g.entry.title)}</summary>${link(g.entry)}<div class="nav-children">${g.children.map(renderNav).join('')}</div></details>`:link(g.entry);
+      const label=e=>(e.source.icon?icon(e.source.icon, 'nav')+' ':'')+`<span class="nav-label">${esc(e.title)}</span>`;
+      const link=e=>`<a ${e.file===entry.file?'aria-current="page" ':''}href="${esc(href(e.file))}">${label(e)}</a>`;
+      return g.children.length?`<details ${current?'open':''}><summary>${label(g.entry)}</summary>${link(g.entry)}<div class="nav-children">${g.children.map(renderNav).join('')}</div></details>`:link(g.entry);
     };
     const nav=groups.map(renderNav).join('');
     const toc=headings.map(h=>`<a class="level-${h.level}" href="#${esc(h.id)}">${esc(h.title)}</a>`).join('');
     const pager=[entries[i-1],entries[i+1]].map((e,j)=>e?`<a href="${esc(href(e.file))}"><small>${j?'다음 문서 →':'← 이전 문서'}</small>${esc(e.title)}</a>`:'<span></span>').join('');
-    const html=`<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(entry.title)} · MineValley 위키</title><link rel="icon" href="${prefix}assets/images/brand/wiki-emblem-v1.png"><link rel="stylesheet" href="${prefix}theme.css"></head><body>
+    const html=`<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(entry.title)} · MineValley 위키</title><link rel="icon" href="${prefix}assets/images/brand/wiki-emblem-v1.png"><link rel="stylesheet" href="${prefix}theme.css?v=${themeVersion}"></head><body>
 <a class="skip" href="#main">본문 바로가기</a>
 <header><button id="menu-toggle" aria-label="목차 열기" aria-expanded="false">☰</button><a class="brand" href="${href('README.md')}"><img src="${prefix}assets/images/brand/wiki-emblem-v1.png" width="40" height="40" alt=""><span>MineValley<small>마인밸리 플레이어 위키</small></span></a><div class="search"><label for="search">위키 검색</label><input id="search" type="search" placeholder="아이템, 직업, 주민 검색" autocomplete="off" aria-controls="search-results"><div id="search-results" hidden></div></div><button id="theme-toggle" aria-label="화면 밝기 전환">◐</button></header>
 <div class="preview-note">공개 전 디자인 시안 · 빈 프레임은 사진·영상 자료를 받을 자리입니다 · 실제 GitBook 배치와 다를 수 있습니다</div>
 <div class="layout"><nav id="sidebar" aria-label="문서 목차">${nav}</nav><main id="main" class="${entry.file==='README.md'?'home':''}"><div class="breadcrumb">MINEVALLEY GUIDE <span>/ ${esc(entry.title)}</span></div><article>${content}</article><div class="pager">${pager}</div><footer>게임 속 현재 안내와 함께 확인해 주세요. · <a href="${href('help/README.md')}">도움말</a></footer></main><aside aria-label="이 페이지의 목차"><strong>이 페이지에서</strong>${toc}</aside></div>
-<script>window.WIKI_ROOT=${JSON.stringify(prefix)};</script><script src="${prefix}app.js"></script></body></html>`;
+<script>window.WIKI_ROOT=${JSON.stringify(prefix)};</script><script src="${prefix}app.js?v=${appVersion}"></script></body></html>`;
     const dest=path.join(OUT,htmlPath(entry.file));fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,html);
     // Use rendered text so linked item images do not leak Markdown paths into snippets.
     const searchText=content.replace(/<!--[\s\S]*?-->/g,' ').replace(/<[^>]*>/g,' ').replace(/&(amp|lt|gt|quot|#39|nbsp);/g,(_,entity)=>({amp:'&',lt:'<',gt:'>',quot:'"','#39':"'",nbsp:' '}[entity])).replace(/\s+/g,' ').trim();

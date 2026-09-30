@@ -1,3 +1,7 @@
+---
+icon: briefcase
+---
+
 # 직업과 성장
 
 ![농부, 광부, 가공사, 기술자와 방랑가가 마을에서 생산물을 나누는 직업 소개 일러스트](../assets/images/jobs/jobs-banner-v1.png)
