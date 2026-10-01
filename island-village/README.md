@@ -4,7 +4,7 @@ icon: house
 
 # 섬과 마을
 
-![집과 밭, 공방을 함께 가꾸는 작은 섬의 소개 일러스트](../.gitbook/assets/island-banner-v1.png)
+![집과 밭, 공방을 함께 가꾸는 작은 섬의 소개 일러스트](../assets/images/sections/island-banner-v1.png)
 
 내 섬에서 밭을 가꾸고, 섬원과 물품을 모아 퀘스트에 납품할 수 있습니다. 마을에서는 여러 섬이 이번 주에 필요한 물품을 함께 납품합니다.
 
@@ -12,10 +12,10 @@ icon: house
 
 메인 메뉴에서 `내 섬`을 열면 섬 이동, 섬원 관리와 퀘스트를 확인할 수 있습니다. 처음에는 내 섬으로 이동해 생산할 물품을 고르고, 섬원이 있다면 준비할 일을 나누어 보세요.
 
-* 내 섬으로 이동하기
-* 섬원과 권한 관리하기
-* 이번 주 섬 기여도와 섬 퀘스트 확인하기
-* 섬원과 함께 물품 납품하기
+- 내 섬으로 이동하기
+- 섬원과 권한 관리하기
+- 이번 주 섬 기여도와 섬 퀘스트 확인하기
+- 섬원과 함께 물품 납품하기
 
 ## 섬 단위로 계산되는 것
 
@@ -30,6 +30,7 @@ icon: house
 ## 오늘 참여할 순서
 
 {% stepper %}
+
 {% step %}
 ### 이번 주 상태 확인
 
@@ -53,6 +54,7 @@ icon: house
 
 마을 단계와 정산 후 보상함을 확인합니다.
 {% endstep %}
+
 {% endstepper %}
 
 {% hint style="info" %}
@@ -61,4 +63,7 @@ icon: house
 게임 속 낮·밤과 다릅니다. **월요일 00:00 마감 · 06:00 새 주차 시작**입니다.
 {% endhint %}
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>섬 퀘스트에 납품하기</strong></td><td>요구 물품, 남은 수량과 납품 후 확인할 내용</td><td><a href="contribution-and-quests.md">contribution-and-quests.md</a></td></tr><tr><td><strong>이번 주 일정 확인하기</strong></td><td>마감 시간, 주간 테마와 정산 후 보상 확인</td><td><a href="weekly-cycle.md">weekly-cycle.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
+<tr><td><strong>섬 퀘스트에 납품하기</strong></td><td>요구 물품, 남은 수량과 납품 후 확인할 내용</td><td><a href="contribution-and-quests.md">섬 기여도와 섬 퀘스트</a></td></tr>
+<tr><td><strong>이번 주 일정 확인하기</strong></td><td>마감 시간, 주간 테마와 정산 후 보상 확인</td><td><a href="weekly-cycle.md">주간 테마와 정산</a></td></tr>
+</tbody></table>

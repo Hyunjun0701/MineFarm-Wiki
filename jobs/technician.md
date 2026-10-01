@@ -6,17 +6,18 @@ icon: screwdriver-wrench
 
 기술자는 부품을 조립해 생활 장비와 생산 설비를 만드는 직업입니다. 필요한 제품을 하나씩 만들고 생산 라인을 설치해 공방을 넓혀 보세요.
 
-| 시작 전에     | 확인할 내용                          |
-| --------- | ------------------------------- |
-| 먼저 준비할 것  | 제품을 지원하는 조립대, 재료와 중간 부품         |
-| 첫 목표      | 이용 가능한 제품 하나를 조립하고 수령           |
+| 시작 전에 | 확인할 내용 |
+| --- | --- |
+| 먼저 준비할 것 | 제품을 지원하는 조립대, 재료와 중간 부품 |
+| 첫 목표 | 이용 가능한 제품 하나를 조립하고 수령 |
 | 처음 읽을 사용법 | [기술 설비](../world/technology.md) |
 
-<figure><img src="../.gitbook/assets/technician.png" alt="설계도와 기계를 살피며 작업대에서 조립하는 기술자의 직업 메뉴 원화" width="280"><figcaption><p>기술자 직업 메뉴 원화</p></figcaption></figure>
+<figure><img src="../assets/images/jobs/technician.png" alt="설계도와 기계를 살피며 작업대에서 조립하는 기술자의 직업 메뉴 원화" width="280"><figcaption><p>기술자 직업 메뉴 원화</p></figcaption></figure>
 
 ## <i class="fa-compass">:compass:</i> 시작 방법 <a href="#getting-started" id="getting-started"></a>
 
 {% stepper %}
+
 {% step %}
 ### 제품 선택
 
@@ -40,6 +41,7 @@ icon: screwdriver-wrench
 
 제품 설명에 따라 사용하거나 설치하고, 필요한 공급 조건을 확인합니다.
 {% endstep %}
+
 {% endstepper %}
 
 첫 조립은 [기술 설비 안내](../world/technology.md), 재료 준비는 [기술 재료·부품 도감](../atlas/technical-components.md)에서 이어가세요.
@@ -53,39 +55,47 @@ icon: screwdriver-wrench
 2026년 9월 11일 성장표와 스킬 안내 기준입니다. 표시된 레벨 외에도 현재 주직업·전직 조건과 해당 기능의 사용 조건을 확인하세요.
 
 {% tabs %}
+
 {% tab title="액티브" %}
-| 레벨 | 성장 내용   |
-| -: | ------- |
-| 10 | 수리소     |
-| 40 | 오버클럭    |
+
+| 레벨 | 성장 내용 |
+| ---: | --- |
+| 10 | 수리소 |
+| 40 | 오버클럭 |
 | 70 | 기술자의 의자 |
+
 {% endtab %}
 
 {% tab title="전문 해금" %}
-| 레벨 | 성장 내용                   |
-| -: | ----------------------- |
-| 20 | 증기기술 업데이트               |
-| 50 | 전기기술 업데이트               |
+
+| 레벨 | 성장 내용 |
+| ---: | --- |
+| 20 | 증기기술 업데이트 |
+| 50 | 전기기술 업데이트 |
 | 80 | 마도공학기술 업데이트 — 성장표상 준비 중 |
+
 {% endtab %}
 
 {% tab title="보조 패시브" %}
-| 레벨 | 성장 내용  |
-| -: | ------ |
+
+| 레벨 | 성장 내용 |
+| ---: | --- |
 | 30 | 정비사의 눈 |
-| 60 | 설계도    |
-| 90 | 내용 미정  |
+| 60 | 설계도 |
+| 90 | 내용 미정 |
+
 {% endtab %}
+
 {% endtabs %}
 
 ## <i class="fa-layer-group">:layer-group:</i> 사용법과 주의사항 <a href="#usage" id="usage"></a>
 
 ### 액티브 기본 입력
 
-| 스킬      | 기본 입력 동작 |
-| ------- | -------- |
-| 수리소     | 손 바꾸기    |
-| 오버클럭    | 아이템 버리기  |
+| 스킬 | 기본 입력 동작 |
+| --- | --- |
+| 수리소 | 손 바꾸기 |
+| 오버클럭 | 아이템 버리기 |
 | 기술자의 의자 | 웅크리기 두 번 |
 
 {% hint style="info" %}
@@ -114,6 +124,6 @@ icon: screwdriver-wrench
 
 ### 관련 도감과 사용법
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>기술 재료·부품 도감</strong></td><td>조립 전 필요한 중간재</td><td><a href="../atlas/technical-components.md">technical-components.md</a></td></tr><tr><td><strong>기술대·기반 설비 도감</strong></td><td>작업대와 공급 설비</td><td><a href="../atlas/technical-facilities.md">technical-facilities.md</a></td></tr><tr><td><strong>기술 완제품 도감</strong></td><td>제품별 제작법과 사용 방식</td><td><a href="../atlas/technical-products.md">technical-products.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>기술 재료·부품 도감</strong></td><td>조립 전 필요한 중간재</td><td><a href="../atlas/technical-components.md">기술 재료·부품 도감</a></td></tr><tr><td><strong>기술대·기반 설비 도감</strong></td><td>작업대와 공급 설비</td><td><a href="../atlas/technical-facilities.md">기술대·기반 설비 도감</a></td></tr><tr><td><strong>기술 완제품 도감</strong></td><td>제품별 제작법과 사용 방식</td><td><a href="../atlas/technical-products.md">기술 완제품 도감</a></td></tr></tbody></table>
 
-* [직업 비교하기](./) · [가공사](processor.md)
+- [직업 비교하기](README.md) · [가공사](processor.md)

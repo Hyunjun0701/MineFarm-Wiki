@@ -6,17 +6,18 @@ icon: gem
 
 광부는 직접 광석을 캐거나 접속 중 잠광으로 광물을 모으는 직업입니다. 성장하면 채광을 돕는 스킬과 새로운 광산 활동을 이용할 수 있습니다.
 
-| 시작 전에     | 확인할 내용                       |
-| --------- | ---------------------------- |
-| 먼저 준비할 것  | 곡괭이와 보관 공간                   |
-| 첫 목표      | 무한광산에서 직접 채광해 보기             |
+| 시작 전에 | 확인할 내용 |
+| --- | --- |
+| 먼저 준비할 것 | 곡괭이와 보관 공간 |
+| 첫 목표 | 무한광산에서 직접 채광해 보기 |
 | 처음 읽을 사용법 | [광산과 잠광](../world/mining.md) |
 
-<figure><img src="../.gitbook/assets/miner.png" alt="곡괭이와 횃불을 들고 광산을 탐색하는 광부의 직업 메뉴 원화" width="280"><figcaption><p>광부 직업 메뉴 원화</p></figcaption></figure>
+<figure><img src="../assets/images/jobs/miner.png" alt="곡괭이와 횃불을 들고 광산을 탐색하는 광부의 직업 메뉴 원화" width="280"><figcaption><p>광부 직업 메뉴 원화</p></figcaption></figure>
 
 ## <i class="fa-compass">:compass:</i> 시작 방법 <a href="#getting-started" id="getting-started"></a>
 
 {% stepper %}
+
 {% step %}
 ### 직접 채광 체험
 
@@ -34,6 +35,7 @@ icon: gem
 
 `/잠광상태`로 진행을 확인하고 `/잠광종료`로 종료·정산합니다. 이후 `/광물창고`에서 산출물을 확인하세요.
 {% endstep %}
+
 {% endstepper %}
 
 시작·상태 확인·종료 명령은 [광산과 잠광](../world/mining.md)에서 확인하세요.
@@ -47,40 +49,48 @@ icon: gem
 2026년 9월 11일 성장표와 스킬 안내 기준입니다. 표시된 레벨 외에도 현재 주직업·전직 조건과 해당 기능의 사용 조건을 확인하세요.
 
 {% tabs %}
+
 {% tab title="액티브" %}
-| 레벨 | 성장 내용     |
-| -: | --------- |
+
+| 레벨 | 성장 내용 |
+| ---: | --- |
 | 10 | 바닐라 도구 수리 |
 | 40 | 원하는 광물 등록 |
-| 70 | 텔레포트      |
+| 70 | 텔레포트 |
+
 {% endtab %}
 
 {% tab title="전문 해금" %}
+
 | 레벨 | 성장 내용 |
-| -: | ----- |
+| ---: | --- |
 | 20 | 광맥 탐색 |
-| 50 | 이동잠광  |
+| 50 | 이동잠광 |
 | 80 | 유물 해금 |
+
 {% endtab %}
 
 {% tab title="보조 패시브" %}
-| 레벨 | 성장 내용  |
-| -: | ------ |
-| 30 | 경험 보관  |
+
+| 레벨 | 성장 내용 |
+| ---: | --- |
+| 30 | 경험 보관 |
 | 60 | 입장권 분해 |
-| 90 | 내용 미정  |
+| 90 | 내용 미정 |
+
 {% endtab %}
+
 {% endtabs %}
 
 ## <i class="fa-screwdriver-wrench">:screwdriver-wrench:</i> 사용법과 주의사항 <a href="#usage" id="usage"></a>
 
 ### 액티브 기본 입력
 
-| 스킬        | 기본 입력 동작 |
-| --------- | -------- |
-| 바닐라 도구 수리 | 손 바꾸기    |
-| 원하는 광물 등록 | 아이템 버리기  |
-| 텔레포트      | 웅크리기 두 번 |
+| 스킬 | 기본 입력 동작 |
+| --- | --- |
+| 바닐라 도구 수리 | 손 바꾸기 |
+| 원하는 광물 등록 | 아이템 버리기 |
+| 텔레포트 | 웅크리기 두 번 |
 
 {% hint style="info" %}
 **사용 전에 확인하세요**
@@ -110,6 +120,6 @@ icon: gem
 
 ### 관련 도감과 사용법
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>광물·제련 도감</strong></td><td>압축 광물과 합금·판재</td><td><a href="../atlas/minerals-and-smelting.md">minerals-and-smelting.md</a></td></tr><tr><td><strong>보석·정령석 도감</strong></td><td>보석 재료와 제작 방법</td><td><a href="../atlas/gems.md">gems.md</a></td></tr><tr><td><strong>광산과 잠광</strong></td><td>활동별 명령과 산출물 보관</td><td><a href="../world/mining.md">mining.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>광물·제련 도감</strong></td><td>압축 광물과 합금·판재</td><td><a href="../atlas/minerals-and-smelting.md">광물·제련 도감</a></td></tr><tr><td><strong>보석·정령석 도감</strong></td><td>보석 재료와 제작 방법</td><td><a href="../atlas/gems.md">보석·정령석 도감</a></td></tr><tr><td><strong>광산과 잠광</strong></td><td>활동별 명령과 산출물 보관</td><td><a href="../world/mining.md">광산과 잠광</a></td></tr></tbody></table>
 
-* [직업 비교하기](./) · [가공사](processor.md) · [기술자](technician.md)
+- [직업 비교하기](README.md) · [가공사](processor.md) · [기술자](technician.md)

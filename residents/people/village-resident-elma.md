@@ -2,14 +2,14 @@
 
 언덕 마을에서 생활하는 할머니입니다.
 
-![엘마의 초상화](../../.gitbook/assets/village-resident-elma.png)
+![엘마의 초상화](../../assets/images/residents/village-resident-elma.png)
 
 ## 어떤 주민인가요?
 
-| 구분    | 소개    |
-| ----- | ----- |
+| 구분 | 소개 |
+| --- | --- |
 | 생활 구역 | 언덕 마을 |
-| 역할    | 마을 주민 |
+| 역할 | 마을 주민 |
 
 ## 만나러 가기
 
@@ -17,4 +17,4 @@
 
 만나면 말을 걸어 보세요. 대화창에 표시된 항목을 선택해 이야기를 나눌 수 있습니다.
 
-관련 문서: [주민 전체 명단](../) · [NPC와 퀘스트](../../npc-quests.md) · [방랑가](../../jobs/wanderer.md)
+관련 문서: [주민 전체 명단](../README.md) · [NPC와 퀘스트](../../npc-quests.md) · [방랑가](../../jobs/wanderer.md)

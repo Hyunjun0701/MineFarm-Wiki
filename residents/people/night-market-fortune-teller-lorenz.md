@@ -2,14 +2,14 @@
 
 야시장에서 손님을 맞는 점술가입니다.
 
-![로렌츠의 초상화](../../.gitbook/assets/night-market-fortune-teller-lorenz.png)
+![로렌츠의 초상화](../../assets/images/residents/night-market-fortune-teller-lorenz.png)
 
 ## 어떤 주민인가요?
 
-| 구분    | 소개              |
-| ----- | --------------- |
-| 생활 구역 | 벽돌 마을           |
-| 역할    | 루미나 타운 야시장의 점술가 |
+| 구분 | 소개 |
+| --- | --- |
+| 생활 구역 | 벽돌 마을 |
+| 역할 | 루미나 타운 야시장의 점술가 |
 
 ## 만나러 가기
 
@@ -17,4 +17,4 @@
 
 만나면 말을 걸어 보세요. 대화창에 표시된 항목을 선택해 이야기를 나눌 수 있습니다.
 
-관련 문서: [주민 전체 명단](../) · [NPC와 퀘스트](../../npc-quests.md) · [방랑가](../../jobs/wanderer.md)
+관련 문서: [주민 전체 명단](../README.md) · [NPC와 퀘스트](../../npc-quests.md) · [방랑가](../../jobs/wanderer.md)

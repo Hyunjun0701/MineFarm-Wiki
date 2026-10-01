@@ -1,6 +1,6 @@
 # MineValley 소개
 
-![농장과 마을, 기술 공방을 담은 MineValley 세계관 소개 일러스트](../.gitbook/assets/minevalley-home-hero.png)
+![농장과 마을, 기술 공방을 담은 MineValley 세계관 소개 일러스트](../assets/images/brand/minevalley-home-hero.png)
 
 MineValley는 개인 섬에서 농사와 채광을 하고, 마을에서 거래와 주민 의뢰를 즐기는 생활 서버입니다.
 
@@ -10,7 +10,7 @@ MineValley는 개인 섬에서 농사와 채광을 하고, 마을에서 거래�
 
 다른 직업을 선택해도 기본 농사와 채광을 할 수 있습니다. 주 직업을 키우면 해당 분야의 전문 기능을 사용할 수 있습니다.
 
-## 수확물로 만들고 거래하기 <a href="#undefined" id="undefined"></a>
+## 수확물로 만들고 거래하기 <a href="#재료가-다음-콘텐츠로-이어집니다" id="재료가-다음-콘텐츠로-이어집니다"></a>
 
 농작물과 광물로 음식과 산업 재료, 기술 제품을 만들 수 있습니다. 필요한 플레이어에게 판매하거나 주문·퀘스트에 납품해 보세요.
 

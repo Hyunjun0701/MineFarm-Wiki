@@ -6,17 +6,18 @@ icon: seedling
 
 농부는 작물을 기르고 수확하는 직업입니다. 성장하면 새로운 작물을 재배하고 밭을 돌보는 스킬을 사용할 수 있습니다.
 
-| 시작 전에     | 확인할 내용                    |
-| --------- | ------------------------- |
-| 먼저 준비할 것  | 밭, 씨앗, 물                  |
-| 첫 목표      | 씨앗을 심고 물을 준 뒤 수확 상태 확인    |
+| 시작 전에 | 확인할 내용 |
+| --- | --- |
+| 먼저 준비할 것 | 밭, 씨앗, 물 |
+| 첫 목표 | 씨앗을 심고 물을 준 뒤 수확 상태 확인 |
 | 처음 읽을 사용법 | [농사](../world/farming.md) |
 
-<figure><img src="../.gitbook/assets/farmer.png" alt="밭과 수확하는 농부를 그린 직업 메뉴 원화" width="280"><figcaption><p>농부 직업 메뉴 원화</p></figcaption></figure>
+<figure><img src="../assets/images/jobs/farmer.png" alt="밭과 수확하는 농부를 그린 직업 메뉴 원화" width="280"><figcaption><p>농부 직업 메뉴 원화</p></figcaption></figure>
 
 ## <i class="fa-compass">:compass:</i> 시작 방법 <a href="#getting-started" id="getting-started"></a>
 
 {% stepper %}
+
 {% step %}
 ### 밭과 씨앗 준비
 
@@ -34,6 +35,7 @@ icon: seedling
 
 다 자란 작물을 수확하고 보관·가공·판매 중 다음 사용처를 정합니다.
 {% endstep %}
+
 {% endstepper %}
 
 첫 재배는 [농사 안내](../world/farming.md)를 따라가고, 키울 작물은 [작물 도감](../atlas/crops.md)에서 골라 보세요.
@@ -47,40 +49,48 @@ icon: seedling
 2026년 9월 11일 성장표와 스킬 안내 기준입니다. 표시된 레벨 외에도 현재 주직업·전직 조건과 해당 기능의 사용 조건을 확인하세요.
 
 {% tabs %}
+
 {% tab title="액티브" %}
-| 레벨 | 성장 내용  |
-| -: | ------ |
-| 10 | 범위 베기  |
+
+| 레벨 | 성장 내용 |
+| ---: | --- |
+| 10 | 범위 베기 |
 | 40 | 트랙터 설치 |
-| 70 | 대쉬 베기  |
+| 70 | 대쉬 베기 |
+
 {% endtab %}
 
 {% tab title="전문 해금" %}
-| 레벨 | 성장 내용  |
-| -: | ------ |
-| 20 | 약초 농사  |
-| 50 | 거대 작물  |
+
+| 레벨 | 성장 내용 |
+| ---: | --- |
+| 20 | 약초 농사 |
+| 50 | 거대 작물 |
 | 80 | 숙련된 손길 |
+
 {% endtab %}
 
 {% tab title="보조 패시브" %}
-| 레벨 | 성장 내용  |
-| -: | ------ |
+
+| 레벨 | 성장 내용 |
+| ---: | --- |
 | 30 | 수확의 여운 |
 | 60 | 약초의 향기 |
 | 90 | 풍년의 결실 |
+
 {% endtab %}
+
 {% endtabs %}
 
 ## <i class="fa-screwdriver-wrench">:screwdriver-wrench:</i> 사용법과 주의사항 <a href="#usage" id="usage"></a>
 
 ### 액티브 기본 입력
 
-| 스킬     | 기본 입력 동작 |
-| ------ | -------- |
-| 범위 베기  | 아이템 버리기  |
-| 트랙터 설치 | 손 바꾸기    |
-| 대쉬 베기  | 웅크리기 두 번 |
+| 스킬 | 기본 입력 동작 |
+| --- | --- |
+| 범위 베기 | 아이템 버리기 |
+| 트랙터 설치 | 손 바꾸기 |
+| 대쉬 베기 | 웅크리기 두 번 |
 
 {% hint style="info" %}
 **사용 전에 확인하세요**
@@ -104,6 +114,6 @@ icon: seedling
 
 ### 관련 도감과 사용법
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>작물 도감</strong></td><td>씨앗·수확물과 가공 사용처</td><td><a href="../atlas/crops.md">crops.md</a></td></tr><tr><td><strong>농사</strong></td><td>물 관리, 대형 작물과 장비 이용</td><td><a href="../world/farming.md">farming.md</a></td></tr><tr><td><strong>창고와 우편함</strong></td><td>생산물 보관과 꺼내기</td><td><a href="../guides/storage-and-mail.md">storage-and-mail.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>작물 도감</strong></td><td>씨앗·수확물과 가공 사용처</td><td><a href="../atlas/crops.md">작물 도감</a></td></tr><tr><td><strong>농사</strong></td><td>물 관리, 대형 작물과 장비 이용</td><td><a href="../world/farming.md">농사</a></td></tr><tr><td><strong>창고와 우편함</strong></td><td>생산물 보관과 꺼내기</td><td><a href="../guides/storage-and-mail.md">창고와 우편함</a></td></tr></tbody></table>
 
-* [직업 비교하기](./) · [가공사](processor.md) · [기술자](technician.md)
+- [직업 비교하기](README.md) · [가공사](processor.md) · [기술자](technician.md)
