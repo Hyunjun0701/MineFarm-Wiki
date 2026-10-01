@@ -6,18 +6,17 @@ icon: compass
 
 방랑가는 주민의 의뢰를 맡고 필요한 물건을 구해 주는 직업입니다. 마을을 돌아다니며 주민을 만나고 수행할 의뢰를 골라 보세요.
 
-| 시작 전에 | 확인할 내용 |
-| --- | --- |
-| 먼저 확인할 것 | 주민이 제안한 품목·수량·기한 |
-| 첫 목표 | 수행 가능한 요청 하나를 골라 보고까지 완료 |
+| 시작 전에     | 확인할 내용                         |
+| --------- | ------------------------------ |
+| 먼저 확인할 것  | 주민이 제안한 품목·수량·기한               |
+| 첫 목표      | 수행 가능한 요청 하나를 골라 보고까지 완료       |
 | 처음 읽을 사용법 | [주민 대화와 퀘스트](../npc-quests.md) |
 
-<figure><img src="../assets/images/jobs/wanderer.png" alt="주민과 마주 앉아 장부를 살피는 방랑가의 직업 메뉴 원화" width="280"><figcaption><p>방랑가 직업 메뉴 원화</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/wanderer.png" alt="주민과 마주 앉아 장부를 살피는 방랑가의 직업 메뉴 원화" width="280"><figcaption><p>방랑가 직업 메뉴 원화</p></figcaption></figure>
 
 ## <i class="fa-compass">:compass:</i> 시작 방법 <a href="#getting-started" id="getting-started"></a>
 
 {% stepper %}
-
 {% step %}
 ### 주민 만나기
 
@@ -41,7 +40,6 @@ icon: compass
 
 완료 조건을 채운 뒤 주민에게 보고하고 보상 수령까지 확인합니다.
 {% endstep %}
-
 {% endstepper %}
 
 주민마다 맡길 수 있는 일이 다릅니다. [NPC와 퀘스트](../npc-quests.md)에서 대화·수락·보고 방법을 먼저 살펴보세요.
@@ -55,48 +53,40 @@ icon: compass
 2026년 9월 11일 성장표와 스킬 안내 기준입니다. 표시된 레벨 외에도 현재 주직업·전직 조건과 해당 기능의 사용 조건을 확인하세요.
 
 {% tabs %}
-
 {% tab title="액티브" %}
-
 | 레벨 | 성장 내용 |
-| ---: | --- |
-| 10 | 대쉬 |
+| -: | ----- |
+| 10 | 대쉬    |
 | 40 | 판로 도감 |
-| 70 | 속마음 |
-
+| 70 | 속마음   |
 {% endtab %}
 
 {% tab title="전문 해금" %}
-
-| 레벨 | 성장 내용 |
-| ---: | --- |
-| 20 | 주민 퀘스트 판매 |
-| 50 | 개인 주문소 시스템 |
+| 레벨 | 성장 내용         |
+| -: | ------------- |
+| 20 | 주민 퀘스트 판매     |
+| 50 | 개인 주문소 시스템    |
 | 80 | 무역 시스템 — 준비 중 |
-
 {% endtab %}
 
 {% tab title="보조 패시브" %}
-
-| 레벨 | 성장 내용 |
-| ---: | --- |
+| 레벨 | 성장 내용   |
+| -: | ------- |
 | 30 | 주민의 발자취 |
-| 60 | 야영지 |
-| 90 | 내용 미정 |
-
+| 60 | 야영지     |
+| 90 | 내용 미정   |
 {% endtab %}
-
 {% endtabs %}
 
 ## <i class="fa-comments">:comments:</i> 사용법과 주의사항 <a href="#usage" id="usage"></a>
 
 ### 액티브 기본 입력
 
-| 스킬 | 기본 입력 동작 |
-| --- | --- |
-| 대쉬 | 점프 두 번 |
-| 판로 도감 | 아이템 버리기 |
-| 속마음 | 손 바꾸기 |
+| 스킬    | 기본 입력 동작 |
+| ----- | -------- |
+| 대쉬    | 점프 두 번   |
+| 판로 도감 | 아이템 버리기  |
+| 속마음   | 손 바꾸기    |
 
 {% hint style="info" %}
 **사용 전에 확인하세요**
@@ -112,7 +102,7 @@ icon: compass
 
 ## <i class="fa-route">:route:</i> 다음 목표 <a href="#next-goal" id="next-goal"></a>
 
-주민의 요청을 하나 완료했다면 다음 요청의 물품을 어디서 구할지 찾아보세요. 직접 만들려면 [아이템·레시피 도감](../atlas/README.md), 다른 플레이어에게 구하려면 [경제와 거래](../economy/README.md)를 확인하세요.
+주민의 요청을 하나 완료했다면 다음 요청의 물품을 어디서 구할지 찾아보세요. 직접 만들려면 [아이템·레시피 도감](../atlas/), 다른 플레이어에게 구하려면 [경제와 거래](../economy/)를 확인하세요.
 
 정식 방랑가 50레벨의 조건을 만족했다면 [주문소 하단의 전용 개인 주문 안내](../economy/public-orders.md#wanderer-private-orders)로 이어가세요. 개인 주문은 별개의 거래소가 아니라 주문소 안의 상대 지정 기능입니다.
 
@@ -122,6 +112,6 @@ icon: compass
 
 ### 관련 도감과 사용법
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>마을 주민</strong></td><td>주민 명단과 생활 구역</td><td><a href="../residents/README.md">마을 주민</a></td></tr><tr><td><strong>NPC와 퀘스트</strong></td><td>의뢰 수락부터 보고까지</td><td><a href="../npc-quests.md">NPC와 퀘스트</a></td></tr><tr><td><strong>경제와 거래</strong></td><td>유저거래소와 주문 이용</td><td><a href="../economy/README.md">경제와 거래</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>마을 주민</strong></td><td>주민 명단과 생활 구역</td><td><a href="../residents/">residents</a></td></tr><tr><td><strong>NPC와 퀘스트</strong></td><td>의뢰 수락부터 보고까지</td><td><a href="../npc-quests.md">npc-quests.md</a></td></tr><tr><td><strong>경제와 거래</strong></td><td>유저거래소와 주문 이용</td><td><a href="../economy/">economy</a></td></tr></tbody></table>
 
-- [직업 비교하기](README.md) · [생산과 수요의 연결](../world/production-chain.md)
+* [직업 비교하기](./) · [생산과 수요의 연결](../world/production-chain.md)

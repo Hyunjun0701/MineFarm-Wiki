@@ -6,18 +6,17 @@ icon: utensils
 
 가공사는 작물과 광물을 음식, 음료, 산업 재료와 장신구로 만드는 직업입니다. 만들고 싶은 품목을 고르고 재료를 준비해 보세요.
 
-| 시작 전에 | 확인할 내용 |
-| --- | --- |
+| 시작 전에    | 확인할 내용                     |
+| -------- | -------------------------- |
 | 먼저 준비할 것 | 품목에 맞는 가공대와 레시피 재료, 필요 시 물 |
-| 첫 목표 | 이용 가능한 레시피 하나의 완성품 수령 |
-| 먼저 열 화면 | `/가공도감` |
+| 첫 목표     | 이용 가능한 레시피 하나의 완성품 수령      |
+| 먼저 열 화면  | `/가공도감`                    |
 
-<figure><img src="../assets/images/jobs/processor.png" alt="요리와 보석 가공을 함께 보여 주는 가공사의 직업 메뉴 원화" width="280"><figcaption><p>가공사 직업 메뉴 원화</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/processor.png" alt="요리와 보석 가공을 함께 보여 주는 가공사의 직업 메뉴 원화" width="280"><figcaption><p>가공사 직업 메뉴 원화</p></figcaption></figure>
 
 ## <i class="fa-compass">:compass:</i> 시작 방법 <a href="#getting-started" id="getting-started"></a>
 
 {% stepper %}
-
 {% step %}
 ### 레시피 선택
 
@@ -35,7 +34,6 @@ icon: utensils
 
 재료를 투입해 제작을 시작하고, 완료 후 결과물을 수령합니다.
 {% endstep %}
-
 {% endstepper %}
 
 시설에 따라 물도 필요합니다. 첫 제작은 [가공 안내](../world/processing.md)의 순서를 따라가세요.
@@ -49,48 +47,40 @@ icon: utensils
 2026년 9월 11일 성장표와 스킬 안내 기준입니다. 표시된 레벨 외에도 현재 주직업·전직 조건과 해당 기능의 사용 조건을 확인하세요.
 
 {% tabs %}
-
 {% tab title="액티브" %}
-
-| 레벨 | 성장 내용 |
-| ---: | --- |
-| 10 | 가공품 도감 |
+| 레벨 | 성장 내용       |
+| -: | ----------- |
+| 10 | 가공품 도감      |
 | 40 | 범위형 가공시간 버프 |
-| 70 | 원격 가공소 현황 |
-
+| 70 | 원격 가공소 현황   |
 {% endtab %}
 
 {% tab title="전문 해금" %}
-
-| 레벨 | 성장 내용 |
-| ---: | --- |
-| 20 | 세공 |
-| 50 | 바리스타 |
+| 레벨 | 성장 내용         |
+| -: | ------------- |
+| 20 | 세공            |
+| 50 | 바리스타          |
 | 80 | 가공품 조합 — 준비 중 |
-
 {% endtab %}
 
 {% tab title="보조 패시브" %}
-
 | 레벨 | 성장 내용 |
-| ---: | --- |
+| -: | ----- |
 | 30 | 장인의 눈 |
 | 60 | 향의 각인 |
-| 90 | 대접 |
-
+| 90 | 대접    |
 {% endtab %}
-
 {% endtabs %}
 
 ## <i class="fa-screwdriver-wrench">:screwdriver-wrench:</i> 사용법과 주의사항 <a href="#usage" id="usage"></a>
 
 ### 액티브 기본 입력
 
-| 스킬 | 기본 입력 동작 |
-| --- | --- |
-| 가공품 도감 | 아이템 버리기 |
+| 스킬          | 기본 입력 동작 |
+| ----------- | -------- |
+| 가공품 도감      | 아이템 버리기  |
 | 범위형 가공시간 버프 | 웅크리기 두 번 |
-| 원격 가공소 현황 | 손 바꾸기 |
+| 원격 가공소 현황   | 손 바꾸기    |
 
 {% hint style="info" %}
 **사용 전에 확인하세요**
@@ -100,12 +90,12 @@ icon: utensils
 
 ### 만들고 싶은 분야 고르기
 
-| 분야 | 만드는 것 | 상세 도감 |
-| --- | --- | --- |
-| 요리·음료 | 요리, 제빵, 커피와 허브 음료 | [음식·음료](../atlas/food-and-drinks.md) |
-| 광물 가공 | 압축 광물, 합금과 판재 | [광물·제련](../atlas/minerals-and-smelting.md) |
-| 보석 가공 | 보석, 정령석과 탄생석 | [보석·정령석](../atlas/gems.md) |
-| 세공 | 반지, 귀걸이, 목걸이 등 장신구 | [장신구](../atlas/accessories.md) |
+| 분야    | 만드는 것              | 상세 도감                                      |
+| ----- | ------------------ | ------------------------------------------ |
+| 요리·음료 | 요리, 제빵, 커피와 허브 음료  | [음식·음료](../atlas/food-and-drinks.md)       |
+| 광물 가공 | 압축 광물, 합금과 판재      | [광물·제련](../atlas/minerals-and-smelting.md) |
+| 보석 가공 | 보석, 정령석과 탄생석       | [보석·정령석](../atlas/gems.md)                 |
+| 세공    | 반지, 귀걸이, 목걸이 등 장신구 | [장신구](../atlas/accessories.md)             |
 
 {% hint style="warning" %}
 **완성품 수령까지가 한 번의 제작입니다.** 새 제작을 시작하기 전에 이전 결과물을 수령했는지 확인하세요. 제작이 시작되지 않으면 해당 시설의 제작 목록, 레시피에 표시된 재료·수량과 남은 물을 확인합니다.
@@ -115,12 +105,12 @@ icon: utensils
 
 첫 완성품을 받았다면 같은 레시피의 숙련을 쌓거나 다른 제작 분야를 골라 보세요. 품질의 적용 방식은 품목마다 다릅니다.
 
-완성품은 직접 사용하거나 상점·유저거래소·주문소·주민과 섬 퀘스트에 활용할 수 있습니다. 모든 품목이 모든 판매 경로를 가지는 것은 아니므로 [거래 경로](../economy/README.md)를 확인하세요.
+완성품은 직접 사용하거나 상점·유저거래소·주문소·주민과 섬 퀘스트에 활용할 수 있습니다. 모든 품목이 모든 판매 경로를 가지는 것은 아니므로 [거래 경로](../economy/)를 확인하세요.
 
 작물이나 광물이 부족하면 다른 플레이어와 거래해 준비하세요. 만든 합금·판재는 기술 부품과 설비의 재료로도 쓸 수 있습니다.
 
 ### 관련 도감과 사용법
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>가공</strong></td><td>시설 이용, 물과 제작 상태 확인</td><td><a href="../world/processing.md">가공</a></td></tr><tr><td><strong>레시피와 제작 조건</strong></td><td>필요한 재료와 해금 조건 읽기</td><td><a href="../atlas/recipes.md">레시피와 제작 조건</a></td></tr><tr><td><strong>경제와 거래</strong></td><td>완성품의 판매·주문 경로</td><td><a href="../economy/README.md">경제와 거래</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>가공</strong></td><td>시설 이용, 물과 제작 상태 확인</td><td><a href="../world/processing.md">processing.md</a></td></tr><tr><td><strong>레시피와 제작 조건</strong></td><td>필요한 재료와 해금 조건 읽기</td><td><a href="../atlas/recipes.md">recipes.md</a></td></tr><tr><td><strong>경제와 거래</strong></td><td>완성품의 판매·주문 경로</td><td><a href="../economy/">economy</a></td></tr></tbody></table>
 
-- [직업 비교하기](README.md) · [농부](farmer.md) · [광부](miner.md) · [기술자](technician.md)
+* [직업 비교하기](./) · [농부](farmer.md) · [광부](miner.md) · [기술자](technician.md)
